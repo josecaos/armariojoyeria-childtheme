@@ -1,0 +1,5335 @@
+# Copyright (C) 2014 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Chamo 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/roadthemes\n"
+"POT-Creation-Date: 2016-03-30 16:18+0700\n"
+"PO-Revision-Date: 2016-03-30 16:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: _e;_n;__;_x;_ex;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../chairman/404.php:19
+msgid "Opps! PAGE NOT BE FOUND"
+msgstr ""
+
+#: ../chairman/404.php:20
+msgid ""
+"Sorry but the page you are looking for does not exist, have been removed, "
+"name changed or is temporarity unavailable."
+msgstr ""
+
+#: ../chairman/404.php:22 ../chamo/404.php:20
+msgid "Back to home"
+msgstr ""
+
+#: ../chairman/404.php:22
+msgid "Back to home page"
+msgstr ""
+
+#: ../chairman/archive.php:62 ../chairman/author.php:55
+#: ../chairman/category.php:55 ../chairman/image.php:48
+#: ../chairman/index.php:66 ../chairman/search.php:52
+#: ../chairman/single.php:44 ../chairman/tag.php:55
+#: ../chairman/theme-config.php:1392 ../chamo/archive.php:61
+#: ../chamo/author.php:54 ../chamo/category.php:55 ../chamo/image.php:53
+#: ../chamo/index.php:57 ../chamo/search.php:51 ../chamo/single.php:44
+#: ../chamo/tag.php:55 ../chamo/theme-config.php:1245 ../james/archive.php:58
+#: ../james/author.php:52 ../james/category.php:52 ../james/image.php:49
+#: ../james/index.php:59 ../james/search.php:47 ../james/single.php:46
+#: ../james/tag.php:51 ../james/theme-config.php:1102 ../teemo/archive.php:63
+#: ../teemo/author.php:56 ../teemo/category.php:56 ../teemo/image.php:49
+#: ../teemo/index.php:58 ../teemo/search.php:52 ../teemo/single.php:47
+#: ../teemo/tag.php:56 ../teemo/theme-config.php:1320 ../zeiran/archive.php:58
+#: ../zeiran/author.php:51 ../zeiran/category.php:51 ../zeiran/image.php:50
+#: ../zeiran/index.php:59 ../zeiran/search.php:48 ../zeiran/single.php:47
+#: ../zeiran/tag.php:52 ../zeiran/theme-config.php:1353
+msgid "Blog"
+msgstr ""
+
+#: ../chairman/archive.php:81 ../chamo/archive.php:80 ../james/archive.php:73
+#: ../teemo/archive.php:78 ../twentyfourteen/archive.php:31
+#: ../twentythirteen/archive.php:29 ../zeiran/archive.php:73
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../chairman/archive.php:83 ../chamo/archive.php:82 ../james/archive.php:75
+#: ../teemo/archive.php:80 ../twentyfourteen/archive.php:34
+#: ../twentythirteen/archive.php:31 ../zeiran/archive.php:75
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../chairman/archive.php:83 ../chamo/archive.php:82 ../james/archive.php:75
+#: ../teemo/archive.php:80 ../twentyfourteen/archive.php:34
+#: ../twentythirteen/archive.php:31 ../zeiran/archive.php:75
+msgid "F Y"
+msgstr ""
+
+#: ../chairman/archive.php:85 ../chamo/archive.php:84 ../james/archive.php:77
+#: ../teemo/archive.php:82 ../twentyfourteen/archive.php:37
+#: ../twentythirteen/archive.php:33 ../zeiran/archive.php:77
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../chairman/archive.php:85 ../chamo/archive.php:84 ../james/archive.php:77
+#: ../teemo/archive.php:82 ../twentyfourteen/archive.php:37
+#: ../twentythirteen/archive.php:33 ../zeiran/archive.php:77
+msgid "Y"
+msgstr ""
+
+#: ../chairman/archive.php:87 ../chamo/archive.php:86 ../james/archive.php:79
+#: ../teemo/archive.php:84 ../twentyfourteen/archive.php:40
+#: ../twentyfourteen/taxonomy-post_format.php:51
+#: ../twentythirteen/archive.php:35 ../zeiran/archive.php:79
+msgid "Archives"
+msgstr ""
+
+#: ../chairman/author.php:81 ../chamo/author.php:80 ../james/author.php:74
+#: ../teemo/author.php:78 ../zeiran/author.php:73
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../chairman/author.php:110 ../chamo/author.php:109 ../james/author.php:103
+#: ../teemo/author.php:107 ../twentythirteen/author-bio.php:26
+#: ../zeiran/author.php:102
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../chairman/category.php:73 ../chamo/category.php:73
+#: ../james/category.php:66 ../teemo/category.php:70
+#: ../twentyfourteen/category.php:20 ../twentythirteen/category.php:19
+#: ../zeiran/category.php:65
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:333
+#: ../chairman/functions.php:1467 ../chamo/class-tgm-plugin-activation.php:333
+#: ../chamo/functions.php:1428 ../james/class-tgm-plugin-activation.php:333
+#: ../james/functions.php:1388 ../teemo/class-tgm-plugin-activation.php:333
+#: ../teemo/functions.php:1390 ../zeiran/class-tgm-plugin-activation.php:333
+#: ../zeiran/functions.php:1438
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:334
+#: ../chairman/functions.php:1468 ../chamo/class-tgm-plugin-activation.php:334
+#: ../chamo/functions.php:1429 ../james/class-tgm-plugin-activation.php:334
+#: ../james/functions.php:1389 ../teemo/class-tgm-plugin-activation.php:334
+#: ../teemo/functions.php:1391 ../zeiran/class-tgm-plugin-activation.php:334
+#: ../zeiran/functions.php:1439
+msgid "Install Plugins"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:335
+#: ../chairman/functions.php:1469 ../chamo/class-tgm-plugin-activation.php:335
+#: ../chamo/functions.php:1430 ../james/class-tgm-plugin-activation.php:335
+#: ../james/functions.php:1390 ../teemo/class-tgm-plugin-activation.php:335
+#: ../teemo/functions.php:1392 ../zeiran/class-tgm-plugin-activation.php:335
+#: ../zeiran/functions.php:1440
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:336
+#: ../chairman/functions.php:1470 ../chamo/class-tgm-plugin-activation.php:336
+#: ../chamo/functions.php:1431 ../james/class-tgm-plugin-activation.php:336
+#: ../james/functions.php:1391 ../teemo/class-tgm-plugin-activation.php:336
+#: ../teemo/functions.php:1393 ../zeiran/class-tgm-plugin-activation.php:336
+#: ../zeiran/functions.php:1441
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:397
+#: ../chairman/functions.php:1481 ../chamo/class-tgm-plugin-activation.php:397
+#: ../chamo/functions.php:1442 ../james/class-tgm-plugin-activation.php:397
+#: ../james/functions.php:1402 ../teemo/class-tgm-plugin-activation.php:397
+#: ../teemo/functions.php:1404 ../zeiran/class-tgm-plugin-activation.php:397
+#: ../zeiran/functions.php:1452
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:398
+#: ../chamo/class-tgm-plugin-activation.php:398
+#: ../james/class-tgm-plugin-activation.php:398
+#: ../teemo/class-tgm-plugin-activation.php:398
+#: ../zeiran/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:399
+#: ../chairman/class-tgm-plugin-activation.php:3029
+#: ../chairman/functions.php:1482 ../chamo/class-tgm-plugin-activation.php:399
+#: ../chamo/class-tgm-plugin-activation.php:3029 ../chamo/functions.php:1443
+#: ../james/class-tgm-plugin-activation.php:399
+#: ../james/class-tgm-plugin-activation.php:3029 ../james/functions.php:1403
+#: ../teemo/class-tgm-plugin-activation.php:399
+#: ../teemo/class-tgm-plugin-activation.php:3029 ../teemo/functions.php:1405
+#: ../zeiran/class-tgm-plugin-activation.php:399
+#: ../zeiran/class-tgm-plugin-activation.php:3029 ../zeiran/functions.php:1453
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:400
+#: ../chairman/class-tgm-plugin-activation.php:2832
+#: ../chamo/class-tgm-plugin-activation.php:400
+#: ../chamo/class-tgm-plugin-activation.php:2832
+#: ../james/class-tgm-plugin-activation.php:400
+#: ../james/class-tgm-plugin-activation.php:2832
+#: ../teemo/class-tgm-plugin-activation.php:400
+#: ../teemo/class-tgm-plugin-activation.php:2832
+#: ../zeiran/class-tgm-plugin-activation.php:400
+#: ../zeiran/class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:401
+#: ../chamo/class-tgm-plugin-activation.php:401
+#: ../james/class-tgm-plugin-activation.php:401
+#: ../teemo/class-tgm-plugin-activation.php:401
+#: ../zeiran/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:402
+#: ../chamo/class-tgm-plugin-activation.php:402
+#: ../james/class-tgm-plugin-activation.php:402
+#: ../teemo/class-tgm-plugin-activation.php:402
+#: ../zeiran/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:403
+#: ../chamo/class-tgm-plugin-activation.php:403
+#: ../james/class-tgm-plugin-activation.php:403
+#: ../teemo/class-tgm-plugin-activation.php:403
+#: ../zeiran/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:404
+#: ../chamo/class-tgm-plugin-activation.php:404
+#: ../james/class-tgm-plugin-activation.php:404
+#: ../teemo/class-tgm-plugin-activation.php:404
+#: ../zeiran/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:405
+#: ../chamo/class-tgm-plugin-activation.php:405
+#: ../james/class-tgm-plugin-activation.php:405
+#: ../teemo/class-tgm-plugin-activation.php:405
+#: ../zeiran/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:521
+#: ../chamo/class-tgm-plugin-activation.php:521
+#: ../james/class-tgm-plugin-activation.php:521
+#: ../teemo/class-tgm-plugin-activation.php:521
+#: ../zeiran/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:1881
+#: ../chamo/class-tgm-plugin-activation.php:1881
+#: ../james/class-tgm-plugin-activation.php:1881
+#: ../teemo/class-tgm-plugin-activation.php:1881
+#: ../zeiran/class-tgm-plugin-activation.php:1881
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2167
+#: ../chamo/class-tgm-plugin-activation.php:2167
+#: ../james/class-tgm-plugin-activation.php:2167
+#: ../teemo/class-tgm-plugin-activation.php:2167
+#: ../zeiran/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2170
+#: ../chamo/class-tgm-plugin-activation.php:2170
+#: ../james/class-tgm-plugin-activation.php:2170
+#: ../teemo/class-tgm-plugin-activation.php:2170
+#: ../zeiran/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2186
+#: ../chamo/class-tgm-plugin-activation.php:2186
+#: ../james/class-tgm-plugin-activation.php:2186
+#: ../teemo/class-tgm-plugin-activation.php:2186
+#: ../zeiran/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2189
+#: ../chamo/class-tgm-plugin-activation.php:2189
+#: ../james/class-tgm-plugin-activation.php:2189
+#: ../teemo/class-tgm-plugin-activation.php:2189
+#: ../zeiran/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2192
+#: ../chamo/class-tgm-plugin-activation.php:2192
+#: ../james/class-tgm-plugin-activation.php:2192
+#: ../teemo/class-tgm-plugin-activation.php:2192
+#: ../zeiran/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2209
+#: ../chamo/class-tgm-plugin-activation.php:2209
+#: ../james/class-tgm-plugin-activation.php:2209
+#: ../teemo/class-tgm-plugin-activation.php:2209
+#: ../zeiran/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2213
+#: ../chamo/class-tgm-plugin-activation.php:2213
+#: ../james/class-tgm-plugin-activation.php:2213
+#: ../teemo/class-tgm-plugin-activation.php:2213
+#: ../zeiran/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2215
+#: ../chamo/class-tgm-plugin-activation.php:2215
+#: ../james/class-tgm-plugin-activation.php:2215
+#: ../teemo/class-tgm-plugin-activation.php:2215
+#: ../zeiran/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2221
+#: ../chamo/class-tgm-plugin-activation.php:2221
+#: ../james/class-tgm-plugin-activation.php:2221
+#: ../teemo/class-tgm-plugin-activation.php:2221
+#: ../zeiran/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2224
+#: ../chamo/class-tgm-plugin-activation.php:2224
+#: ../james/class-tgm-plugin-activation.php:2224
+#: ../teemo/class-tgm-plugin-activation.php:2224
+#: ../zeiran/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2227
+#: ../chamo/class-tgm-plugin-activation.php:2227
+#: ../james/class-tgm-plugin-activation.php:2227
+#: ../teemo/class-tgm-plugin-activation.php:2227
+#: ../zeiran/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2235
+#: ../chamo/class-tgm-plugin-activation.php:2235
+#: ../james/class-tgm-plugin-activation.php:2235
+#: ../teemo/class-tgm-plugin-activation.php:2235
+#: ../zeiran/class-tgm-plugin-activation.php:2235
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2283
+#: ../chamo/class-tgm-plugin-activation.php:2283
+#: ../james/class-tgm-plugin-activation.php:2283
+#: ../teemo/class-tgm-plugin-activation.php:2283
+#: ../zeiran/class-tgm-plugin-activation.php:2283
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2286
+#: ../chamo/class-tgm-plugin-activation.php:2286
+#: ../james/class-tgm-plugin-activation.php:2286
+#: ../teemo/class-tgm-plugin-activation.php:2286
+#: ../zeiran/class-tgm-plugin-activation.php:2286
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2289
+#: ../chamo/class-tgm-plugin-activation.php:2289
+#: ../james/class-tgm-plugin-activation.php:2289
+#: ../teemo/class-tgm-plugin-activation.php:2289
+#: ../zeiran/class-tgm-plugin-activation.php:2289
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2371
+#: ../chamo/class-tgm-plugin-activation.php:2371
+#: ../james/class-tgm-plugin-activation.php:2371
+#: ../teemo/class-tgm-plugin-activation.php:2371
+#: ../zeiran/class-tgm-plugin-activation.php:2371
+msgid "unknown"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2379
+#: ../chamo/class-tgm-plugin-activation.php:2379
+#: ../james/class-tgm-plugin-activation.php:2379
+#: ../teemo/class-tgm-plugin-activation.php:2379
+#: ../zeiran/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2387
+#: ../chamo/class-tgm-plugin-activation.php:2387
+#: ../james/class-tgm-plugin-activation.php:2387
+#: ../teemo/class-tgm-plugin-activation.php:2387
+#: ../zeiran/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2399
+#: ../chamo/class-tgm-plugin-activation.php:2399
+#: ../james/class-tgm-plugin-activation.php:2399
+#: ../teemo/class-tgm-plugin-activation.php:2399
+#: ../zeiran/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2422
+#: ../chamo/class-tgm-plugin-activation.php:2422
+#: ../james/class-tgm-plugin-activation.php:2422
+#: ../teemo/class-tgm-plugin-activation.php:2422
+#: ../zeiran/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2436
+#: ../chamo/class-tgm-plugin-activation.php:2436
+#: ../james/class-tgm-plugin-activation.php:2436
+#: ../teemo/class-tgm-plugin-activation.php:2436
+#: ../zeiran/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2437
+#: ../chamo/class-tgm-plugin-activation.php:2437
+#: ../james/class-tgm-plugin-activation.php:2437
+#: ../teemo/class-tgm-plugin-activation.php:2437
+#: ../zeiran/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2438
+#: ../chamo/class-tgm-plugin-activation.php:2438
+#: ../james/class-tgm-plugin-activation.php:2438
+#: ../teemo/class-tgm-plugin-activation.php:2438
+#: ../zeiran/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2442
+#: ../chamo/class-tgm-plugin-activation.php:2442
+#: ../james/class-tgm-plugin-activation.php:2442
+#: ../teemo/class-tgm-plugin-activation.php:2442
+#: ../zeiran/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2443
+#: ../chairman/woocommerce/myaccount/my-orders.php:34
+#: ../chairman/woocommerce/myaccount/my-orders.php:55
+#: ../chamo/class-tgm-plugin-activation.php:2443
+#: ../chamo/woocommerce/myaccount/my-orders.php:42
+#: ../chamo/woocommerce/myaccount/my-orders.php:63
+#: ../james/class-tgm-plugin-activation.php:2443
+#: ../james/woocommerce/myaccount/my-orders.php:42
+#: ../james/woocommerce/myaccount/my-orders.php:63
+#: ../teemo/class-tgm-plugin-activation.php:2443
+#: ../teemo/woocommerce/myaccount/my-orders.php:27
+#: ../zeiran/class-tgm-plugin-activation.php:2443
+#: ../zeiran/woocommerce/myaccount/my-orders.php:42
+#: ../zeiran/woocommerce/myaccount/my-orders.php:63
+msgid "Status"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2491
+#: ../chamo/class-tgm-plugin-activation.php:2491
+#: ../james/class-tgm-plugin-activation.php:2491
+#: ../teemo/class-tgm-plugin-activation.php:2491
+#: ../zeiran/class-tgm-plugin-activation.php:2491
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2495
+#: ../chamo/class-tgm-plugin-activation.php:2495
+#: ../james/class-tgm-plugin-activation.php:2495
+#: ../teemo/class-tgm-plugin-activation.php:2495
+#: ../zeiran/class-tgm-plugin-activation.php:2495
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2500
+#: ../chamo/class-tgm-plugin-activation.php:2500
+#: ../james/class-tgm-plugin-activation.php:2500
+#: ../teemo/class-tgm-plugin-activation.php:2500
+#: ../zeiran/class-tgm-plugin-activation.php:2500
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2603
+#: ../chamo/class-tgm-plugin-activation.php:2603
+#: ../james/class-tgm-plugin-activation.php:2603
+#: ../teemo/class-tgm-plugin-activation.php:2603
+#: ../zeiran/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2609
+#: ../chamo/class-tgm-plugin-activation.php:2609
+#: ../james/class-tgm-plugin-activation.php:2609
+#: ../teemo/class-tgm-plugin-activation.php:2609
+#: ../zeiran/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2612
+#: ../chamo/class-tgm-plugin-activation.php:2612
+#: ../james/class-tgm-plugin-activation.php:2612
+#: ../teemo/class-tgm-plugin-activation.php:2612
+#: ../zeiran/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2643
+#: ../chamo/class-tgm-plugin-activation.php:2643
+#: ../james/class-tgm-plugin-activation.php:2643
+#: ../teemo/class-tgm-plugin-activation.php:2643
+#: ../zeiran/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2645
+#: ../chamo/class-tgm-plugin-activation.php:2645
+#: ../james/class-tgm-plugin-activation.php:2645
+#: ../teemo/class-tgm-plugin-activation.php:2645
+#: ../zeiran/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2681
+#: ../chamo/class-tgm-plugin-activation.php:2681
+#: ../james/class-tgm-plugin-activation.php:2681
+#: ../teemo/class-tgm-plugin-activation.php:2681
+#: ../zeiran/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:2683
+#: ../chamo/class-tgm-plugin-activation.php:2683
+#: ../james/class-tgm-plugin-activation.php:2683
+#: ../teemo/class-tgm-plugin-activation.php:2683
+#: ../zeiran/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3028
+#: ../chamo/class-tgm-plugin-activation.php:3028
+#: ../james/class-tgm-plugin-activation.php:3028
+#: ../teemo/class-tgm-plugin-activation.php:3028
+#: ../zeiran/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3362
+#: ../chamo/class-tgm-plugin-activation.php:3362
+#: ../james/class-tgm-plugin-activation.php:3362
+#: ../teemo/class-tgm-plugin-activation.php:3362
+#: ../zeiran/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3364
+#: ../chamo/class-tgm-plugin-activation.php:3364
+#: ../james/class-tgm-plugin-activation.php:3364
+#: ../teemo/class-tgm-plugin-activation.php:3364
+#: ../zeiran/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3365
+#: ../chamo/class-tgm-plugin-activation.php:3365
+#: ../james/class-tgm-plugin-activation.php:3365
+#: ../teemo/class-tgm-plugin-activation.php:3365
+#: ../zeiran/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3369
+#: ../chamo/class-tgm-plugin-activation.php:3369
+#: ../james/class-tgm-plugin-activation.php:3369
+#: ../teemo/class-tgm-plugin-activation.php:3369
+#: ../zeiran/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3370
+#: ../chamo/class-tgm-plugin-activation.php:3370
+#: ../james/class-tgm-plugin-activation.php:3370
+#: ../teemo/class-tgm-plugin-activation.php:3370
+#: ../zeiran/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3371
+#: ../chamo/class-tgm-plugin-activation.php:3371
+#: ../james/class-tgm-plugin-activation.php:3371
+#: ../teemo/class-tgm-plugin-activation.php:3371
+#: ../zeiran/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3372
+#: ../chamo/class-tgm-plugin-activation.php:3372
+#: ../james/class-tgm-plugin-activation.php:3372
+#: ../teemo/class-tgm-plugin-activation.php:3372
+#: ../zeiran/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3375
+#: ../chamo/class-tgm-plugin-activation.php:3375
+#: ../james/class-tgm-plugin-activation.php:3375
+#: ../teemo/class-tgm-plugin-activation.php:3375
+#: ../zeiran/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3377
+#: ../chamo/class-tgm-plugin-activation.php:3377
+#: ../james/class-tgm-plugin-activation.php:3377
+#: ../teemo/class-tgm-plugin-activation.php:3377
+#: ../zeiran/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../chairman/class-tgm-plugin-activation.php:3378
+#: ../chamo/class-tgm-plugin-activation.php:3378
+#: ../james/class-tgm-plugin-activation.php:3378
+#: ../teemo/class-tgm-plugin-activation.php:3378
+#: ../zeiran/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../chairman/comments.php:31 ../chairman/functions.php:1314
+#: ../chamo/comments.php:31 ../chamo/content-audio.php:106
+#: ../chamo/content-gallery.php:89 ../chamo/content-image.php:102
+#: ../chamo/content-video.php:91 ../chamo/content.php:100
+#: ../chamo/functions.php:1257 ../james/comments.php:31
+#: ../james/functions.php:1211 ../teemo/comments.php:31
+#: ../teemo/functions.php:1216 ../zeiran/comments.php:31
+#: ../zeiran/functions.php:1276
+msgid "1 comment"
+msgstr ""
+
+#: ../chairman/comments.php:51 ../chamo/comments.php:51
+#: ../james/comments.php:51 ../teemo/comments.php:51
+#: ../twentyfifteen/comments.php:53 ../twentyfourteen/comments.php:59
+#: ../twentythirteen/comments.php:52 ../zeiran/comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: ../chairman/content-audio.php:29 ../chairman/content-audio.php:44
+#: ../chairman/content-audio.php:82 ../chairman/content-gallery.php:28
+#: ../chairman/content-gallery.php:43 ../chairman/content-gallery.php:81
+#: ../chairman/content-image.php:30 ../chairman/content-image.php:45
+#: ../chairman/content-image.php:84 ../chairman/content-video.php:28
+#: ../chairman/content-video.php:43 ../chairman/content-video.php:81
+#: ../chairman/content.php:30 ../chairman/content.php:45
+#: ../chairman/content.php:84
+msgid "Posts by"
+msgstr ""
+
+#: ../chairman/content-audio.php:97 ../chairman/content-gallery.php:96
+#: ../chairman/content-image.php:99 ../chairman/content-video.php:96
+#: ../chairman/content.php:99 ../chamo/content-audio.php:89
+#: ../chamo/content-gallery.php:74 ../chamo/content-image.php:87
+#: ../chamo/content-video.php:76 ../chamo/content.php:85
+#: ../james/content-audio.php:61 ../james/content-gallery.php:59
+#: ../james/content-image.php:62 ../james/content-video.php:59
+#: ../james/content.php:63 ../teemo/content-audio.php:61
+#: ../teemo/content-gallery.php:58 ../teemo/content-image.php:62
+#: ../teemo/content-video.php:61 ../teemo/content.php:62
+#: ../twentyfourteen/inc/widgets.php:127 ../twentyfourteen/inc/widgets.php:172
+#: ../zeiran/content-audio.php:61 ../zeiran/content-gallery.php:59
+#: ../zeiran/content-image.php:62 ../zeiran/content-video.php:59
+#: ../zeiran/content.php:63
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../chairman/content-audio.php:98 ../chairman/content-gallery.php:97
+#: ../chairman/content-image.php:100 ../chairman/content-page.php:20
+#: ../chairman/content-video.php:97 ../chairman/content.php:100
+#: ../chairman/image.php:122 ../chamo/content-audio.php:90
+#: ../chamo/content-gallery.php:75 ../chamo/content-image.php:88
+#: ../chamo/content-page.php:20 ../chamo/content-video.php:77
+#: ../chamo/content.php:86 ../chamo/image.php:127
+#: ../james/content-audio.php:62 ../james/content-gallery.php:60
+#: ../james/content-image.php:63 ../james/content-page.php:20
+#: ../james/content-video.php:60 ../james/content.php:64
+#: ../james/image.php:118 ../teemo/content-audio.php:62
+#: ../teemo/content-gallery.php:59 ../teemo/content-image.php:63
+#: ../teemo/content-page.php:20 ../teemo/content-video.php:62
+#: ../teemo/content.php:63 ../teemo/image.php:118
+#: ../twentyfifteen/content-link.php:36 ../twentyfifteen/content-page.php:25
+#: ../twentyfifteen/content.php:38 ../twentyfifteen/image.php:59
+#: ../twentyfourteen/content-aside.php:53
+#: ../twentyfourteen/content-audio.php:53
+#: ../twentyfourteen/content-gallery.php:53
+#: ../twentyfourteen/content-image.php:53
+#: ../twentyfourteen/content-link.php:53 ../twentyfourteen/content-page.php:22
+#: ../twentyfourteen/content-quote.php:53
+#: ../twentyfourteen/content-video.php:53 ../twentyfourteen/content.php:61
+#: ../twentyfourteen/image.php:54 ../twentythirteen/content-aside.php:20
+#: ../twentythirteen/content-audio.php:31
+#: ../twentythirteen/content-chat.php:30
+#: ../twentythirteen/content-gallery.php:31
+#: ../twentythirteen/content-image.php:30
+#: ../twentythirteen/content-link.php:31
+#: ../twentythirteen/content-quote.php:20
+#: ../twentythirteen/content-status.php:20
+#: ../twentythirteen/content-video.php:30 ../twentythirteen/content.php:48
+#: ../twentythirteen/image.php:70 ../twentythirteen/page.php:35
+#: ../zeiran/content-audio.php:62 ../zeiran/content-gallery.php:60
+#: ../zeiran/content-image.php:63 ../zeiran/content-page.php:20
+#: ../zeiran/content-video.php:60 ../zeiran/content.php:64
+#: ../zeiran/image.php:119
+msgid "Pages:"
+msgstr ""
+
+#: ../chairman/content-audio.php:104 ../chairman/content-gallery.php:102
+#: ../chairman/content-image.php:105 ../chairman/content-video.php:102
+#: ../chairman/content.php:105 ../chamo/content-audio.php:112
+#: ../chamo/content-audio.php:174 ../chamo/content-gallery.php:95
+#: ../chamo/content-gallery.php:157 ../chamo/content-image.php:108
+#: ../chamo/content-image.php:171 ../chamo/content-video.php:97
+#: ../chamo/content-video.php:159 ../chamo/content.php:106
+#: ../chamo/content.php:168 ../james/content-audio.php:68
+#: ../james/content-gallery.php:65 ../james/content-image.php:68
+#: ../james/content-video.php:65 ../james/content.php:69
+#: ../teemo/content-audio.php:71 ../teemo/content-gallery.php:67
+#: ../teemo/content-image.php:71 ../teemo/content-video.php:70
+#: ../teemo/content.php:71
+msgid "Read more"
+msgstr ""
+
+#: ../chairman/content-audio.php:128 ../chairman/content-gallery.php:126
+#: ../chairman/content-image.php:129 ../chairman/content-video.php:126
+#: ../chairman/content.php:129 ../chamo/content-audio.php:133
+#: ../chamo/content-gallery.php:116 ../chamo/content-image.php:129
+#: ../chamo/content-video.php:118 ../chamo/content.php:127
+#: ../james/content-audio.php:89 ../james/content-gallery.php:86
+#: ../james/content-image.php:89 ../james/content-video.php:86
+#: ../james/content.php:90 ../teemo/content-audio.php:92
+#: ../teemo/content-gallery.php:88 ../teemo/content-image.php:92
+#: ../teemo/content-video.php:91 ../teemo/content.php:91
+#: ../zeiran/content-audio.php:88 ../zeiran/content-gallery.php:85
+#: ../zeiran/content-image.php:88 ../zeiran/content-video.php:85
+#: ../zeiran/content.php:89
+msgid "About the Author:"
+msgstr ""
+
+#: ../chairman/content-audio.php:133 ../chairman/content-gallery.php:131
+#: ../chairman/content-image.php:135 ../chairman/content-video.php:131
+#: ../chairman/content.php:134 ../chamo/content-audio.php:138
+#: ../chamo/content-gallery.php:121 ../chamo/content-image.php:135
+#: ../chamo/content-video.php:123 ../chamo/content.php:132
+msgid "Related posts"
+msgstr ""
+
+#: ../chairman/content-none.php:13 ../chairman/index.php:123
+#: ../chairman/search.php:86 ../chamo/content-none.php:13
+#: ../chamo/index.php:102 ../chamo/search.php:85 ../james/content-none.php:13
+#: ../james/index.php:100 ../james/search.php:77 ../teemo/content-none.php:13
+#: ../teemo/index.php:99 ../teemo/search.php:82
+#: ../twentyfifteen/content-none.php:15 ../twentyfourteen/content-none.php:12
+#: ../twentythirteen/content-none.php:12 ../zeiran/content-none.php:13
+#: ../zeiran/index.php:100 ../zeiran/search.php:78
+msgid "Nothing Found"
+msgstr ""
+
+#: ../chairman/content-none.php:17 ../chairman/index.php:127
+#: ../chamo/content-none.php:17 ../chamo/index.php:106
+#: ../james/content-none.php:17 ../james/index.php:104
+#: ../teemo/content-none.php:17 ../teemo/index.php:103
+#: ../zeiran/content-none.php:17 ../zeiran/index.php:104
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../chairman/functions.php:218 ../chairman/functions.php:230
+#: ../chairman/functions.php:236 ../chairman/functions.php:240
+#: ../chamo/functions.php:217 ../chamo/functions.php:230
+#: ../chamo/functions.php:236 ../chamo/functions.php:240
+#: ../james/functions.php:191 ../james/functions.php:203
+#: ../james/functions.php:209 ../james/functions.php:213
+#: ../teemo/functions.php:197 ../teemo/functions.php:210
+#: ../teemo/functions.php:216 ../teemo/functions.php:220
+#: ../zeiran/functions.php:193 ../zeiran/functions.php:205
+#: ../zeiran/functions.php:211 ../zeiran/functions.php:215
+msgid "Search..."
+msgstr ""
+
+#: ../chairman/functions.php:256 ../chairman/functions.php:269
+#: ../chairman/functions.php:275 ../chairman/functions.php:279
+#: ../chamo/functions.php:256 ../chamo/functions.php:269
+#: ../chamo/functions.php:275 ../chamo/functions.php:279
+#: ../james/functions.php:229 ../james/functions.php:242
+#: ../james/functions.php:248 ../james/functions.php:252
+#: ../teemo/functions.php:236 ../teemo/functions.php:249
+#: ../teemo/functions.php:255 ../teemo/functions.php:259
+#: ../zeiran/functions.php:231 ../zeiran/functions.php:244
+#: ../zeiran/functions.php:250 ../zeiran/functions.php:254
+msgid "Search product..."
+msgstr ""
+
+#: ../chairman/functions.php:430 ../chamo/functions.php:430
+#: ../james/functions.php:403 ../teemo/functions.php:410
+#: ../twentyfifteen/functions.php:85 ../twentyfourteen/header.php:52
+#: ../zeiran/functions.php:405
+msgid "Primary Menu"
+msgstr ""
+
+#: ../chairman/functions.php:431 ../chamo/functions.php:431
+#: ../zeiran/functions.php:406
+msgid "Categories Menu"
+msgstr ""
+
+#: ../chairman/functions.php:432
+msgid "Top Login"
+msgstr ""
+
+#: ../chairman/functions.php:433 ../chairman/theme-config.php:578
+#: ../chamo/functions.php:432 ../james/functions.php:404
+#: ../teemo/functions.php:411 ../zeiran/functions.php:407
+msgid "Top Menu"
+msgstr ""
+
+#: ../chairman/functions.php:434 ../chamo/functions.php:433
+#: ../james/functions.php:405 ../teemo/functions.php:412
+#: ../zeiran/functions.php:408
+msgid "Mobile Menu"
+msgstr ""
+
+#: ../chairman/functions.php:865 ../chamo/functions.php:826
+#: ../james/functions.php:741 ../teemo/functions.php:753
+#: ../zeiran/functions.php:807
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../chairman/functions.php:867 ../chamo/functions.php:828
+#: ../james/functions.php:743 ../teemo/functions.php:755
+#: ../zeiran/functions.php:809
+msgid "Sidebar on blog page"
+msgstr ""
+
+#: ../chairman/functions.php:875 ../chamo/functions.php:836
+#: ../james/functions.php:751 ../teemo/functions.php:763
+#: ../zeiran/functions.php:817
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../chairman/functions.php:877 ../chamo/functions.php:838
+#: ../james/functions.php:753 ../teemo/functions.php:765
+#: ../zeiran/functions.php:819
+msgid "Sidebar on shop page (only sidebar shop layout)"
+msgstr ""
+
+#: ../chairman/functions.php:885 ../chamo/functions.php:846
+#: ../james/functions.php:761 ../teemo/functions.php:773
+#: ../zeiran/functions.php:827
+msgid "Pages Sidebar"
+msgstr ""
+
+#: ../chairman/functions.php:887 ../chamo/functions.php:848
+#: ../james/functions.php:763 ../teemo/functions.php:775
+#: ../zeiran/functions.php:829
+msgid "Sidebar on content pages"
+msgstr ""
+
+#: ../chairman/functions.php:895
+msgid "Home Sidebar"
+msgstr ""
+
+#: ../chairman/functions.php:897
+msgid "Sidebar on home page 5"
+msgstr ""
+
+#: ../chairman/functions.php:905
+msgid "Home Sidebar 6"
+msgstr ""
+
+#: ../chairman/functions.php:907
+msgid "Sidebar on home page 6"
+msgstr ""
+
+#: ../chairman/functions.php:926 ../chamo/functions.php:869
+#: ../james/functions.php:822 ../teemo/functions.php:794
+#: ../zeiran/functions.php:888
+msgid ""
+"This content will be used to replace the featured image, use shortcode here"
+msgstr ""
+
+#: ../chairman/functions.php:941 ../chamo/functions.php:884
+#: ../james/functions.php:837 ../teemo/functions.php:809
+#: ../zeiran/functions.php:903
+msgid "Post featured content"
+msgstr ""
+
+#: ../chairman/functions.php:1083 ../chairman/functions.php:1084
+#: ../chairman/functions.php:1085 ../chairman/functions.php:1086
+#: ../chamo/functions.php:1026 ../chamo/functions.php:1027
+#: ../chamo/functions.php:1028 ../chamo/functions.php:1029
+#: ../james/functions.php:980 ../james/functions.php:981
+#: ../james/functions.php:982 ../james/functions.php:983
+msgid "Archive for"
+msgstr ""
+
+#: ../chairman/functions.php:1087 ../chamo/functions.php:1030
+#: ../james/functions.php:984
+msgid "Blog Archives"
+msgstr ""
+
+#: ../chairman/functions.php:1088 ../chamo/functions.php:1031
+#: ../james/functions.php:985
+msgid "Search Results"
+msgstr ""
+
+#: ../chairman/functions.php:1171 ../chamo/functions.php:1114
+#: ../james/functions.php:1068 ../teemo/functions.php:1073
+#: ../twentyfifteen/functions.php:161 ../twentyfifteen/functions.php:169
+#: ../twentyfifteen/functions.php:177 ../twentyfourteen/functions.php:213
+#: ../twentythirteen/functions.php:128 ../twentythirteen/functions.php:134
+#: ../zeiran/functions.php:1133
+msgid "on"
+msgstr ""
+
+#: ../chairman/functions.php:1177 ../chamo/functions.php:1120
+#: ../james/functions.php:1074 ../teemo/functions.php:1079
+#: ../twentyfifteen/functions.php:185 ../zeiran/functions.php:1139
+msgid "no-subset"
+msgstr ""
+
+#: ../chairman/functions.php:1208 ../chairman/single.php:67
+#: ../chamo/functions.php:1151 ../chamo/single.php:67
+#: ../james/functions.php:1105 ../james/single.php:65
+#: ../teemo/functions.php:1110 ../twentyfourteen/inc/template-tags.php:85
+#: ../twentythirteen/functions.php:300 ../zeiran/functions.php:1170
+#: ../zeiran/single.php:66
+msgid "Post navigation"
+msgstr ""
+
+#: ../chairman/functions.php:1209 ../chamo/functions.php:1152
+#: ../james/functions.php:1106 ../teemo/functions.php:1111
+#: ../twentythirteen/functions.php:270 ../zeiran/functions.php:1171
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../chairman/functions.php:1210 ../chamo/functions.php:1153
+#: ../james/functions.php:1107 ../teemo/functions.php:1112
+#: ../twentythirteen/functions.php:274 ../zeiran/functions.php:1172
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../chairman/functions.php:1225 ../chamo/functions.php:1168
+#: ../james/functions.php:1122 ../twentyfifteen/single.php:36
+#: ../twentyfourteen/functions.php:258 ../zeiran/functions.php:1187
+msgid "Previous"
+msgstr ""
+
+#: ../chairman/functions.php:1226 ../chamo/functions.php:1169
+#: ../james/functions.php:1123 ../teemo/functions.php:1128
+#: ../twentyfifteen/single.php:33 ../twentyfourteen/functions.php:259
+#: ../zeiran/functions.php:1188
+msgid "Next"
+msgstr ""
+
+#: ../chairman/functions.php:1247 ../chamo/functions.php:1190
+#: ../james/functions.php:1144 ../teemo/functions.php:1149
+#: ../zeiran/functions.php:1209
+msgid "Pingback:"
+msgstr ""
+
+#: ../chairman/functions.php:1247 ../chamo/functions.php:1190
+#: ../james/functions.php:1144 ../teemo/functions.php:1149
+#: ../zeiran/functions.php:1209
+msgid "(Edit)"
+msgstr ""
+
+#: ../chairman/functions.php:1266 ../chamo/functions.php:1209
+#: ../james/functions.php:1163 ../teemo/functions.php:1168
+#: ../zeiran/functions.php:1228
+msgid "Post author"
+msgstr ""
+
+#: ../chairman/functions.php:1271 ../chamo/functions.php:1214
+#: ../james/functions.php:1168 ../teemo/functions.php:1173
+#: ../zeiran/functions.php:1233
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../chairman/functions.php:1275 ../chamo/functions.php:1218
+#: ../james/functions.php:1172 ../teemo/functions.php:1177
+#: ../zeiran/functions.php:1237
+msgid "Reply"
+msgstr ""
+
+#: ../chairman/functions.php:1279 ../chamo/functions.php:1222
+#: ../james/functions.php:1176 ../teemo/functions.php:1181
+#: ../zeiran/functions.php:1241
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../chairman/functions.php:1284 ../chairman/image.php:149
+#: ../chairman/woocommerce/myaccount/my-address.php:45
+#: ../chamo/functions.php:1227 ../chamo/image.php:154
+#: ../chamo/woocommerce/myaccount/my-address.php:45
+#: ../james/functions.php:1181 ../james/image.php:145
+#: ../james/woocommerce/myaccount/my-address.php:45
+#: ../teemo/functions.php:1186 ../teemo/image.php:145
+#: ../teemo/woocommerce/myaccount/my-address.php:45
+#: ../twentyfifteen/content-link.php:56 ../twentyfifteen/content-page.php:35
+#: ../twentyfifteen/content-search.php:28
+#: ../twentyfifteen/content-search.php:33 ../twentyfifteen/content.php:57
+#: ../twentyfifteen/image.php:71 ../twentyfourteen/content-aside.php:40
+#: ../twentyfourteen/content-audio.php:40
+#: ../twentyfourteen/content-gallery.php:40
+#: ../twentyfourteen/content-image.php:40
+#: ../twentyfourteen/content-link.php:40 ../twentyfourteen/content-page.php:28
+#: ../twentyfourteen/content-quote.php:40
+#: ../twentyfourteen/content-video.php:40 ../twentyfourteen/content.php:42
+#: ../twentyfourteen/image.php:34
+#: ../twentyfourteen/page-templates/contributors.php:35
+#: ../twentythirteen/content-aside.php:27
+#: ../twentythirteen/content-aside.php:35
+#: ../twentythirteen/content-audio.php:38
+#: ../twentythirteen/content-chat.php:36
+#: ../twentythirteen/content-gallery.php:46
+#: ../twentythirteen/content-image.php:42
+#: ../twentythirteen/content-link.php:19
+#: ../twentythirteen/content-quote.php:32
+#: ../twentythirteen/content-status.php:26
+#: ../twentythirteen/content-video.php:42 ../twentythirteen/content.php:31
+#: ../twentythirteen/image.php:44 ../twentythirteen/page.php:39
+#: ../zeiran/functions.php:1246 ../zeiran/image.php:146
+#: ../zeiran/woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr ""
+
+#: ../chairman/functions.php:1310 ../chamo/content-audio.php:102
+#: ../chamo/content-gallery.php:85 ../chamo/content-image.php:98
+#: ../chamo/content-video.php:87 ../chamo/content.php:96
+#: ../chamo/functions.php:1253 ../james/functions.php:1207
+#: ../teemo/functions.php:1212 ../zeiran/functions.php:1272
+msgid "0 comments"
+msgstr ""
+
+#: ../chairman/functions.php:1312 ../chairman/functions.php:1354
+#: ../chamo/content-audio.php:104 ../chamo/content-gallery.php:87
+#: ../chamo/content-image.php:100 ../chamo/content-video.php:89
+#: ../chamo/content.php:98 ../chamo/functions.php:1255
+#: ../chamo/functions.php:1297 ../james/functions.php:1209
+#: ../james/functions.php:1251 ../teemo/functions.php:1214
+#: ../teemo/functions.php:1256 ../zeiran/functions.php:1274
+#: ../zeiran/functions.php:1316
+msgid " comments"
+msgstr ""
+
+#: ../chairman/functions.php:1319 ../chamo/functions.php:1262
+#: ../james/functions.php:1216 ../teemo/functions.php:1221
+#: ../zeiran/functions.php:1281
+#, php-format
+msgid "%1$s / Tags: %2$s"
+msgstr ""
+
+#: ../chairman/functions.php:1330 ../chamo/functions.php:1273
+#: ../james/functions.php:1227 ../teemo/functions.php:1232
+#: ../twentyfifteen/author-bio.php:34 ../twentythirteen/functions.php:343
+#: ../zeiran/functions.php:1292
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../chairman/functions.php:1334 ../chamo/functions.php:1277
+#: ../james/functions.php:1231 ../zeiran/functions.php:1296
+#, php-format
+msgid "Posted by %1$s / %2$s"
+msgstr ""
+
+#: ../chairman/functions.php:1352 ../chamo/functions.php:1295
+#: ../james/functions.php:1249 ../teemo/functions.php:1254
+#: ../zeiran/functions.php:1314
+msgid "<span>0</span> comments"
+msgstr ""
+
+#: ../chairman/functions.php:1356 ../chamo/functions.php:1299
+#: ../james/functions.php:1253 ../teemo/functions.php:1258
+#: ../zeiran/functions.php:1318
+msgid "<span>1</span> comment"
+msgstr ""
+
+#: ../chairman/functions.php:1361 ../chamo/functions.php:1304
+#: ../james/functions.php:1258 ../teemo/functions.php:1263
+#: ../zeiran/functions.php:1323
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../chairman/functions.php:1483 ../chamo/functions.php:1444
+#: ../james/functions.php:1404 ../teemo/functions.php:1406
+#: ../zeiran/functions.php:1454
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../chairman/header-empty.php:70 ../zeiran/header-eighth.php:52
+#: ../zeiran/header-fifth.php:53 ../zeiran/header-first.php:56
+#: ../zeiran/header-fourth.php:53 ../zeiran/header-second.php:53
+#: ../zeiran/header-seventh.php:45 ../zeiran/header-sixth.php:49
+#: ../zeiran/header-third.php:53
+msgid "Currency"
+msgstr ""
+
+#: ../chairman/header-empty.php:74 ../zeiran/header-eighth.php:53
+#: ../zeiran/header-fifth.php:54 ../zeiran/header-first.php:57
+#: ../zeiran/header-fourth.php:54 ../zeiran/header-second.php:54
+#: ../zeiran/header-seventh.php:46 ../zeiran/header-sixth.php:50
+#: ../zeiran/header-third.php:54
+msgid "Language"
+msgstr ""
+
+#: ../chairman/image.php:138 ../chamo/image.php:143 ../james/image.php:134
+#: ../teemo/image.php:134 ../zeiran/image.php:135
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: ../chairman/image.php:159 ../chamo/image.php:164
+#: ../twentyfourteen/inc/template-tags.php:50
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../chairman/image.php:160 ../chamo/image.php:165
+#: ../twentyfourteen/inc/template-tags.php:51
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../chairman/include/blogsharing.php:11 ../chamo/include/blogsharing.php:11
+#: ../james/include/blogsharing.php:11 ../teemo/include/blogsharing.php:11
+#: ../zeiran/include/blogsharing.php:11
+msgid "Share this post"
+msgstr ""
+
+#: ../chairman/include/hugewidgets.php:8
+msgid "chairman Widgets"
+msgstr ""
+
+#: ../chairman/include/hugewidgets.php:11 ../chamo/include/hugewidgets.php:11
+#: ../james/include/roadwidgets.php:11 ../teemo/include/roadwidgets.php:11
+#: ../zeiran/include/roadwidgets.php:11
+msgid "Display recent posts, comments, popular posts"
+msgstr ""
+
+#: ../chairman/include/hugewidgets.php:126
+#: ../chamo/include/hugewidgets.php:126 ../james/include/roadwidgets.php:120
+#: ../teemo/include/roadwidgets.php:120 ../zeiran/include/roadwidgets.php:126
+msgid "says"
+msgstr ""
+
+#: ../chairman/include/hugewidgets.php:167
+#: ../chamo/include/hugewidgets.php:167 ../james/include/roadwidgets.php:159
+#: ../teemo/include/roadwidgets.php:159 ../twentyfourteen/inc/widgets.php:255
+#: ../zeiran/include/roadwidgets.php:167
+msgid "Title:"
+msgstr ""
+
+#: ../chairman/include/hugewidgets.php:171
+#: ../chamo/include/hugewidgets.php:171 ../james/include/roadwidgets.php:163
+#: ../teemo/include/roadwidgets.php:163 ../zeiran/include/roadwidgets.php:171
+msgid "Amount:"
+msgstr ""
+
+#: ../chairman/include/hugewidgets.php:175
+#: ../chamo/include/hugewidgets.php:175 ../zeiran/include/roadwidgets.php:175
+msgid "Image size (example: 50,50):"
+msgstr ""
+
+#: ../chairman/include/hugewidgets.php:179
+#: ../chamo/include/hugewidgets.php:179 ../james/include/roadwidgets.php:167
+#: ../teemo/include/roadwidgets.php:167 ../zeiran/include/roadwidgets.php:179
+msgid "Widget Type:"
+msgstr ""
+
+#: ../chairman/include/hugewidgets.php:181
+#: ../chamo/include/hugewidgets.php:181 ../chamo/theme-config.php:702
+#: ../james/include/roadwidgets.php:169 ../teemo/include/roadwidgets.php:169
+#: ../zeiran/include/roadwidgets.php:181
+msgid "Recent Posts"
+msgstr ""
+
+#: ../chairman/include/hugewidgets.php:182
+#: ../chamo/include/hugewidgets.php:182 ../james/include/roadwidgets.php:170
+#: ../teemo/include/roadwidgets.php:170 ../zeiran/include/roadwidgets.php:182
+msgid "Popular Posts"
+msgstr ""
+
+#: ../chairman/include/hugewidgets.php:183
+#: ../chamo/include/hugewidgets.php:183 ../james/include/roadwidgets.php:171
+#: ../teemo/include/roadwidgets.php:171 ../zeiran/include/roadwidgets.php:183
+msgid "Recent Comments"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:9 ../chairman/theme-config.php:1040
+#: ../chamo/include/map_shortcodes.php:9 ../chamo/theme-config.php:945
+#: ../james/include/map_shortcodes.php:9 ../james/theme-config.php:822
+#: ../teemo/include/map_shortcodes.php:9 ../teemo/theme-config.php:1040
+#: ../zeiran/include/map_shortcodes.php:9 ../zeiran/theme-config.php:1014
+msgid "Brand Logos"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:12
+#: ../chairman/include/map_shortcodes.php:43
+#: ../chairman/include/map_shortcodes.php:74
+#: ../chairman/include/map_shortcodes.php:93
+#: ../chairman/include/map_shortcodes.php:151
+#: ../chairman/include/map_shortcodes.php:221
+#: ../chairman/include/map_shortcodes.php:239
+#: ../chairman/include/map_shortcodes.php:507
+#: ../chamo/include/map_shortcodes.php:12
+#: ../chamo/include/map_shortcodes.php:43
+#: ../chamo/include/map_shortcodes.php:74
+#: ../chamo/include/map_shortcodes.php:93
+#: ../chamo/include/map_shortcodes.php:151
+#: ../chamo/include/map_shortcodes.php:221
+#: ../chamo/include/map_shortcodes.php:239
+#: ../james/include/map_shortcodes.php:12
+#: ../james/include/map_shortcodes.php:43
+#: ../james/include/map_shortcodes.php:62
+#: ../james/include/map_shortcodes.php:120
+#: ../james/include/map_shortcodes.php:190
+#: ../james/include/map_shortcodes.php:208
+#: ../teemo/include/map_shortcodes.php:12
+#: ../teemo/include/map_shortcodes.php:43
+#: ../teemo/include/map_shortcodes.php:62
+#: ../teemo/include/map_shortcodes.php:120
+#: ../teemo/include/map_shortcodes.php:190
+#: ../teemo/include/map_shortcodes.php:208
+#: ../zeiran/include/map_shortcodes.php:12
+#: ../zeiran/include/map_shortcodes.php:43
+#: ../zeiran/include/map_shortcodes.php:74
+#: ../zeiran/include/map_shortcodes.php:93
+#: ../zeiran/include/map_shortcodes.php:151
+#: ../zeiran/include/map_shortcodes.php:221
+#: ../zeiran/include/map_shortcodes.php:239
+msgid "Theme"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:18
+#: ../chairman/include/map_shortcodes.php:49
+#: ../chairman/include/map_shortcodes.php:126
+#: ../chamo/include/map_shortcodes.php:18
+#: ../chamo/include/map_shortcodes.php:49
+#: ../chamo/include/map_shortcodes.php:126
+#: ../james/include/map_shortcodes.php:18
+#: ../james/include/map_shortcodes.php:95
+#: ../teemo/include/map_shortcodes.php:18
+#: ../teemo/include/map_shortcodes.php:95
+#: ../zeiran/include/map_shortcodes.php:18
+#: ../zeiran/include/map_shortcodes.php:49
+#: ../zeiran/include/map_shortcodes.php:126
+msgid "Number of columns"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:20
+#: ../chairman/include/map_shortcodes.php:51
+#: ../chamo/include/map_shortcodes.php:20
+#: ../chamo/include/map_shortcodes.php:51
+#: ../james/include/map_shortcodes.php:20
+#: ../teemo/include/map_shortcodes.php:20
+#: ../zeiran/include/map_shortcodes.php:51
+msgid "6"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:26
+#: ../chairman/include/map_shortcodes.php:57
+#: ../chairman/include/map_shortcodes.php:134
+#: ../chamo/include/map_shortcodes.php:26
+#: ../chamo/include/map_shortcodes.php:57
+#: ../chamo/include/map_shortcodes.php:134
+#: ../james/include/map_shortcodes.php:26
+#: ../james/include/map_shortcodes.php:103
+#: ../teemo/include/map_shortcodes.php:26
+#: ../teemo/include/map_shortcodes.php:103
+#: ../zeiran/include/map_shortcodes.php:26
+#: ../zeiran/include/map_shortcodes.php:57
+#: ../zeiran/include/map_shortcodes.php:134
+msgid "Number of rows"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:40
+#: ../chamo/include/map_shortcodes.php:40
+#: ../zeiran/include/map_shortcodes.php:40
+msgid "Categories Carousel"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:71
+#: ../chamo/include/map_shortcodes.php:71
+#: ../james/include/map_shortcodes.php:40
+#: ../teemo/include/map_shortcodes.php:40
+#: ../zeiran/include/map_shortcodes.php:71
+msgid "Newsletter Form (MailPoet)"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:80
+#: ../chamo/include/map_shortcodes.php:80
+#: ../james/include/map_shortcodes.php:49
+#: ../teemo/include/map_shortcodes.php:49
+#: ../zeiran/include/map_shortcodes.php:80
+msgid "Form ID"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:83
+#: ../chamo/include/map_shortcodes.php:83
+#: ../james/include/map_shortcodes.php:52
+#: ../teemo/include/map_shortcodes.php:52
+#: ../zeiran/include/map_shortcodes.php:83
+msgid "Enter form ID here"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:90
+#: ../chamo/include/map_shortcodes.php:90
+#: ../james/include/map_shortcodes.php:59
+#: ../teemo/include/map_shortcodes.php:59
+#: ../zeiran/include/map_shortcodes.php:90
+msgid "Latest posts"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:99
+#: ../chamo/include/map_shortcodes.php:99
+#: ../james/include/map_shortcodes.php:68
+#: ../teemo/include/map_shortcodes.php:68
+#: ../zeiran/include/map_shortcodes.php:99
+msgid "Number of posts"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:101
+#: ../chamo/include/map_shortcodes.php:101
+#: ../james/include/map_shortcodes.php:70
+#: ../teemo/include/map_shortcodes.php:70
+#: ../zeiran/include/map_shortcodes.php:101
+msgid "5"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:107
+#: ../chamo/include/map_shortcodes.php:107
+#: ../james/include/map_shortcodes.php:76
+#: ../teemo/include/map_shortcodes.php:76
+#: ../zeiran/include/map_shortcodes.php:107
+msgid "Image scale"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:118
+#: ../chamo/include/map_shortcodes.php:118
+#: ../james/include/map_shortcodes.php:87
+#: ../teemo/include/map_shortcodes.php:87
+#: ../zeiran/include/map_shortcodes.php:118
+msgid "Excerpt length"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:120
+#: ../chamo/include/map_shortcodes.php:120
+#: ../james/include/map_shortcodes.php:89
+#: ../teemo/include/map_shortcodes.php:89
+#: ../zeiran/include/map_shortcodes.php:120
+msgid "20"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:128
+#: ../chamo/include/map_shortcodes.php:128
+#: ../james/include/map_shortcodes.php:97
+#: ../teemo/include/map_shortcodes.php:97
+#: ../zeiran/include/map_shortcodes.php:128
+msgid "4"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:148
+#: ../chairman/theme-config.php:1483 ../chamo/include/map_shortcodes.php:148
+#: ../chamo/theme-config.php:1321 ../james/include/map_shortcodes.php:117
+#: ../james/theme-config.php:1177 ../teemo/include/map_shortcodes.php:117
+#: ../teemo/theme-config.php:1395 ../zeiran/include/map_shortcodes.php:148
+#: ../zeiran/theme-config.php:1428
+msgid "Testimonials"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:157
+#: ../chamo/include/map_shortcodes.php:157
+#: ../james/include/map_shortcodes.php:126
+#: ../teemo/include/map_shortcodes.php:126
+#: ../zeiran/include/map_shortcodes.php:157
+msgid "Number of testimonial"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:159
+#: ../chamo/include/map_shortcodes.php:159
+#: ../james/include/map_shortcodes.php:128
+#: ../teemo/include/map_shortcodes.php:128
+#: ../zeiran/include/map_shortcodes.php:159
+msgid "10"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:165
+#: ../chamo/include/map_shortcodes.php:165
+#: ../james/include/map_shortcodes.php:134
+#: ../teemo/include/map_shortcodes.php:134
+#: ../zeiran/include/map_shortcodes.php:165
+msgid "Display Author"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:176
+#: ../chamo/include/map_shortcodes.php:176
+#: ../james/include/map_shortcodes.php:145
+#: ../teemo/include/map_shortcodes.php:145
+#: ../zeiran/include/map_shortcodes.php:176
+msgid "Display Avatar"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:187
+#: ../chamo/include/map_shortcodes.php:187
+#: ../james/include/map_shortcodes.php:156
+#: ../teemo/include/map_shortcodes.php:156
+#: ../zeiran/include/map_shortcodes.php:187
+msgid "Avatar image size"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:190
+#: ../chamo/include/map_shortcodes.php:190
+#: ../james/include/map_shortcodes.php:159
+#: ../teemo/include/map_shortcodes.php:159
+#: ../zeiran/include/map_shortcodes.php:190
+msgid "Avatar image size in pixels. Default is 50"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:196
+#: ../chamo/include/map_shortcodes.php:196
+#: ../james/include/map_shortcodes.php:165
+#: ../teemo/include/map_shortcodes.php:165
+#: ../zeiran/include/map_shortcodes.php:196
+msgid "Display URL"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:207
+#: ../chamo/include/map_shortcodes.php:207
+#: ../james/include/map_shortcodes.php:176
+#: ../teemo/include/map_shortcodes.php:176
+#: ../zeiran/include/map_shortcodes.php:207
+msgid "Category"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:209
+#: ../chamo/include/map_shortcodes.php:209
+#: ../james/include/map_shortcodes.php:178
+#: ../teemo/include/map_shortcodes.php:178
+#: ../zeiran/include/map_shortcodes.php:209
+msgid "0"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:210
+#: ../chamo/include/map_shortcodes.php:210
+#: ../james/include/map_shortcodes.php:179
+#: ../teemo/include/map_shortcodes.php:179
+#: ../zeiran/include/map_shortcodes.php:210
+msgid "ID/slug of the category. Default is 0"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:218
+#: ../chamo/include/map_shortcodes.php:218
+#: ../james/include/map_shortcodes.php:187
+#: ../teemo/include/map_shortcodes.php:187
+#: ../zeiran/include/map_shortcodes.php:218
+msgid "Rotating tweets"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:227
+#: ../chamo/include/map_shortcodes.php:227
+#: ../james/include/map_shortcodes.php:196 ../james/theme-config.php:536
+#: ../teemo/include/map_shortcodes.php:196
+#: ../zeiran/include/map_shortcodes.php:227
+msgid "Twitter user name"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:236
+#: ../chamo/include/map_shortcodes.php:236
+#: ../james/include/map_shortcodes.php:205
+#: ../teemo/include/map_shortcodes.php:205
+#: ../zeiran/include/map_shortcodes.php:236
+msgid "Google map"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:245
+#: ../chamo/include/map_shortcodes.php:245
+#: ../james/include/map_shortcodes.php:214
+#: ../teemo/include/map_shortcodes.php:214
+#: ../zeiran/include/map_shortcodes.php:245
+msgid "Map Height"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:247
+#: ../chamo/include/map_shortcodes.php:247
+#: ../james/include/map_shortcodes.php:216
+#: ../teemo/include/map_shortcodes.php:216
+#: ../zeiran/include/map_shortcodes.php:247
+msgid "400"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:248
+#: ../chamo/include/map_shortcodes.php:248
+#: ../james/include/map_shortcodes.php:217
+#: ../teemo/include/map_shortcodes.php:217
+#: ../zeiran/include/map_shortcodes.php:248
+msgid "Map height in pixels. Default is 400"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:254
+#: ../chamo/include/map_shortcodes.php:254
+#: ../james/include/map_shortcodes.php:223
+#: ../teemo/include/map_shortcodes.php:223
+#: ../zeiran/include/map_shortcodes.php:254
+msgid "Map Zoom"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:256
+#: ../chamo/include/map_shortcodes.php:256
+#: ../james/include/map_shortcodes.php:225
+#: ../teemo/include/map_shortcodes.php:225
+#: ../zeiran/include/map_shortcodes.php:256
+msgid "17"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:257
+#: ../chamo/include/map_shortcodes.php:257
+#: ../james/include/map_shortcodes.php:226
+#: ../teemo/include/map_shortcodes.php:226
+#: ../zeiran/include/map_shortcodes.php:257
+msgid "Map zoom level, min 0, max 21. Default is 17"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:263
+#: ../chairman/include/map_shortcodes.php:311
+#: ../chairman/include/map_shortcodes.php:359
+#: ../chairman/include/map_shortcodes.php:407
+#: ../chairman/include/map_shortcodes.php:455
+#: ../chamo/include/map_shortcodes.php:263
+#: ../chamo/include/map_shortcodes.php:311
+#: ../chamo/include/map_shortcodes.php:359
+#: ../chamo/include/map_shortcodes.php:407
+#: ../chamo/include/map_shortcodes.php:455
+#: ../james/include/map_shortcodes.php:232
+#: ../james/include/map_shortcodes.php:280
+#: ../james/include/map_shortcodes.php:328
+#: ../james/include/map_shortcodes.php:376
+#: ../james/include/map_shortcodes.php:424
+#: ../teemo/include/map_shortcodes.php:232
+#: ../teemo/include/map_shortcodes.php:280
+#: ../teemo/include/map_shortcodes.php:328
+#: ../teemo/include/map_shortcodes.php:376
+#: ../teemo/include/map_shortcodes.php:424
+#: ../zeiran/include/map_shortcodes.php:263
+#: ../zeiran/include/map_shortcodes.php:311
+#: ../zeiran/include/map_shortcodes.php:359
+#: ../zeiran/include/map_shortcodes.php:407
+#: ../zeiran/include/map_shortcodes.php:455
+msgid "Latitude"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:272
+#: ../chairman/include/map_shortcodes.php:320
+#: ../chairman/include/map_shortcodes.php:368
+#: ../chairman/include/map_shortcodes.php:416
+#: ../chairman/include/map_shortcodes.php:464
+#: ../chamo/include/map_shortcodes.php:272
+#: ../chamo/include/map_shortcodes.php:320
+#: ../chamo/include/map_shortcodes.php:368
+#: ../chamo/include/map_shortcodes.php:416
+#: ../chamo/include/map_shortcodes.php:464
+#: ../james/include/map_shortcodes.php:241
+#: ../james/include/map_shortcodes.php:289
+#: ../james/include/map_shortcodes.php:337
+#: ../james/include/map_shortcodes.php:385
+#: ../james/include/map_shortcodes.php:433
+#: ../teemo/include/map_shortcodes.php:241
+#: ../teemo/include/map_shortcodes.php:289
+#: ../teemo/include/map_shortcodes.php:337
+#: ../teemo/include/map_shortcodes.php:385
+#: ../teemo/include/map_shortcodes.php:433
+#: ../zeiran/include/map_shortcodes.php:272
+#: ../zeiran/include/map_shortcodes.php:320
+#: ../zeiran/include/map_shortcodes.php:368
+#: ../zeiran/include/map_shortcodes.php:416
+#: ../zeiran/include/map_shortcodes.php:464
+msgid "Longtitude"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:281
+#: ../chairman/include/map_shortcodes.php:329
+#: ../chairman/include/map_shortcodes.php:377
+#: ../chairman/include/map_shortcodes.php:425
+#: ../chairman/include/map_shortcodes.php:473
+#: ../chamo/include/map_shortcodes.php:281
+#: ../chamo/include/map_shortcodes.php:329
+#: ../chamo/include/map_shortcodes.php:377
+#: ../chamo/include/map_shortcodes.php:425
+#: ../chamo/include/map_shortcodes.php:473
+#: ../james/include/map_shortcodes.php:250
+#: ../james/include/map_shortcodes.php:298
+#: ../james/include/map_shortcodes.php:346
+#: ../james/include/map_shortcodes.php:394
+#: ../james/include/map_shortcodes.php:442
+#: ../teemo/include/map_shortcodes.php:250
+#: ../teemo/include/map_shortcodes.php:298
+#: ../teemo/include/map_shortcodes.php:346
+#: ../teemo/include/map_shortcodes.php:394
+#: ../teemo/include/map_shortcodes.php:442
+#: ../zeiran/include/map_shortcodes.php:281
+#: ../zeiran/include/map_shortcodes.php:329
+#: ../zeiran/include/map_shortcodes.php:377
+#: ../zeiran/include/map_shortcodes.php:425
+#: ../zeiran/include/map_shortcodes.php:473
+msgid "Address"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:284
+#: ../chairman/include/map_shortcodes.php:332
+#: ../chairman/include/map_shortcodes.php:380
+#: ../chairman/include/map_shortcodes.php:428
+#: ../chairman/include/map_shortcodes.php:476
+#: ../chamo/include/map_shortcodes.php:284
+#: ../chamo/include/map_shortcodes.php:332
+#: ../chamo/include/map_shortcodes.php:380
+#: ../chamo/include/map_shortcodes.php:428
+#: ../chamo/include/map_shortcodes.php:476
+#: ../james/include/map_shortcodes.php:253
+#: ../james/include/map_shortcodes.php:301
+#: ../james/include/map_shortcodes.php:349
+#: ../james/include/map_shortcodes.php:397
+#: ../james/include/map_shortcodes.php:445
+#: ../teemo/include/map_shortcodes.php:253
+#: ../teemo/include/map_shortcodes.php:301
+#: ../teemo/include/map_shortcodes.php:349
+#: ../teemo/include/map_shortcodes.php:397
+#: ../teemo/include/map_shortcodes.php:445
+#: ../zeiran/include/map_shortcodes.php:284
+#: ../zeiran/include/map_shortcodes.php:332
+#: ../zeiran/include/map_shortcodes.php:380
+#: ../zeiran/include/map_shortcodes.php:428
+#: ../zeiran/include/map_shortcodes.php:476
+msgid "If you donot enter coordinate, enter address here"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:291
+#: ../chairman/include/map_shortcodes.php:339
+#: ../chairman/include/map_shortcodes.php:387
+#: ../chairman/include/map_shortcodes.php:435
+#: ../chairman/include/map_shortcodes.php:483
+#: ../chamo/include/map_shortcodes.php:291
+#: ../chamo/include/map_shortcodes.php:339
+#: ../chamo/include/map_shortcodes.php:387
+#: ../chamo/include/map_shortcodes.php:435
+#: ../chamo/include/map_shortcodes.php:483
+#: ../james/include/map_shortcodes.php:260
+#: ../james/include/map_shortcodes.php:308
+#: ../james/include/map_shortcodes.php:356
+#: ../james/include/map_shortcodes.php:404
+#: ../james/include/map_shortcodes.php:452
+#: ../teemo/include/map_shortcodes.php:260
+#: ../teemo/include/map_shortcodes.php:308
+#: ../teemo/include/map_shortcodes.php:356
+#: ../teemo/include/map_shortcodes.php:404
+#: ../teemo/include/map_shortcodes.php:452
+#: ../zeiran/include/map_shortcodes.php:291
+#: ../zeiran/include/map_shortcodes.php:339
+#: ../zeiran/include/map_shortcodes.php:387
+#: ../zeiran/include/map_shortcodes.php:435
+#: ../zeiran/include/map_shortcodes.php:483
+msgid "Marker image"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:294
+#: ../chamo/include/map_shortcodes.php:294
+msgid "Upload marker image, image size: 40x46 px"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:301
+#: ../chairman/include/map_shortcodes.php:349
+#: ../chairman/include/map_shortcodes.php:397
+#: ../chairman/include/map_shortcodes.php:445
+#: ../chairman/include/map_shortcodes.php:493
+#: ../chairman/theme-config.php:1090 ../chairman/theme-config.php:1149
+#: ../chamo/include/map_shortcodes.php:301
+#: ../chamo/include/map_shortcodes.php:349
+#: ../chamo/include/map_shortcodes.php:397
+#: ../chamo/include/map_shortcodes.php:445
+#: ../chamo/include/map_shortcodes.php:493 ../chamo/theme-config.php:995
+#: ../james/include/map_shortcodes.php:270
+#: ../james/include/map_shortcodes.php:318
+#: ../james/include/map_shortcodes.php:366
+#: ../james/include/map_shortcodes.php:414
+#: ../james/include/map_shortcodes.php:462 ../james/theme-config.php:872
+#: ../teemo/include/map_shortcodes.php:270
+#: ../teemo/include/map_shortcodes.php:318
+#: ../teemo/include/map_shortcodes.php:366
+#: ../teemo/include/map_shortcodes.php:414
+#: ../teemo/include/map_shortcodes.php:462 ../teemo/theme-config.php:1090
+#: ../zeiran/include/map_shortcodes.php:301
+#: ../zeiran/include/map_shortcodes.php:349
+#: ../zeiran/include/map_shortcodes.php:397
+#: ../zeiran/include/map_shortcodes.php:445
+#: ../zeiran/include/map_shortcodes.php:493 ../zeiran/theme-config.php:1064
+#: ../zeiran/theme-config.php:1123
+msgid "Description"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:304
+#: ../chamo/include/map_shortcodes.php:304
+#: ../james/include/map_shortcodes.php:273
+#: ../teemo/include/map_shortcodes.php:273
+#: ../zeiran/include/map_shortcodes.php:304
+msgid "Allowed HTML tags: a, i, em, br, strong, h1, h2, h3"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:342
+#: ../chairman/include/map_shortcodes.php:390
+#: ../chairman/include/map_shortcodes.php:438
+#: ../chairman/include/map_shortcodes.php:486
+#: ../chamo/include/map_shortcodes.php:342
+#: ../chamo/include/map_shortcodes.php:390
+#: ../chamo/include/map_shortcodes.php:438
+#: ../chamo/include/map_shortcodes.php:486
+#: ../james/include/map_shortcodes.php:263
+#: ../james/include/map_shortcodes.php:311
+#: ../james/include/map_shortcodes.php:359
+#: ../james/include/map_shortcodes.php:407
+#: ../james/include/map_shortcodes.php:455
+#: ../teemo/include/map_shortcodes.php:263
+#: ../teemo/include/map_shortcodes.php:311
+#: ../teemo/include/map_shortcodes.php:359
+#: ../teemo/include/map_shortcodes.php:407
+#: ../teemo/include/map_shortcodes.php:455
+#: ../zeiran/include/map_shortcodes.php:294
+#: ../zeiran/include/map_shortcodes.php:342
+#: ../zeiran/include/map_shortcodes.php:390
+#: ../zeiran/include/map_shortcodes.php:438
+#: ../zeiran/include/map_shortcodes.php:486
+msgid "Upload marker image"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:352
+#: ../chamo/include/map_shortcodes.php:352
+#: ../james/include/map_shortcodes.php:321
+#: ../teemo/include/map_shortcodes.php:321
+#: ../zeiran/include/map_shortcodes.php:352
+msgid "Allowed HTML tags: a, i, em, br, strong, p, h2, h2, h3"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:400
+#: ../chamo/include/map_shortcodes.php:400
+#: ../james/include/map_shortcodes.php:369
+#: ../teemo/include/map_shortcodes.php:369
+#: ../zeiran/include/map_shortcodes.php:400
+msgid "Allowed HTML tags: a, i, em, br, strong, p, h3, h3, h3"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:448
+#: ../chamo/include/map_shortcodes.php:448
+#: ../james/include/map_shortcodes.php:417
+#: ../teemo/include/map_shortcodes.php:417
+#: ../zeiran/include/map_shortcodes.php:448
+msgid "Allowed HTML tags: a, i, em, br, strong, p, h4, h4, h4"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:496
+#: ../chamo/include/map_shortcodes.php:496
+#: ../james/include/map_shortcodes.php:465
+#: ../teemo/include/map_shortcodes.php:465
+#: ../zeiran/include/map_shortcodes.php:496
+msgid "Allowed HTML tags: a, i, em, br, strong, p, h5, h5, h5"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:504
+msgid "Counter"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:513
+msgid "Image icon"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:516
+msgid "Upload icon image"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:522
+msgid "Number"
+msgstr ""
+
+#: ../chairman/include/map_shortcodes.php:530
+msgid "Text"
+msgstr ""
+
+#: ../chairman/include/productsharing.php:18
+#: ../chamo/include/productsharing.php:18
+#: ../james/include/productsharing.php:18
+#: ../teemo/include/productsharing.php:18
+#: ../zeiran/include/productsharing.php:18
+msgid "Share this product"
+msgstr ""
+
+#: ../chairman/include/wooajax.php:123
+#: ../chairman/woocommerce/cart/mini-cart.php:21
+#: ../chamo/include/wooajax.php:123 ../chamo/woocommerce/cart/mini-cart.php:31
+#: ../james/include/wooajax.php:121 ../james/woocommerce/cart/mini-cart.php:30
+#: ../teemo/include/wooajax.php:121 ../teemo/woocommerce/cart/mini-cart.php:31
+#: ../zeiran/include/wooajax.php:121
+#: ../zeiran/woocommerce/cart/mini-cart.php:32
+#, php-format
+msgid "%d"
+msgstr ""
+
+#: ../chairman/include/wooajax.php:140 ../chamo/include/wooajax.php:140
+#: ../james/include/wooajax.php:138 ../teemo/include/wooajax.php:138
+#: ../zeiran/include/wooajax.php:138
+msgid "Product is added to cart"
+msgstr ""
+
+#: ../chairman/include/wooajax.php:168
+#: ../chairman/woocommerce/cart/mini-cart.php:78
+#: ../chamo/include/wooajax.php:168 ../chamo/woocommerce/cart/mini-cart.php:88
+#: ../james/include/wooajax.php:166 ../james/woocommerce/cart/mini-cart.php:81
+#: ../teemo/include/wooajax.php:172 ../teemo/woocommerce/cart/mini-cart.php:83
+#: ../zeiran/include/wooajax.php:166
+#: ../zeiran/woocommerce/cart/mini-cart.php:86
+msgid "View Cart"
+msgstr ""
+
+#: ../chairman/index.php:112 ../chamo/index.php:91 ../james/index.php:89
+#: ../teemo/index.php:88 ../zeiran/index.php:89
+msgid "No posts to display"
+msgstr ""
+
+#: ../chairman/index.php:116 ../chamo/index.php:95 ../james/index.php:93
+#: ../teemo/index.php:92 ../zeiran/index.php:93
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: ../chairman/search.php:70 ../chamo/search.php:69 ../james/search.php:61
+#: ../teemo/search.php:66 ../twentyfifteen/search.php:18
+#: ../twentyfourteen/search.php:18 ../twentythirteen/search.php:18
+#: ../zeiran/search.php:62
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../chairman/search.php:90 ../chamo/search.php:89 ../james/search.php:81
+#: ../teemo/search.php:86 ../zeiran/search.php:82
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../chairman/single.php:68 ../chamo/single.php:68 ../james/single.php:66
+#: ../zeiran/single.php:67
+msgid "&larr;"
+msgstr ""
+
+#: ../chairman/single.php:69 ../chamo/single.php:69 ../james/single.php:67
+#: ../zeiran/single.php:68
+msgid "&rarr;"
+msgstr ""
+
+#: ../chairman/tag.php:73 ../chamo/tag.php:73 ../james/tag.php:65
+#: ../teemo/tag.php:70 ../twentyfourteen/tag.php:22
+#: ../twentythirteen/tag.php:21 ../zeiran/tag.php:66
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../chairman/theme-config.php:97 ../chamo/theme-config.php:97
+#: ../james/theme-config.php:96 ../teemo/theme-config.php:96
+#: ../zeiran/theme-config.php:96
+msgid "Section via hook"
+msgstr ""
+
+#: ../chairman/theme-config.php:98 ../chamo/theme-config.php:98
+#: ../james/theme-config.php:97 ../teemo/theme-config.php:97
+#: ../zeiran/theme-config.php:97
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../chairman/theme-config.php:176 ../chamo/theme-config.php:176
+#: ../james/theme-config.php:175 ../teemo/theme-config.php:175
+#: ../zeiran/theme-config.php:175
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../chairman/theme-config.php:193 ../chamo/theme-config.php:193
+#: ../james/theme-config.php:192 ../teemo/theme-config.php:192
+#: ../zeiran/theme-config.php:192
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../chairman/theme-config.php:194 ../chamo/theme-config.php:194
+#: ../james/theme-config.php:193 ../teemo/theme-config.php:193
+#: ../zeiran/theme-config.php:193
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../chairman/theme-config.php:195 ../chamo/theme-config.php:195
+#: ../james/theme-config.php:194 ../teemo/theme-config.php:194
+#: ../twentyfifteen/inc/template-tags.php:102 ../zeiran/theme-config.php:194
+msgid "Tags"
+msgstr ""
+
+#: ../chairman/theme-config.php:200 ../chamo/theme-config.php:200
+#: ../james/theme-config.php:199 ../teemo/theme-config.php:199
+#: ../zeiran/theme-config.php:199
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../chairman/theme-config.php:200 ../chamo/theme-config.php:200
+#: ../james/theme-config.php:199 ../teemo/theme-config.php:199
+#: ../zeiran/theme-config.php:199
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../chairman/theme-config.php:223 ../chamo/theme-config.php:223
+#: ../james/theme-config.php:215 ../teemo/theme-config.php:215
+#: ../zeiran/theme-config.php:215
+msgid "General"
+msgstr ""
+
+#: ../chairman/theme-config.php:224 ../chamo/theme-config.php:224
+#: ../james/theme-config.php:216 ../teemo/theme-config.php:216
+#: ../zeiran/theme-config.php:216
+msgid "General theme options"
+msgstr ""
+
+#: ../chairman/theme-config.php:231 ../chamo/theme-config.php:231
+#: ../james/theme-config.php:223 ../teemo/theme-config.php:223
+#: ../zeiran/theme-config.php:223
+msgid "Logo"
+msgstr ""
+
+#: ../chairman/theme-config.php:234 ../chairman/theme-config.php:671
+#: ../chamo/theme-config.php:234 ../chamo/theme-config.php:242
+#: ../chamo/theme-config.php:627 ../james/theme-config.php:226
+#: ../teemo/theme-config.php:226 ../teemo/theme-config.php:717
+#: ../teemo/theme-config.php:1442 ../zeiran/theme-config.php:226
+msgid "Upload logo here."
+msgstr ""
+
+#: ../chairman/theme-config.php:239 ../chamo/theme-config.php:247
+#: ../james/theme-config.php:231 ../teemo/theme-config.php:231
+#: ../zeiran/theme-config.php:231
+msgid "Favicon"
+msgstr ""
+
+#: ../chairman/theme-config.php:242 ../chamo/theme-config.php:250
+#: ../james/theme-config.php:234 ../teemo/theme-config.php:234
+#: ../zeiran/theme-config.php:234
+msgid "Upload favicon here."
+msgstr ""
+
+#: ../chairman/theme-config.php:248 ../chamo/theme-config.php:256
+#: ../james/theme-config.php:240 ../teemo/theme-config.php:240
+#: ../zeiran/theme-config.php:240
+msgid "Body background"
+msgstr ""
+
+#: ../chairman/theme-config.php:249 ../chamo/theme-config.php:257
+#: ../james/theme-config.php:241 ../teemo/theme-config.php:241
+#: ../zeiran/theme-config.php:241
+msgid "Upload image or select color. Only work with box layout"
+msgstr ""
+
+#: ../chairman/theme-config.php:256 ../chamo/theme-config.php:266
+#: ../james/theme-config.php:248 ../teemo/theme-config.php:248
+#: ../zeiran/theme-config.php:248
+msgid "Page content background"
+msgstr ""
+
+#: ../chairman/theme-config.php:257 ../chamo/theme-config.php:267
+#: ../james/theme-config.php:249 ../teemo/theme-config.php:249
+#: ../zeiran/theme-config.php:249
+msgid "Select background for page content (default: #ffffff)."
+msgstr ""
+
+#: ../chairman/theme-config.php:263
+msgid "Border Option"
+msgstr ""
+
+#: ../chairman/theme-config.php:264
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: ../chairman/theme-config.php:270 ../chamo/theme-config.php:275
+#: ../james/theme-config.php:255 ../teemo/theme-config.php:255
+#: ../zeiran/theme-config.php:255
+msgid "Back To Top"
+msgstr ""
+
+#: ../chairman/theme-config.php:271 ../chamo/theme-config.php:276
+#: ../james/theme-config.php:256 ../teemo/theme-config.php:256
+#: ../zeiran/theme-config.php:256
+msgid "Show back to top button on all pages"
+msgstr ""
+
+#: ../chairman/theme-config.php:278 ../chamo/theme-config.php:283
+#: ../james/theme-config.php:264 ../teemo/theme-config.php:264
+#: ../zeiran/theme-config.php:264
+msgid "Colors"
+msgstr ""
+
+#: ../chairman/theme-config.php:279 ../chamo/theme-config.php:284
+#: ../james/theme-config.php:265 ../teemo/theme-config.php:265
+#: ../zeiran/theme-config.php:265
+msgid "Color options"
+msgstr ""
+
+#: ../chairman/theme-config.php:285 ../chamo/theme-config.php:290
+#: ../james/theme-config.php:271 ../teemo/theme-config.php:271
+#: ../zeiran/theme-config.php:271
+msgid "Primary Color"
+msgstr ""
+
+#: ../chairman/theme-config.php:286
+msgid "Pick a color for primary color (default: #fbaf5d)."
+msgstr ""
+
+#: ../chairman/theme-config.php:296 ../chamo/theme-config.php:301
+#: ../james/theme-config.php:282 ../teemo/theme-config.php:282
+#: ../zeiran/theme-config.php:282
+msgid "Sale Label BG Color"
+msgstr ""
+
+#: ../chairman/theme-config.php:297
+msgid "Pick a color for bg sale label (default: #ee9c9c)."
+msgstr ""
+
+#: ../chairman/theme-config.php:307 ../chamo/theme-config.php:312
+#: ../james/theme-config.php:293 ../teemo/theme-config.php:293
+#: ../zeiran/theme-config.php:293
+msgid "Sale Label Text Color"
+msgstr ""
+
+#: ../chairman/theme-config.php:308 ../chamo/theme-config.php:313
+#: ../teemo/theme-config.php:294
+msgid "Pick a color for sale label text (default: #ffffff)."
+msgstr ""
+
+#: ../chairman/theme-config.php:318 ../chamo/theme-config.php:323
+#: ../james/theme-config.php:304 ../teemo/theme-config.php:304
+#: ../zeiran/theme-config.php:304
+msgid "Rating Star Color"
+msgstr ""
+
+#: ../chairman/theme-config.php:319
+msgid "Pick a color for star of rating (default: #323334)."
+msgstr ""
+
+#: ../chairman/theme-config.php:328 ../chamo/theme-config.php:333
+#: ../james/theme-config.php:314 ../teemo/theme-config.php:314
+#: ../zeiran/theme-config.php:314
+msgid "Link Color"
+msgstr ""
+
+#: ../chairman/theme-config.php:329
+msgid "Pick a color for link (default: #fbaf5d)."
+msgstr ""
+
+#: ../chairman/theme-config.php:340 ../chamo/theme-config.php:345
+#: ../james/theme-config.php:326 ../teemo/theme-config.php:326
+#: ../zeiran/theme-config.php:326
+msgid "Text selected background"
+msgstr ""
+
+#: ../chairman/theme-config.php:341 ../chamo/theme-config.php:346
+#: ../james/theme-config.php:327 ../teemo/theme-config.php:327
+#: ../zeiran/theme-config.php:327
+msgid "Select background for selected text (default: #91b2c3)."
+msgstr ""
+
+#: ../chairman/theme-config.php:349 ../chamo/theme-config.php:354
+#: ../james/theme-config.php:335 ../teemo/theme-config.php:335
+#: ../zeiran/theme-config.php:335
+msgid "Text selected color"
+msgstr ""
+
+#: ../chairman/theme-config.php:350 ../chamo/theme-config.php:355
+#: ../james/theme-config.php:336 ../teemo/theme-config.php:336
+#: ../zeiran/theme-config.php:336
+msgid "Select color for selected text (default: #ffffff)."
+msgstr ""
+
+#: ../chairman/theme-config.php:360 ../chamo/theme-config.php:365
+#: ../james/theme-config.php:346 ../teemo/theme-config.php:374
+#: ../zeiran/theme-config.php:346
+msgid "Header"
+msgstr ""
+
+#: ../chairman/theme-config.php:361 ../chamo/theme-config.php:366
+#: ../james/theme-config.php:347 ../teemo/theme-config.php:375
+#: ../zeiran/theme-config.php:347
+msgid "Header options"
+msgstr ""
+
+#: ../chairman/theme-config.php:368 ../chamo/theme-config.php:373
+#: ../james/theme-config.php:354 ../teemo/theme-config.php:382
+#: ../zeiran/theme-config.php:354
+msgid "Header Layout"
+msgstr ""
+
+#: ../chairman/theme-config.php:394 ../chamo/theme-config.php:390
+#: ../james/theme-config.php:366 ../teemo/theme-config.php:396
+#: ../zeiran/theme-config.php:373
+msgid "Header background"
+msgstr ""
+
+#: ../chairman/theme-config.php:395 ../chairman/theme-config.php:521
+#: ../chairman/theme-config.php:639 ../chairman/theme-config.php:1401
+#: ../chairman/theme-config.php:1528 ../chamo/theme-config.php:391
+#: ../chamo/theme-config.php:1366 ../james/theme-config.php:367
+#: ../james/theme-config.php:451 ../james/theme-config.php:552
+#: ../teemo/theme-config.php:397 ../teemo/theme-config.php:490
+#: ../teemo/theme-config.php:671 ../teemo/theme-config.php:1449
+#: ../zeiran/theme-config.php:374 ../zeiran/theme-config.php:458
+#: ../zeiran/theme-config.php:645
+msgid "Upload image or select color."
+msgstr ""
+
+#: ../chairman/theme-config.php:402 ../chamo/theme-config.php:401
+#: ../james/theme-config.php:374 ../teemo/theme-config.php:412
+#: ../zeiran/theme-config.php:381
+msgid "Header text color"
+msgstr ""
+
+#: ../chairman/theme-config.php:403
+msgid "Pick a color for top bar text color (default: #323334)."
+msgstr ""
+
+#: ../chairman/theme-config.php:411 ../chamo/theme-config.php:410
+#: ../james/theme-config.php:383 ../teemo/theme-config.php:421
+#: ../zeiran/theme-config.php:390
+msgid "Header link color"
+msgstr ""
+
+#: ../chairman/theme-config.php:412
+msgid "Pick a color for header link color (default: #323334)."
+msgstr ""
+
+#: ../chairman/theme-config.php:425 ../chairman/theme-config.php:432
+msgid "Social Icons 2"
+msgstr ""
+
+#: ../chairman/theme-config.php:433 ../chairman/theme-config.php:737
+#: ../chamo/theme-config.php:669 ../teemo/theme-config.php:810
+#: ../zeiran/theme-config.php:497 ../zeiran/theme-config.php:782
+msgid "Enter social links"
+msgstr ""
+
+#: ../chairman/theme-config.php:434 ../chairman/theme-config.php:738
+#: ../chamo/theme-config.php:670 ../teemo/theme-config.php:811
+#: ../zeiran/theme-config.php:498 ../zeiran/theme-config.php:783
+msgid "Drag/drop to re-arrange"
+msgstr ""
+
+#: ../chairman/theme-config.php:471 ../chamo/theme-config.php:471
+#: ../james/theme-config.php:402 ../teemo/theme-config.php:441
+#: ../zeiran/theme-config.php:409
+msgid "Sticky header"
+msgstr ""
+
+#: ../chairman/theme-config.php:477 ../chamo/theme-config.php:477
+#: ../james/theme-config.php:408 ../teemo/theme-config.php:447
+#: ../zeiran/theme-config.php:415
+msgid "Use sticky header"
+msgstr ""
+
+#: ../chairman/theme-config.php:483 ../chamo/theme-config.php:483
+#: ../james/theme-config.php:414 ../teemo/theme-config.php:453
+#: ../zeiran/theme-config.php:421
+msgid "Header sticky background"
+msgstr ""
+
+#: ../chairman/theme-config.php:513 ../chamo/theme-config.php:431
+#: ../james/theme-config.php:443 ../teemo/theme-config.php:482
+#: ../zeiran/theme-config.php:450
+msgid "Top Bar"
+msgstr ""
+
+#: ../chairman/theme-config.php:520 ../chamo/theme-config.php:438
+#: ../james/theme-config.php:450 ../teemo/theme-config.php:489
+#: ../zeiran/theme-config.php:457
+msgid "Top bar background"
+msgstr ""
+
+#: ../chairman/theme-config.php:528 ../chamo/theme-config.php:446
+#: ../james/theme-config.php:458 ../teemo/theme-config.php:497
+#: ../zeiran/theme-config.php:465
+msgid "Top bar text color"
+msgstr ""
+
+#: ../chairman/theme-config.php:529
+msgid "Pick a color for top bar text color (default: #9d9d9e)."
+msgstr ""
+
+#: ../chairman/theme-config.php:538 ../chamo/theme-config.php:456
+#: ../james/theme-config.php:468 ../teemo/theme-config.php:507
+#: ../zeiran/theme-config.php:475
+msgid "Top bar link color"
+msgstr ""
+
+#: ../chairman/theme-config.php:539
+msgid "Pick a color for top bar link color (default: #9d9d9e)."
+msgstr ""
+
+#: ../chairman/theme-config.php:550
+msgid "Blog Header"
+msgstr ""
+
+#: ../chairman/theme-config.php:551
+msgid "HTML tags allowed: a, label, img, br, em, strong, p, ul, li"
+msgstr ""
+
+#: ../chairman/theme-config.php:562
+#: ../chairman/woocommerce/myaccount/form-login.php:29
+#: ../chairman/woocommerce/myaccount/form-login.php:49
+#: ../chamo/woocommerce/myaccount/form-login.php:29
+#: ../chamo/woocommerce/myaccount/form-login.php:49
+#: ../james/woocommerce/myaccount/form-login.php:29
+#: ../james/woocommerce/myaccount/form-login.php:49
+#: ../teemo/woocommerce/myaccount/form-login.php:29
+#: ../teemo/woocommerce/myaccount/form-login.php:49
+#: ../zeiran/woocommerce/myaccount/form-login.php:29
+#: ../zeiran/woocommerce/myaccount/form-login.php:49
+msgid "Login"
+msgstr ""
+
+#: ../chairman/theme-config.php:563 ../chairman/theme-config.php:579
+#: ../chairman/theme-config.php:831 ../chairman/theme-config.php:838
+#: ../chairman/theme-config.php:845 ../chairman/theme-config.php:852
+#: ../chamo/theme-config.php:787 ../james/theme-config.php:633
+#: ../james/theme-config.php:640 ../teemo/theme-config.php:759
+#: ../teemo/theme-config.php:766 ../teemo/theme-config.php:773
+#: ../zeiran/theme-config.php:820 ../zeiran/theme-config.php:827
+msgid "Select a menu"
+msgstr ""
+
+#: ../chairman/theme-config.php:570 ../chamo/theme-config.php:512
+#: ../james/theme-config.php:483 ../teemo/theme-config.php:538
+#: ../twentythirteen/header.php:43 ../zeiran/theme-config.php:528
+msgid "Menu"
+msgstr ""
+
+#: ../chairman/theme-config.php:584 ../chamo/theme-config.php:519
+#: ../james/theme-config.php:490 ../teemo/theme-config.php:545
+#: ../zeiran/theme-config.php:535
+msgid "Mobile menu label"
+msgstr ""
+
+#: ../chairman/theme-config.php:585 ../chamo/theme-config.php:520
+#: ../james/theme-config.php:491 ../teemo/theme-config.php:546
+#: ../zeiran/theme-config.php:536
+msgid "The label for mobile menu (example: Menu, Go to..."
+msgstr ""
+
+#: ../chairman/theme-config.php:592 ../chamo/theme-config.php:527
+#: ../james/theme-config.php:498 ../teemo/theme-config.php:553
+#: ../zeiran/theme-config.php:543
+msgid "Submenu background"
+msgstr ""
+
+#: ../chairman/theme-config.php:593 ../teemo/theme-config.php:554
+msgid "Pick a color for sub menu bg (default: #ffffff)."
+msgstr ""
+
+#: ../chairman/theme-config.php:602 ../chamo/theme-config.php:537
+#: ../james/theme-config.php:508 ../teemo/theme-config.php:563
+#: ../zeiran/theme-config.php:553
+msgid "Submenu color"
+msgstr ""
+
+#: ../chairman/theme-config.php:603
+msgid "Pick a color for sub menu color (default: #a9a9a9)."
+msgstr ""
+
+#: ../chairman/theme-config.php:612 ../chamo/theme-config.php:568
+#: ../james/theme-config.php:519 ../teemo/theme-config.php:637
+#: ../zeiran/theme-config.php:626
+msgid "Footer"
+msgstr ""
+
+#: ../chairman/theme-config.php:613 ../chamo/theme-config.php:569
+#: ../james/theme-config.php:520 ../teemo/theme-config.php:638
+#: ../zeiran/theme-config.php:627
+msgid "Footer options"
+msgstr ""
+
+#: ../chairman/theme-config.php:620 ../chamo/theme-config.php:576
+#: ../james/theme-config.php:526 ../teemo/theme-config.php:644
+#: ../zeiran/theme-config.php:633
+msgid "Footer Layout"
+msgstr ""
+
+#: ../chairman/theme-config.php:638 ../chamo/theme-config.php:592
+#: ../james/theme-config.php:551 ../teemo/theme-config.php:670
+#: ../zeiran/theme-config.php:644
+msgid "Footer background"
+msgstr ""
+
+#: ../chairman/theme-config.php:646 ../chamo/theme-config.php:602
+#: ../james/theme-config.php:559 ../teemo/theme-config.php:692
+#: ../zeiran/theme-config.php:652
+msgid "Footer text color"
+msgstr ""
+
+#: ../chairman/theme-config.php:647
+msgid "Pick a color for top bar text color (default: #848484)."
+msgstr ""
+
+#: ../chairman/theme-config.php:656 ../chamo/theme-config.php:612
+#: ../james/theme-config.php:569 ../teemo/theme-config.php:702
+#: ../zeiran/theme-config.php:662
+msgid "Footer link color"
+msgstr ""
+
+#: ../chairman/theme-config.php:657
+msgid "Pick a color for footer link color (default: #848484)."
+msgstr ""
+
+#: ../chairman/theme-config.php:668 ../chamo/theme-config.php:624
+#: ../teemo/theme-config.php:714
+msgid "Footer Logo"
+msgstr ""
+
+#: ../chairman/theme-config.php:676 ../chamo/theme-config.php:632
+#: ../james/theme-config.php:581 ../teemo/theme-config.php:733
+#: ../zeiran/theme-config.php:674
+msgid "Copyright information"
+msgstr ""
+
+#: ../chairman/theme-config.php:677 ../chamo/theme-config.php:633
+#: ../james/theme-config.php:582 ../teemo/theme-config.php:734
+#: ../zeiran/theme-config.php:675
+msgid "HTML tags allowed: a, br, em, strong"
+msgstr ""
+
+#: ../chairman/theme-config.php:688 ../james/theme-config.php:593
+#: ../teemo/theme-config.php:745 ../zeiran/theme-config.php:686
+msgid "Payment icons"
+msgstr ""
+
+#: ../chairman/theme-config.php:689 ../chairman/theme-config.php:1316
+#: ../james/theme-config.php:594 ../teemo/theme-config.php:746
+#: ../zeiran/theme-config.php:687
+msgid "HTML tags allowed: a, img"
+msgstr ""
+
+#: ../chairman/theme-config.php:701 ../chamo/theme-config.php:732
+#: ../teemo/theme-config.php:780 ../zeiran/theme-config.php:699
+msgid "Newsletter"
+msgstr ""
+
+#: ../chairman/theme-config.php:707 ../chamo/theme-config.php:738
+#: ../teemo/theme-config.php:786 ../zeiran/theme-config.php:705
+msgid "Newsletter title"
+msgstr ""
+
+#: ../chairman/theme-config.php:713 ../chamo/theme-config.php:744
+#: ../teemo/theme-config.php:792 ../zeiran/theme-config.php:717
+msgid "Newsletter form ID"
+msgstr ""
+
+#: ../chairman/theme-config.php:714 ../chamo/theme-config.php:745
+#: ../teemo/theme-config.php:793 ../zeiran/theme-config.php:718
+msgid "The form ID of MailPoet plugin."
+msgstr ""
+
+#: ../chairman/theme-config.php:723 ../chairman/theme-config.php:736
+#: ../chamo/theme-config.php:661 ../chamo/theme-config.php:668
+#: ../teemo/theme-config.php:802 ../teemo/theme-config.php:809
+#: ../zeiran/theme-config.php:489 ../zeiran/theme-config.php:496
+#: ../zeiran/theme-config.php:774 ../zeiran/theme-config.php:781
+msgid "Social Icons"
+msgstr ""
+
+#: ../chairman/theme-config.php:730
+msgid "Social title"
+msgstr ""
+
+#: ../chairman/theme-config.php:773 ../chairman/theme-config.php:785
+#: ../chamo/theme-config.php:646 ../chamo/theme-config.php:652
+#: ../teemo/theme-config.php:722
+msgid "About Us"
+msgstr ""
+
+#: ../chairman/theme-config.php:779
+msgid "About Us title"
+msgstr ""
+
+#: ../chairman/theme-config.php:786 ../chairman/theme-config.php:793
+#: ../chairman/theme-config.php:814 ../chamo/theme-config.php:653
+#: ../chamo/theme-config.php:768 ../james/theme-config.php:613
+#: ../zeiran/theme-config.php:762
+msgid "HTML tags allowed: a, img, br, em, strong, p, ul, li"
+msgstr ""
+
+#: ../chairman/theme-config.php:792
+msgid "Portfolio1 About Us"
+msgstr ""
+
+#: ../chairman/theme-config.php:801 ../chairman/theme-config.php:813
+#: ../james/theme-config.php:606 ../james/theme-config.php:612
+#: ../teemo/theme-config.php:846 ../teemo/theme-config.php:852
+#: ../zeiran/theme-config.php:747 ../zeiran/theme-config.php:761
+msgid "Contact Us"
+msgstr ""
+
+#: ../chairman/theme-config.php:807
+msgid "Contact Us title"
+msgstr ""
+
+#: ../chairman/theme-config.php:823 ../chamo/theme-config.php:779
+#: ../james/theme-config.php:625 ../zeiran/theme-config.php:812
+msgid "Menus"
+msgstr ""
+
+#: ../chairman/theme-config.php:830 ../james/theme-config.php:632
+#: ../zeiran/theme-config.php:819
+msgid "Menu #1"
+msgstr ""
+
+#: ../chairman/theme-config.php:837 ../james/theme-config.php:639
+#: ../zeiran/theme-config.php:826
+msgid "Menu #2"
+msgstr ""
+
+#: ../chairman/theme-config.php:844
+msgid "Menu Blog1"
+msgstr ""
+
+#: ../chairman/theme-config.php:851
+msgid "Menu Restaurant1"
+msgstr ""
+
+#: ../chairman/theme-config.php:860 ../chamo/theme-config.php:794
+#: ../james/theme-config.php:647 ../teemo/theme-config.php:865
+#: ../zeiran/theme-config.php:835
+msgid "Fonts"
+msgstr ""
+
+#: ../chairman/theme-config.php:861 ../chamo/theme-config.php:795
+#: ../james/theme-config.php:648 ../teemo/theme-config.php:866
+#: ../zeiran/theme-config.php:836
+msgid "Fonts options"
+msgstr ""
+
+#: ../chairman/theme-config.php:868 ../chamo/theme-config.php:802
+#: ../james/theme-config.php:655 ../teemo/theme-config.php:873
+#: ../zeiran/theme-config.php:843
+msgid "Body font"
+msgstr ""
+
+#: ../chairman/theme-config.php:885 ../chamo/theme-config.php:819
+#: ../james/theme-config.php:672 ../teemo/theme-config.php:890
+#: ../zeiran/theme-config.php:860
+msgid "Main body font."
+msgstr ""
+
+#: ../chairman/theme-config.php:898 ../chamo/theme-config.php:832
+#: ../james/theme-config.php:685 ../teemo/theme-config.php:903
+#: ../zeiran/theme-config.php:873
+msgid "Heading font"
+msgstr ""
+
+#: ../chairman/theme-config.php:915 ../chamo/theme-config.php:849
+#: ../james/theme-config.php:702 ../teemo/theme-config.php:920
+#: ../zeiran/theme-config.php:890
+msgid "Heading font."
+msgstr ""
+
+#: ../chairman/theme-config.php:926 ../chamo/theme-config.php:860
+#: ../james/theme-config.php:713 ../teemo/theme-config.php:931
+#: ../zeiran/theme-config.php:901
+msgid "Menu font"
+msgstr ""
+
+#: ../chairman/theme-config.php:943 ../chamo/theme-config.php:877
+#: ../james/theme-config.php:730 ../james/theme-config.php:759
+#: ../teemo/theme-config.php:948 ../zeiran/theme-config.php:918
+#: ../zeiran/theme-config.php:947
+msgid "Menu font."
+msgstr ""
+
+#: ../chairman/theme-config.php:955
+msgid "Price font"
+msgstr ""
+
+#: ../chairman/theme-config.php:972
+msgid "Price font."
+msgstr ""
+
+#: ../chairman/theme-config.php:986 ../chamo/theme-config.php:891
+#: ../james/theme-config.php:773 ../teemo/theme-config.php:991
+#: ../twentyfourteen/inc/customizer.php:56 ../zeiran/theme-config.php:961
+msgid "Layout"
+msgstr ""
+
+#: ../chairman/theme-config.php:987 ../chamo/theme-config.php:892
+#: ../james/theme-config.php:774 ../teemo/theme-config.php:992
+#: ../zeiran/theme-config.php:962
+msgid "Select page layout: Box or Full Width"
+msgstr ""
+
+#: ../chairman/theme-config.php:994 ../chamo/theme-config.php:899
+#: ../james/theme-config.php:781 ../teemo/theme-config.php:999
+#: ../zeiran/theme-config.php:969
+msgid "Page Layout"
+msgstr ""
+
+#: ../chairman/theme-config.php:1004 ../chamo/theme-config.php:909
+#: ../james/theme-config.php:791 ../teemo/theme-config.php:1009
+#: ../zeiran/theme-config.php:979
+msgid "Box layout width"
+msgstr ""
+
+#: ../chairman/theme-config.php:1005 ../chamo/theme-config.php:910
+#: ../james/theme-config.php:792 ../teemo/theme-config.php:1010
+#: ../zeiran/theme-config.php:980
+msgid "Box layout width in pixels, default value: 1200"
+msgstr ""
+
+#: ../chairman/theme-config.php:1015 ../chamo/theme-config.php:920
+#: ../james/theme-config.php:802 ../teemo/theme-config.php:1020
+#: ../zeiran/theme-config.php:990
+msgid "Preset"
+msgstr ""
+
+#: ../chairman/theme-config.php:1016 ../chamo/theme-config.php:921
+#: ../james/theme-config.php:803 ../teemo/theme-config.php:1021
+#: ../zeiran/theme-config.php:991
+msgid "Select a preset to quickly apply pre-defined colors and fonts"
+msgstr ""
+
+#: ../chairman/theme-config.php:1031 ../chamo/theme-config.php:936
+#: ../james/theme-config.php:813 ../teemo/theme-config.php:1031
+#: ../zeiran/theme-config.php:1005
+msgid "Show Style Switcher"
+msgstr ""
+
+#: ../chairman/theme-config.php:1032 ../chamo/theme-config.php:937
+#: ../james/theme-config.php:814 ../teemo/theme-config.php:1032
+#: ../zeiran/theme-config.php:1006
+msgid "The style switcher is only for preview on front-end"
+msgstr ""
+
+#: ../chairman/theme-config.php:1041 ../chamo/theme-config.php:946
+#: ../james/theme-config.php:823 ../teemo/theme-config.php:1041
+#: ../zeiran/theme-config.php:1015
+msgid "Upload brand logos and links"
+msgstr ""
+
+#: ../chairman/theme-config.php:1047 ../chairman/theme-config.php:1106
+#: ../chairman/theme-config.php:1490 ../chamo/theme-config.php:952
+#: ../chamo/theme-config.php:1328 ../james/theme-config.php:829
+#: ../james/theme-config.php:1184 ../teemo/theme-config.php:1047
+#: ../teemo/theme-config.php:1402 ../zeiran/theme-config.php:1021
+#: ../zeiran/theme-config.php:1080 ../zeiran/theme-config.php:1435
+msgid "Auto scroll"
+msgstr ""
+
+#: ../chairman/theme-config.php:1053 ../chairman/theme-config.php:1112
+#: ../chamo/theme-config.php:958 ../james/theme-config.php:835
+#: ../teemo/theme-config.php:1053 ../zeiran/theme-config.php:1027
+#: ../zeiran/theme-config.php:1086
+msgid "Scroll amount"
+msgstr ""
+
+#: ../chairman/theme-config.php:1054 ../james/theme-config.php:836
+#: ../teemo/theme-config.php:1054 ../zeiran/theme-config.php:1028
+msgid "Number of logos to scroll one time, default value: 2"
+msgstr ""
+
+#: ../chairman/theme-config.php:1064 ../chairman/theme-config.php:1123
+#: ../chairman/theme-config.php:1460 ../chairman/theme-config.php:1496
+#: ../chamo/theme-config.php:969 ../chamo/theme-config.php:1298
+#: ../chamo/theme-config.php:1334 ../james/theme-config.php:846
+#: ../james/theme-config.php:1154 ../james/theme-config.php:1190
+#: ../teemo/theme-config.php:1064 ../teemo/theme-config.php:1372
+#: ../teemo/theme-config.php:1408 ../zeiran/theme-config.php:1038
+#: ../zeiran/theme-config.php:1097 ../zeiran/theme-config.php:1405
+#: ../zeiran/theme-config.php:1441
+msgid "Pause in (seconds)"
+msgstr ""
+
+#: ../chairman/theme-config.php:1065 ../chairman/theme-config.php:1124
+#: ../chairman/theme-config.php:1461 ../chairman/theme-config.php:1497
+#: ../chamo/theme-config.php:970 ../chamo/theme-config.php:1299
+#: ../chamo/theme-config.php:1335 ../james/theme-config.php:847
+#: ../james/theme-config.php:1155 ../james/theme-config.php:1191
+#: ../teemo/theme-config.php:1065 ../teemo/theme-config.php:1373
+#: ../teemo/theme-config.php:1409 ../zeiran/theme-config.php:1039
+#: ../zeiran/theme-config.php:1098 ../zeiran/theme-config.php:1406
+#: ../zeiran/theme-config.php:1442
+msgid "Pause time, default value: 3000"
+msgstr ""
+
+#: ../chairman/theme-config.php:1075 ../chairman/theme-config.php:1134
+#: ../chairman/theme-config.php:1471 ../chairman/theme-config.php:1507
+#: ../chamo/theme-config.php:980 ../chamo/theme-config.php:1309
+#: ../chamo/theme-config.php:1345 ../james/theme-config.php:857
+#: ../james/theme-config.php:1165 ../james/theme-config.php:1201
+#: ../teemo/theme-config.php:1075 ../teemo/theme-config.php:1383
+#: ../teemo/theme-config.php:1419 ../zeiran/theme-config.php:1049
+#: ../zeiran/theme-config.php:1108 ../zeiran/theme-config.php:1416
+#: ../zeiran/theme-config.php:1452
+msgid "Animate in (seconds)"
+msgstr ""
+
+#: ../chairman/theme-config.php:1076 ../chairman/theme-config.php:1135
+#: ../chairman/theme-config.php:1472 ../chairman/theme-config.php:1508
+#: ../chamo/theme-config.php:981 ../chamo/theme-config.php:1310
+#: ../chamo/theme-config.php:1346 ../james/theme-config.php:858
+#: ../james/theme-config.php:1166 ../james/theme-config.php:1202
+#: ../teemo/theme-config.php:1076 ../teemo/theme-config.php:1384
+#: ../teemo/theme-config.php:1420 ../zeiran/theme-config.php:1050
+#: ../zeiran/theme-config.php:1109 ../zeiran/theme-config.php:1417
+#: ../zeiran/theme-config.php:1453
+msgid "Animate time, default value: 2000"
+msgstr ""
+
+#: ../chairman/theme-config.php:1086 ../chamo/theme-config.php:991
+#: ../james/theme-config.php:868 ../teemo/theme-config.php:1086
+#: ../zeiran/theme-config.php:1060
+msgid "Logos"
+msgstr ""
+
+#: ../chairman/theme-config.php:1087 ../chamo/theme-config.php:992
+#: ../james/theme-config.php:869 ../teemo/theme-config.php:1087
+#: ../zeiran/theme-config.php:1061
+msgid "Upload logo image and enter logo link."
+msgstr ""
+
+#: ../chairman/theme-config.php:1089 ../chairman/theme-config.php:1148
+#: ../chairman/woocommerce/class-wc-widget-cart.php:30
+#: ../chamo/theme-config.php:994
+#: ../chamo/woocommerce/class-wc-widget-cart.php:30
+#: ../james/theme-config.php:871
+#: ../james/woocommerce/class-wc-widget-cart.php:30
+#: ../teemo/theme-config.php:1089
+#: ../teemo/woocommerce/class-wc-widget-cart.php:30
+#: ../zeiran/theme-config.php:1063 ../zeiran/theme-config.php:1122
+#: ../zeiran/woocommerce/class-wc-widget-cart.php:30
+msgid "Title"
+msgstr ""
+
+#: ../chairman/theme-config.php:1091 ../chairman/theme-config.php:1150
+#: ../chamo/theme-config.php:996 ../james/theme-config.php:873
+#: ../teemo/theme-config.php:1091 ../zeiran/theme-config.php:1065
+#: ../zeiran/theme-config.php:1124
+msgid "Link"
+msgstr ""
+
+#: ../chairman/theme-config.php:1099 ../zeiran/theme-config.php:1073
+msgid "Categories carousel"
+msgstr ""
+
+#: ../chairman/theme-config.php:1100 ../zeiran/theme-config.php:1074
+msgid "Upload category images and links"
+msgstr ""
+
+#: ../chairman/theme-config.php:1113 ../zeiran/theme-config.php:1087
+msgid "Number of categories to scroll one time, default value: 1"
+msgstr ""
+
+#: ../chairman/theme-config.php:1145 ../twentyfifteen/inc/template-tags.php:94
+#: ../zeiran/theme-config.php:1119
+msgid "Categories"
+msgstr ""
+
+#: ../chairman/theme-config.php:1146 ../zeiran/theme-config.php:1120
+msgid "Upload image and enter category link."
+msgstr ""
+
+#: ../chairman/theme-config.php:1158 ../chamo/theme-config.php:1005
+#: ../james/theme-config.php:881 ../teemo/theme-config.php:1099
+#: ../zeiran/theme-config.php:1132
+msgid "Sidebar"
+msgstr ""
+
+#: ../chairman/theme-config.php:1159 ../chamo/theme-config.php:1006
+#: ../james/theme-config.php:882 ../teemo/theme-config.php:1100
+#: ../zeiran/theme-config.php:1133
+msgid "Sidebar options"
+msgstr ""
+
+#: ../chairman/theme-config.php:1166 ../chamo/theme-config.php:1013
+#: ../james/theme-config.php:889 ../teemo/theme-config.php:1107
+#: ../zeiran/theme-config.php:1140
+msgid "Shop Sidebar Position"
+msgstr ""
+
+#: ../chairman/theme-config.php:1167 ../chamo/theme-config.php:1014
+#: ../james/theme-config.php:890 ../teemo/theme-config.php:1108
+#: ../zeiran/theme-config.php:1141
+msgid "Sidebar on shop page"
+msgstr ""
+
+#: ../chairman/theme-config.php:1176 ../chamo/theme-config.php:1023
+#: ../james/theme-config.php:899 ../teemo/theme-config.php:1117
+#: ../zeiran/theme-config.php:1150
+msgid "Pages Sidebar Position"
+msgstr ""
+
+#: ../chairman/theme-config.php:1177 ../chamo/theme-config.php:1024
+#: ../james/theme-config.php:900 ../teemo/theme-config.php:1118
+#: ../zeiran/theme-config.php:1151
+msgid "Sidebar on pages"
+msgstr ""
+
+#: ../chairman/theme-config.php:1186 ../chamo/theme-config.php:1033
+#: ../james/theme-config.php:909 ../teemo/theme-config.php:1127
+#: ../zeiran/theme-config.php:1160
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: ../chairman/theme-config.php:1187 ../chamo/theme-config.php:1034
+#: ../james/theme-config.php:910 ../teemo/theme-config.php:1128
+#: ../zeiran/theme-config.php:1161
+msgid "Sidebar on Blog pages"
+msgstr ""
+
+#: ../chairman/theme-config.php:1198 ../chamo/projects/archive-project.php:25
+#: ../chamo/projects/content-single-project.php:24
+#: ../chamo/theme-config.php:1045 ../james/projects/archive-project.php:23
+#: ../james/projects/content-single-project.php:22
+#: ../james/theme-config.php:921 ../teemo/projects/archive-project.php:24
+#: ../teemo/projects/content-single-project.php:21
+#: ../teemo/theme-config.php:1139 ../zeiran/projects/archive-project.php:23
+#: ../zeiran/projects/content-single-project.php:22
+#: ../zeiran/theme-config.php:1172
+msgid "Portfolio"
+msgstr ""
+
+#: ../chairman/theme-config.php:1199 ../chamo/theme-config.php:1046
+#: ../james/theme-config.php:922 ../teemo/theme-config.php:1140
+#: ../zeiran/theme-config.php:1173
+msgid "Use this section to select options for portfolio"
+msgstr ""
+
+#: ../chairman/theme-config.php:1205 ../chamo/theme-config.php:1052
+#: ../james/theme-config.php:928 ../teemo/theme-config.php:1146
+#: ../zeiran/theme-config.php:1179
+msgid "Portfolio Columns"
+msgstr ""
+
+#: ../chairman/theme-config.php:1215 ../chamo/theme-config.php:1062
+#: ../james/theme-config.php:938 ../teemo/theme-config.php:1156
+#: ../zeiran/theme-config.php:1189
+msgid "Projects per page"
+msgstr ""
+
+#: ../chairman/theme-config.php:1216 ../chamo/theme-config.php:1063
+#: ../james/theme-config.php:939 ../teemo/theme-config.php:1157
+#: ../zeiran/theme-config.php:1190
+msgid "Amount of projects per page on portfolio page"
+msgstr ""
+
+#: ../chairman/theme-config.php:1226 ../chamo/theme-config.php:1073
+#: ../james/theme-config.php:949 ../teemo/theme-config.php:1167
+#: ../zeiran/theme-config.php:1200
+msgid "Related projects title"
+msgstr ""
+
+#: ../chairman/theme-config.php:1234 ../chairman/woocommerce/cart/cart.php:26
+#: ../chairman/woocommerce/checkout/review-order.php:17
+#: ../chamo/theme-config.php:1081 ../chamo/woocommerce/cart/cart.php:26
+#: ../chamo/woocommerce/checkout/review-order.php:17
+#: ../james/theme-config.php:957 ../james/woocommerce/cart/cart.php:26
+#: ../james/woocommerce/checkout/review-order.php:17
+#: ../teemo/theme-config.php:1175
+#: ../teemo/woocommerce/checkout/review-order.php:17
+#: ../zeiran/theme-config.php:1208 ../zeiran/woocommerce/cart/cart.php:26
+#: ../zeiran/woocommerce/checkout/review-order.php:17
+msgid "Product"
+msgstr ""
+
+#: ../chairman/theme-config.php:1235 ../chamo/theme-config.php:1082
+#: ../james/theme-config.php:958 ../teemo/theme-config.php:1176
+#: ../zeiran/theme-config.php:1209
+msgid "Use this section to select options for product"
+msgstr ""
+
+#: ../chairman/theme-config.php:1241 ../chamo/theme-config.php:1088
+#: ../james/theme-config.php:964 ../teemo/theme-config.php:1182
+#: ../zeiran/theme-config.php:1215
+msgid "Shop Layout"
+msgstr ""
+
+#: ../chairman/theme-config.php:1251 ../chamo/theme-config.php:1098
+#: ../james/theme-config.php:974 ../teemo/theme-config.php:1192
+#: ../zeiran/theme-config.php:1225
+msgid "Shop default view"
+msgstr ""
+
+#: ../chairman/theme-config.php:1261 ../chamo/theme-config.php:1108
+#: ../james/theme-config.php:984 ../teemo/theme-config.php:1202
+#: ../zeiran/theme-config.php:1235
+msgid "Products per page"
+msgstr ""
+
+#: ../chairman/theme-config.php:1262 ../chamo/theme-config.php:1109
+#: ../james/theme-config.php:985 ../teemo/theme-config.php:1203
+#: ../zeiran/theme-config.php:1236
+msgid "Amount of products per page on category page"
+msgstr ""
+
+#: ../chairman/theme-config.php:1272 ../chamo/theme-config.php:1119
+#: ../james/theme-config.php:995 ../teemo/theme-config.php:1213
+#: ../zeiran/theme-config.php:1246
+msgid "Product columns"
+msgstr ""
+
+#: ../chairman/theme-config.php:1273 ../chamo/theme-config.php:1120
+#: ../james/theme-config.php:996 ../teemo/theme-config.php:1214
+#: ../zeiran/theme-config.php:1247
+msgid "Amount of product columns on category page"
+msgstr ""
+
+#: ../chairman/theme-config.php:1274 ../chairman/theme-config.php:1286
+#: ../chamo/theme-config.php:1121 ../chamo/theme-config.php:1133
+#: ../james/theme-config.php:997 ../james/theme-config.php:1009
+#: ../teemo/theme-config.php:1215 ../teemo/theme-config.php:1227
+#: ../zeiran/theme-config.php:1248 ../zeiran/theme-config.php:1260
+msgid "Only works with: 1, 2, 3, 4, 6"
+msgstr ""
+
+#: ../chairman/theme-config.php:1284 ../chamo/theme-config.php:1131
+#: ../james/theme-config.php:1007 ../teemo/theme-config.php:1225
+#: ../zeiran/theme-config.php:1258
+msgid "Product columns on full width shop"
+msgstr ""
+
+#: ../chairman/theme-config.php:1285 ../chamo/theme-config.php:1132
+#: ../james/theme-config.php:1008 ../teemo/theme-config.php:1226
+#: ../zeiran/theme-config.php:1259
+msgid "Amount of product columns on full width category page"
+msgstr ""
+
+#: ../chairman/theme-config.php:1296 ../chamo/theme-config.php:1143
+#: ../james/theme-config.php:1019 ../teemo/theme-config.php:1237
+#: ../zeiran/theme-config.php:1270
+msgid "Use secondary product image"
+msgstr ""
+
+#: ../chairman/theme-config.php:1297 ../chamo/theme-config.php:1144
+#: ../james/theme-config.php:1020 ../teemo/theme-config.php:1238
+#: ../zeiran/theme-config.php:1271
+msgid "Show the secondary image when hover on product on list"
+msgstr ""
+
+#: ../chairman/theme-config.php:1303 ../chairman/theme-config.php:1351
+#: ../chamo/theme-config.php:1150 ../chamo/theme-config.php:1204
+#: ../james/theme-config.php:1026 ../james/theme-config.php:1061
+#: ../teemo/theme-config.php:1244 ../teemo/theme-config.php:1279
+#: ../zeiran/theme-config.php:1277 ../zeiran/theme-config.php:1312
+msgid "Up-Sells title"
+msgstr ""
+
+#: ../chairman/theme-config.php:1309 ../chamo/theme-config.php:1156
+#: ../james/theme-config.php:1032 ../teemo/theme-config.php:1250
+#: ../zeiran/theme-config.php:1283
+msgid "Cross-Sells title"
+msgstr ""
+
+#: ../chairman/theme-config.php:1315
+msgid "Static Block3"
+msgstr ""
+
+#: ../chairman/theme-config.php:1329 ../chamo/theme-config.php:1182
+#: ../james/theme-config.php:1039 ../teemo/theme-config.php:1257
+#: ../zeiran/theme-config.php:1290
+msgid "Product page"
+msgstr ""
+
+#: ../chairman/theme-config.php:1335 ../chamo/theme-config.php:1188
+#: ../james/theme-config.php:1045 ../teemo/theme-config.php:1263
+#: ../zeiran/theme-config.php:1296
+msgid "Related products title"
+msgstr ""
+
+#: ../chairman/theme-config.php:1341 ../chamo/theme-config.php:1194
+#: ../james/theme-config.php:1051 ../teemo/theme-config.php:1269
+#: ../zeiran/theme-config.php:1302
+msgid "Number of related products"
+msgstr ""
+
+#: ../chairman/theme-config.php:1357 ../chamo/theme-config.php:1210
+#: ../james/theme-config.php:1067 ../teemo/theme-config.php:1285
+#: ../zeiran/theme-config.php:1318
+msgid "ShareThis/AddThis head tag"
+msgstr ""
+
+#: ../chairman/theme-config.php:1358 ../chamo/theme-config.php:1211
+#: ../james/theme-config.php:1068 ../teemo/theme-config.php:1286
+#: ../zeiran/theme-config.php:1319
+msgid "Paste your ShareThis or AddThis head tag here"
+msgstr ""
+
+#: ../chairman/theme-config.php:1364 ../chamo/theme-config.php:1217
+#: ../james/theme-config.php:1074 ../teemo/theme-config.php:1292
+#: ../zeiran/theme-config.php:1325
+msgid "ShareThis/AddThis code"
+msgstr ""
+
+#: ../chairman/theme-config.php:1365 ../chamo/theme-config.php:1218
+#: ../james/theme-config.php:1075 ../teemo/theme-config.php:1293
+#: ../zeiran/theme-config.php:1326
+msgid "Paste your ShareThis or AddThis code here"
+msgstr ""
+
+#: ../chairman/theme-config.php:1372
+#: ../chairman/woocommerce/content-product-archive.php:114
+#: ../chairman/woocommerce/content-product-archive.php:155
+#: ../chairman/woocommerce/content-product.php:90
+#: ../chamo/theme-config.php:1225
+#: ../chamo/woocommerce/content-product-archive.php:117
+#: ../chamo/woocommerce/content-product.php:117 ../james/theme-config.php:1082
+#: ../james/woocommerce/content-product-archive.php:109
+#: ../james/woocommerce/content-product-archive.php:153
+#: ../james/woocommerce/content-product.php:92 ../teemo/theme-config.php:1300
+#: ../teemo/woocommerce/content-product-archive.php:70
+#: ../teemo/woocommerce/content-product.php:70 ../zeiran/theme-config.php:1333
+#: ../zeiran/woocommerce/content-product-archive.php:111
+#: ../zeiran/woocommerce/content-product-archive.php:155
+#: ../zeiran/woocommerce/content-product.php:129
+msgid "Quick View"
+msgstr ""
+
+#: ../chairman/theme-config.php:1378 ../chamo/theme-config.php:1231
+#: ../james/theme-config.php:1088 ../teemo/theme-config.php:1306
+#: ../zeiran/theme-config.php:1339
+msgid "View details text"
+msgstr ""
+
+#: ../chairman/theme-config.php:1384 ../chamo/theme-config.php:1237
+#: ../james/theme-config.php:1094 ../teemo/theme-config.php:1312
+#: ../zeiran/theme-config.php:1345
+msgid "View all features text"
+msgstr ""
+
+#: ../chairman/theme-config.php:1385 ../chamo/theme-config.php:1238
+#: ../james/theme-config.php:1095 ../teemo/theme-config.php:1313
+#: ../zeiran/theme-config.php:1346
+msgid "This is the text on quick view box"
+msgstr ""
+
+#: ../chairman/theme-config.php:1393 ../chamo/theme-config.php:1246
+#: ../james/theme-config.php:1103 ../teemo/theme-config.php:1321
+#: ../zeiran/theme-config.php:1354
+msgid "Use this section to select options for blog"
+msgstr ""
+
+#: ../chairman/theme-config.php:1400
+msgid "Blog Header background"
+msgstr ""
+
+#: ../chairman/theme-config.php:1407 ../chamo/theme-config.php:1252
+#: ../james/theme-config.php:1109 ../teemo/theme-config.php:1327
+#: ../zeiran/theme-config.php:1360
+msgid "Blog header text"
+msgstr ""
+
+#: ../chairman/theme-config.php:1413
+msgid "Blog slider alias"
+msgstr ""
+
+#: ../chairman/theme-config.php:1419 ../chamo/theme-config.php:1258
+#: ../james/theme-config.php:1115 ../teemo/theme-config.php:1333
+#: ../zeiran/theme-config.php:1366
+msgid "Blog Layout"
+msgstr ""
+
+#: ../chairman/theme-config.php:1431 ../chamo/theme-config.php:1269
+#: ../james/theme-config.php:1125 ../teemo/theme-config.php:1343
+#: ../zeiran/theme-config.php:1376
+msgid "Read more text"
+msgstr ""
+
+#: ../chairman/theme-config.php:1437 ../chamo/theme-config.php:1275
+#: ../james/theme-config.php:1131 ../teemo/theme-config.php:1349
+#: ../zeiran/theme-config.php:1382
+msgid "Excerpt length on blog page"
+msgstr ""
+
+#: ../chairman/theme-config.php:1448 ../chamo/theme-config.php:1286
+#: ../james/theme-config.php:1142 ../teemo/theme-config.php:1360
+#: ../zeiran/theme-config.php:1393
+msgid "Latest posts carousel"
+msgstr ""
+
+#: ../chairman/theme-config.php:1454 ../chamo/theme-config.php:1292
+#: ../james/theme-config.php:1148 ../teemo/theme-config.php:1366
+#: ../zeiran/theme-config.php:1399
+msgid "Latest posts auto scroll"
+msgstr ""
+
+#: ../chairman/theme-config.php:1484 ../chamo/theme-config.php:1322
+#: ../james/theme-config.php:1178 ../teemo/theme-config.php:1396
+#: ../zeiran/theme-config.php:1429
+msgid "Use this section to select options for Testimonials"
+msgstr ""
+
+#: ../chairman/theme-config.php:1519 ../chamo/theme-config.php:1357
+#: ../teemo/theme-config.php:1432
+msgid "Error 404 Page"
+msgstr ""
+
+#: ../chairman/theme-config.php:1520 ../chamo/theme-config.php:1358
+#: ../teemo/theme-config.php:1433
+msgid "Error 404 page options"
+msgstr ""
+
+#: ../chairman/theme-config.php:1527 ../chamo/theme-config.php:1365
+#: ../teemo/theme-config.php:1448
+msgid "Error 404 background"
+msgstr ""
+
+#: ../chairman/theme-config.php:1535 ../chamo/theme-config.php:1373
+#: ../james/theme-config.php:1214 ../teemo/theme-config.php:1457
+#: ../zeiran/theme-config.php:1465
+msgid "Custom CSS"
+msgstr ""
+
+#: ../chairman/theme-config.php:1536 ../chamo/theme-config.php:1374
+#: ../james/theme-config.php:1215 ../teemo/theme-config.php:1458
+#: ../zeiran/theme-config.php:1466
+msgid "Add your Custom CSS code"
+msgstr ""
+
+#: ../chairman/theme-config.php:1542 ../chamo/theme-config.php:1380
+#: ../james/theme-config.php:1221 ../teemo/theme-config.php:1464
+#: ../zeiran/theme-config.php:1472
+msgid "CSS Code"
+msgstr ""
+
+#: ../chairman/theme-config.php:1543 ../chamo/theme-config.php:1381
+#: ../james/theme-config.php:1222 ../teemo/theme-config.php:1465
+#: ../zeiran/theme-config.php:1473
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: ../chairman/theme-config.php:1553 ../chamo/theme-config.php:1391
+#: ../james/theme-config.php:1232 ../teemo/theme-config.php:1475
+#: ../zeiran/theme-config.php:1483
+msgid "Less Compiler"
+msgstr ""
+
+#: ../chairman/theme-config.php:1554 ../chamo/theme-config.php:1392
+#: ../james/theme-config.php:1233 ../teemo/theme-config.php:1476
+#: ../zeiran/theme-config.php:1484
+msgid ""
+"Turn on this option to apply all theme options. Turn of when you have "
+"finished changing theme options and your site is ready."
+msgstr ""
+
+#: ../chairman/theme-config.php:1560 ../chamo/theme-config.php:1398
+#: ../james/theme-config.php:1239 ../teemo/theme-config.php:1482
+#: ../zeiran/theme-config.php:1490
+msgid "Enable Less Compiler"
+msgstr ""
+
+#: ../chairman/theme-config.php:1567 ../chamo/theme-config.php:1405
+#: ../james/theme-config.php:1246 ../teemo/theme-config.php:1489
+#: ../zeiran/theme-config.php:1497
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../chairman/theme-config.php:1568 ../chamo/theme-config.php:1406
+#: ../james/theme-config.php:1247 ../teemo/theme-config.php:1490
+#: ../zeiran/theme-config.php:1498
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../chairman/theme-config.php:1569 ../chamo/theme-config.php:1407
+#: ../james/theme-config.php:1248 ../teemo/theme-config.php:1491
+#: ../zeiran/theme-config.php:1499
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../chairman/theme-config.php:1573 ../chamo/theme-config.php:1411
+#: ../james/theme-config.php:1252 ../teemo/theme-config.php:1495
+#: ../zeiran/theme-config.php:1503
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../chairman/theme-config.php:1578 ../chamo/theme-config.php:1416
+#: ../james/theme-config.php:1257 ../teemo/theme-config.php:1500
+#: ../zeiran/theme-config.php:1508
+msgid "Import / Export"
+msgstr ""
+
+#: ../chairman/theme-config.php:1579 ../chamo/theme-config.php:1417
+#: ../james/theme-config.php:1258 ../teemo/theme-config.php:1501
+#: ../zeiran/theme-config.php:1509
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: ../chairman/theme-config.php:1594 ../chamo/theme-config.php:1432
+#: ../james/theme-config.php:1273 ../teemo/theme-config.php:1516
+#: ../zeiran/theme-config.php:1524
+msgid "Theme Information"
+msgstr ""
+
+#: ../chairman/theme-config.php:1610 ../chamo/theme-config.php:1448
+#: ../james/theme-config.php:1290 ../teemo/theme-config.php:1533
+#: ../zeiran/theme-config.php:1541
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../chairman/theme-config.php:1611 ../chairman/theme-config.php:1617
+#: ../chamo/theme-config.php:1449 ../chamo/theme-config.php:1455
+#: ../james/theme-config.php:1291 ../james/theme-config.php:1297
+#: ../teemo/theme-config.php:1534 ../teemo/theme-config.php:1540
+#: ../zeiran/theme-config.php:1542 ../zeiran/theme-config.php:1548
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../chairman/theme-config.php:1616 ../chamo/theme-config.php:1454
+#: ../james/theme-config.php:1296 ../teemo/theme-config.php:1539
+#: ../zeiran/theme-config.php:1547
+msgid "Theme Information 2"
+msgstr ""
+
+#: ../chairman/theme-config.php:1621 ../chamo/theme-config.php:1459
+#: ../james/theme-config.php:1301 ../teemo/theme-config.php:1544
+#: ../zeiran/theme-config.php:1552
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../chairman/theme-config.php:1641 ../chairman/theme-config.php:1642
+#: ../chamo/theme-config.php:1479 ../chamo/theme-config.php:1480
+#: ../james/theme-config.php:1321 ../james/theme-config.php:1322
+#: ../teemo/theme-config.php:1564 ../teemo/theme-config.php:1565
+#: ../zeiran/theme-config.php:1572 ../zeiran/theme-config.php:1573
+msgid "Theme Options"
+msgstr ""
+
+#: ../chairman/woocommerce/archive-product.php:95
+#: ../chamo/projects/archive-project.php:81
+#: ../james/projects/archive-project.php:76
+#: ../teemo/projects/archive-project.php:77
+#: ../zeiran/projects/archive-project.php:76
+msgid "All"
+msgstr ""
+
+#: ../chairman/woocommerce/archive-product.php:123
+#: ../chamo/woocommerce/archive-product.php:92
+#: ../james/woocommerce/archive-product.php:86
+#: ../teemo/woocommerce/archive-product.php:94
+#: ../zeiran/woocommerce/archive-product.php:100
+msgid "View on"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:27
+#: ../chamo/woocommerce/cart/cart.php:27 ../james/woocommerce/cart/cart.php:27
+#: ../teemo/woocommerce/cart/cart.php:27
+#: ../zeiran/woocommerce/cart/cart.php:27
+msgid "Price"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:28
+#: ../chamo/woocommerce/cart/cart.php:28 ../james/woocommerce/cart/cart.php:28
+#: ../teemo/woocommerce/cart/cart.php:28
+#: ../zeiran/woocommerce/cart/cart.php:28
+msgid "Quantity"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:29
+#: ../chairman/woocommerce/checkout/review-order.php:18
+#: ../chairman/woocommerce/myaccount/my-orders.php:35
+#: ../chairman/woocommerce/myaccount/my-orders.php:58
+#: ../chamo/woocommerce/cart/cart.php:29
+#: ../chamo/woocommerce/checkout/review-order.php:18
+#: ../chamo/woocommerce/myaccount/my-orders.php:43
+#: ../chamo/woocommerce/myaccount/my-orders.php:66
+#: ../james/woocommerce/cart/cart.php:29
+#: ../james/woocommerce/checkout/review-order.php:18
+#: ../james/woocommerce/myaccount/my-orders.php:43
+#: ../james/woocommerce/myaccount/my-orders.php:66
+#: ../teemo/woocommerce/cart/cart.php:29
+#: ../teemo/woocommerce/checkout/review-order.php:18
+#: ../teemo/woocommerce/myaccount/my-orders.php:28
+#: ../zeiran/woocommerce/cart/cart.php:29
+#: ../zeiran/woocommerce/checkout/review-order.php:18
+#: ../zeiran/woocommerce/myaccount/my-orders.php:43
+#: ../zeiran/woocommerce/myaccount/my-orders.php:66
+msgid "Total"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:81
+#: ../chamo/woocommerce/cart/cart.php:81 ../james/woocommerce/cart/cart.php:81
+#: ../teemo/woocommerce/cart/cart.php:81
+#: ../zeiran/woocommerce/cart/cart.php:81
+msgid "Available on backorder"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:115
+#: ../chairman/woocommerce/cart/mini-cart.php:51
+#: ../chamo/woocommerce/cart/cart.php:115
+#: ../chamo/woocommerce/cart/mini-cart.php:62
+#: ../james/woocommerce/cart/cart.php:118
+#: ../james/woocommerce/cart/mini-cart.php:56
+#: ../teemo/woocommerce/cart/cart.php:118
+#: ../teemo/woocommerce/cart/mini-cart.php:57
+#: ../zeiran/woocommerce/cart/cart.php:118
+#: ../zeiran/woocommerce/cart/mini-cart.php:61
+msgid "Remove this item"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:131
+#: ../chamo/woocommerce/cart/cart.php:131
+#: ../james/woocommerce/cart/cart.php:134
+#: ../teemo/woocommerce/cart/cart.php:134
+#: ../zeiran/woocommerce/cart/cart.php:134
+msgid "Update Cart"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:132
+#: ../chamo/woocommerce/cart/cart.php:132
+#: ../james/woocommerce/cart/cart.php:135
+#: ../teemo/woocommerce/cart/cart.php:135
+#: ../zeiran/woocommerce/cart/cart.php:135
+msgid "Continue Shopping"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:138
+#: ../chamo/woocommerce/cart/cart.php:138
+#: ../james/woocommerce/cart/cart.php:141
+#: ../teemo/woocommerce/cart/cart.php:140
+#: ../zeiran/woocommerce/cart/cart.php:141
+msgid "Coupon"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:139
+#: ../chamo/woocommerce/cart/cart.php:139
+#: ../james/woocommerce/cart/cart.php:142
+#: ../teemo/woocommerce/cart/cart.php:141
+#: ../zeiran/woocommerce/cart/cart.php:142
+msgid "Enter your coupon code if you have one."
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:140
+#: ../chamo/woocommerce/cart/cart.php:140
+#: ../james/woocommerce/cart/cart.php:143
+#: ../teemo/woocommerce/cart/cart.php:142
+#: ../zeiran/woocommerce/cart/cart.php:143
+msgid "Coupon code"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cart.php:141
+#: ../chamo/woocommerce/cart/cart.php:141
+#: ../james/woocommerce/cart/cart.php:144
+#: ../teemo/woocommerce/cart/cart.php:143
+#: ../zeiran/woocommerce/cart/cart.php:144
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/cross-sells.php:42
+#: ../chamo/woocommerce/cart/cross-sells.php:42
+#: ../james/woocommerce/cart/cross-sells.php:42
+#: ../teemo/woocommerce/cart/cross-sells.php:42
+#: ../zeiran/woocommerce/cart/cross-sells.php:42
+msgid ""
+"Base on your selection, you may be interested in the \n"
+"following items:"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/mini-cart.php:25
+#: ../chamo/woocommerce/cart/mini-cart.php:35
+msgid "My cart"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/mini-cart.php:65
+#: ../chamo/woocommerce/cart/mini-cart.php:75
+#: ../james/woocommerce/cart/mini-cart.php:69
+#: ../teemo/woocommerce/cart/mini-cart.php:71
+#: ../zeiran/woocommerce/cart/mini-cart.php:74
+msgid "You have no items in your shopping cart"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/mini-cart.php:66
+#: ../chairman/woocommerce/cart/mini-cart.php:72
+#: ../chamo/woocommerce/cart/mini-cart.php:76
+#: ../chamo/woocommerce/cart/mini-cart.php:82
+#: ../james/woocommerce/cart/mini-cart.php:70
+#: ../james/woocommerce/cart/mini-cart.php:76
+#: ../teemo/woocommerce/cart/mini-cart.php:72
+#: ../teemo/woocommerce/cart/mini-cart.php:78
+#: ../zeiran/woocommerce/cart/mini-cart.php:75
+#: ../zeiran/woocommerce/cart/mini-cart.php:81
+msgid "Subtotal"
+msgstr ""
+
+#: ../chairman/woocommerce/cart/mini-cart.php:77
+#: ../chamo/woocommerce/cart/mini-cart.php:87
+#: ../james/woocommerce/cart/mini-cart.php:82
+#: ../teemo/woocommerce/cart/mini-cart.php:84
+#: ../zeiran/woocommerce/cart/mini-cart.php:87
+msgid "Checkout"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/form-checkout.php:20
+#: ../chamo/woocommerce/checkout/form-checkout.php:20
+#: ../james/woocommerce/checkout/form-checkout.php:20
+#: ../teemo/woocommerce/checkout/form-checkout.php:20
+#: ../zeiran/woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/form-checkout.php:49
+#: ../chamo/woocommerce/checkout/form-checkout.php:49
+#: ../james/woocommerce/checkout/form-checkout.php:49
+#: ../teemo/woocommerce/checkout/form-checkout.php:49
+#: ../zeiran/woocommerce/checkout/form-checkout.php:49
+msgid "Your order"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/form-login.php:14
+#: ../chamo/woocommerce/checkout/form-login.php:14
+#: ../james/woocommerce/checkout/form-login.php:14
+#: ../teemo/woocommerce/checkout/form-login.php:14
+#: ../zeiran/woocommerce/checkout/form-login.php:14
+msgid "Returning customer?"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/form-login.php:15
+#: ../chamo/woocommerce/checkout/form-login.php:15
+#: ../james/woocommerce/checkout/form-login.php:15
+#: ../teemo/woocommerce/checkout/form-login.php:15
+#: ../zeiran/woocommerce/checkout/form-login.php:15
+msgid "Click here to login"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/form-login.php:22
+#: ../chamo/woocommerce/checkout/form-login.php:22
+#: ../james/woocommerce/checkout/form-login.php:22
+#: ../teemo/woocommerce/checkout/form-login.php:22
+#: ../zeiran/woocommerce/checkout/form-login.php:22
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/review-order.php:50
+#: ../chamo/woocommerce/checkout/review-order.php:50
+#: ../james/woocommerce/checkout/review-order.php:50
+#: ../teemo/woocommerce/checkout/review-order.php:50
+#: ../zeiran/woocommerce/checkout/review-order.php:50
+msgid "Cart Subtotal"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/review-order.php:97
+#: ../chamo/woocommerce/checkout/review-order.php:97
+#: ../james/woocommerce/checkout/review-order.php:97
+#: ../teemo/woocommerce/checkout/review-order.php:97
+#: ../zeiran/woocommerce/checkout/review-order.php:97
+msgid "Order Total"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/thankyou.php:16
+#: ../chamo/woocommerce/checkout/thankyou.php:16
+#: ../james/woocommerce/checkout/thankyou.php:16
+#: ../teemo/woocommerce/checkout/thankyou.php:16
+#: ../zeiran/woocommerce/checkout/thankyou.php:16
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/thankyou.php:20
+#: ../chamo/woocommerce/checkout/thankyou.php:20
+#: ../james/woocommerce/checkout/thankyou.php:20
+#: ../teemo/woocommerce/checkout/thankyou.php:20
+#: ../zeiran/woocommerce/checkout/thankyou.php:20
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/thankyou.php:22
+#: ../chamo/woocommerce/checkout/thankyou.php:22
+#: ../james/woocommerce/checkout/thankyou.php:22
+#: ../teemo/woocommerce/checkout/thankyou.php:22
+#: ../zeiran/woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/thankyou.php:26
+#: ../chairman/woocommerce/myaccount/my-orders.php:68
+#: ../chamo/woocommerce/checkout/thankyou.php:26
+#: ../chamo/woocommerce/myaccount/my-orders.php:76
+#: ../james/woocommerce/checkout/thankyou.php:26
+#: ../james/woocommerce/myaccount/my-orders.php:76
+#: ../teemo/woocommerce/checkout/thankyou.php:26
+#: ../teemo/woocommerce/myaccount/my-orders.php:84
+#: ../zeiran/woocommerce/checkout/thankyou.php:26
+#: ../zeiran/woocommerce/myaccount/my-orders.php:76
+msgid "Pay"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/thankyou.php:28
+#: ../chamo/woocommerce/checkout/thankyou.php:28
+#: ../james/woocommerce/checkout/thankyou.php:28
+#: ../teemo/woocommerce/checkout/thankyou.php:28
+#: ../zeiran/woocommerce/checkout/thankyou.php:28
+msgid "My Account"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/thankyou.php:34
+#: ../chairman/woocommerce/checkout/thankyou.php:65
+#: ../chamo/woocommerce/checkout/thankyou.php:34
+#: ../chamo/woocommerce/checkout/thankyou.php:65
+#: ../james/woocommerce/checkout/thankyou.php:34
+#: ../james/woocommerce/checkout/thankyou.php:65
+#: ../teemo/woocommerce/checkout/thankyou.php:34
+#: ../teemo/woocommerce/checkout/thankyou.php:65
+#: ../zeiran/woocommerce/checkout/thankyou.php:34
+#: ../zeiran/woocommerce/checkout/thankyou.php:65
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/thankyou.php:38
+#: ../chamo/woocommerce/checkout/thankyou.php:38
+#: ../james/woocommerce/checkout/thankyou.php:38
+#: ../teemo/woocommerce/checkout/thankyou.php:38
+#: ../zeiran/woocommerce/checkout/thankyou.php:38
+msgid "Order:"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/thankyou.php:42
+#: ../chamo/woocommerce/checkout/thankyou.php:42
+#: ../james/woocommerce/checkout/thankyou.php:42
+#: ../teemo/woocommerce/checkout/thankyou.php:42
+#: ../zeiran/woocommerce/checkout/thankyou.php:42
+msgid "Date:"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/thankyou.php:46
+#: ../chamo/woocommerce/checkout/thankyou.php:46
+#: ../james/woocommerce/checkout/thankyou.php:46
+#: ../teemo/woocommerce/checkout/thankyou.php:46
+#: ../zeiran/woocommerce/checkout/thankyou.php:46
+msgid "Total:"
+msgstr ""
+
+#: ../chairman/woocommerce/checkout/thankyou.php:51
+#: ../chamo/woocommerce/checkout/thankyou.php:51
+#: ../james/woocommerce/checkout/thankyou.php:51
+#: ../teemo/woocommerce/checkout/thankyou.php:51
+#: ../zeiran/woocommerce/checkout/thankyou.php:51
+msgid "Payment method:"
+msgstr ""
+
+#: ../chairman/woocommerce/class-wc-widget-cart.php:23
+#: ../chamo/woocommerce/class-wc-widget-cart.php:23
+#: ../james/woocommerce/class-wc-widget-cart.php:23
+#: ../teemo/woocommerce/class-wc-widget-cart.php:23
+#: ../zeiran/woocommerce/class-wc-widget-cart.php:23
+msgid "Display the user's Cart in the sidebar."
+msgstr ""
+
+#: ../chairman/woocommerce/class-wc-widget-cart.php:25
+#: ../chamo/woocommerce/class-wc-widget-cart.php:25
+#: ../james/woocommerce/class-wc-widget-cart.php:25
+#: ../teemo/woocommerce/class-wc-widget-cart.php:25
+#: ../zeiran/woocommerce/class-wc-widget-cart.php:25
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: ../chairman/woocommerce/class-wc-widget-cart.php:29
+#: ../chairman/woocommerce/class-wc-widget-cart.php:54
+#: ../chamo/woocommerce/class-wc-widget-cart.php:29
+#: ../chamo/woocommerce/class-wc-widget-cart.php:54
+#: ../james/woocommerce/class-wc-widget-cart.php:29
+#: ../james/woocommerce/class-wc-widget-cart.php:54
+#: ../teemo/woocommerce/class-wc-widget-cart.php:29
+#: ../teemo/woocommerce/class-wc-widget-cart.php:54
+#: ../zeiran/woocommerce/class-wc-widget-cart.php:29
+#: ../zeiran/woocommerce/class-wc-widget-cart.php:54
+msgid "Cart"
+msgstr ""
+
+#: ../chairman/woocommerce/class-wc-widget-cart.php:35
+#: ../chamo/woocommerce/class-wc-widget-cart.php:35
+#: ../james/woocommerce/class-wc-widget-cart.php:35
+#: ../teemo/woocommerce/class-wc-widget-cart.php:35
+#: ../zeiran/woocommerce/class-wc-widget-cart.php:35
+msgid "Hide if cart is empty"
+msgstr ""
+
+#: ../chairman/woocommerce/content-product-archive.php:98
+#: ../chairman/woocommerce/content-product.php:96
+#: ../chairman/woocommerce/single-product/sale-flash.php:16
+#: ../chamo/woocommerce/content-product-archive.php:99
+#: ../chamo/woocommerce/content-product.php:99
+#: ../james/woocommerce/content-product-archive.php:71
+#: ../james/woocommerce/content-product.php:67
+#: ../teemo/woocommerce/content-product-archive.php:67
+#: ../teemo/woocommerce/content-product.php:67
+#: ../zeiran/woocommerce/content-product-archive.php:72
+#: ../zeiran/woocommerce/content-product.php:67
+msgid "Sale"
+msgstr ""
+
+#: ../chairman/woocommerce/content-product_cat.php:74
+#: ../chamo/woocommerce/content-product_cat.php:80
+#: ../james/woocommerce/content-product_cat.php:80
+#: ../teemo/woocommerce/content-product_cat.php:80
+#: ../zeiran/woocommerce/content-product_cat.php:80
+msgid "Browse Category"
+msgstr ""
+
+#: ../chairman/woocommerce/loop/orderby.php:14
+#: ../james/woocommerce/loop/orderby.php:14
+#: ../teemo/woocommerce/loop/orderby.php:14
+#: ../zeiran/woocommerce/loop/orderby.php:14
+msgid "Sort By"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-login.php:34
+#: ../chamo/woocommerce/myaccount/form-login.php:34
+#: ../james/woocommerce/myaccount/form-login.php:34
+#: ../teemo/woocommerce/myaccount/form-login.php:34
+#: ../zeiran/woocommerce/myaccount/form-login.php:34
+msgid "Username or email address"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-login.php:38
+#: ../chairman/woocommerce/myaccount/form-login.php:88
+#: ../chamo/woocommerce/myaccount/form-login.php:38
+#: ../chamo/woocommerce/myaccount/form-login.php:88
+#: ../james/woocommerce/myaccount/form-login.php:38
+#: ../james/woocommerce/myaccount/form-login.php:88
+#: ../teemo/woocommerce/myaccount/form-login.php:38
+#: ../teemo/woocommerce/myaccount/form-login.php:88
+#: ../zeiran/woocommerce/myaccount/form-login.php:38
+#: ../zeiran/woocommerce/myaccount/form-login.php:88
+msgid "Password"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-login.php:47
+#: ../chamo/woocommerce/myaccount/form-login.php:47
+#: ../james/woocommerce/myaccount/form-login.php:47
+#: ../teemo/woocommerce/myaccount/form-login.php:47
+#: ../zeiran/woocommerce/myaccount/form-login.php:47
+msgid "Lost your password?"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-login.php:51
+#: ../chamo/woocommerce/myaccount/form-login.php:51
+#: ../james/woocommerce/myaccount/form-login.php:51
+#: ../teemo/woocommerce/myaccount/form-login.php:51
+#: ../zeiran/woocommerce/myaccount/form-login.php:51
+msgid "Remember me"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-login.php:67
+#: ../chairman/woocommerce/myaccount/form-login.php:104
+#: ../chamo/woocommerce/myaccount/form-login.php:67
+#: ../chamo/woocommerce/myaccount/form-login.php:104
+#: ../james/woocommerce/myaccount/form-login.php:67
+#: ../james/woocommerce/myaccount/form-login.php:104
+#: ../teemo/woocommerce/myaccount/form-login.php:67
+#: ../teemo/woocommerce/myaccount/form-login.php:104
+#: ../zeiran/woocommerce/myaccount/form-login.php:67
+#: ../zeiran/woocommerce/myaccount/form-login.php:104
+msgid "Register"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-login.php:74
+#: ../chamo/woocommerce/myaccount/form-login.php:74
+#: ../james/woocommerce/myaccount/form-login.php:74
+#: ../teemo/woocommerce/myaccount/form-login.php:74
+#: ../zeiran/woocommerce/myaccount/form-login.php:74
+msgid "Username"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-login.php:81
+#: ../chamo/woocommerce/myaccount/form-login.php:81
+#: ../james/woocommerce/myaccount/form-login.php:81
+#: ../teemo/woocommerce/myaccount/form-login.php:81
+#: ../zeiran/woocommerce/myaccount/form-login.php:81
+msgid "Email address"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-login.php:95
+#: ../chamo/woocommerce/myaccount/form-login.php:95
+#: ../james/woocommerce/myaccount/form-login.php:95
+#: ../teemo/woocommerce/myaccount/form-login.php:95
+#: ../zeiran/woocommerce/myaccount/form-login.php:95
+msgid "Anti-spam"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-lost-password.php:22
+#: ../chamo/woocommerce/myaccount/form-lost-password.php:22
+#: ../james/woocommerce/myaccount/form-lost-password.php:22
+#: ../teemo/woocommerce/myaccount/form-lost-password.php:22
+#: ../zeiran/woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-lost-password.php:24
+#: ../chamo/woocommerce/myaccount/form-lost-password.php:24
+#: ../james/woocommerce/myaccount/form-lost-password.php:24
+#: ../teemo/woocommerce/myaccount/form-lost-password.php:24
+#: ../zeiran/woocommerce/myaccount/form-lost-password.php:24
+msgid "Username or email"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-lost-password.php:28
+#: ../chamo/woocommerce/myaccount/form-lost-password.php:28
+#: ../james/woocommerce/myaccount/form-lost-password.php:28
+#: ../teemo/woocommerce/myaccount/form-lost-password.php:28
+#: ../zeiran/woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-lost-password.php:31
+#: ../chamo/woocommerce/myaccount/form-lost-password.php:31
+#: ../james/woocommerce/myaccount/form-lost-password.php:31
+#: ../teemo/woocommerce/myaccount/form-lost-password.php:31
+#: ../zeiran/woocommerce/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-lost-password.php:35
+#: ../chamo/woocommerce/myaccount/form-lost-password.php:35
+#: ../james/woocommerce/myaccount/form-lost-password.php:35
+#: ../teemo/woocommerce/myaccount/form-lost-password.php:35
+#: ../zeiran/woocommerce/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-lost-password.php:48
+#: ../chamo/woocommerce/myaccount/form-lost-password.php:48
+#: ../james/woocommerce/myaccount/form-lost-password.php:48
+#: ../teemo/woocommerce/myaccount/form-lost-password.php:48
+#: ../zeiran/woocommerce/myaccount/form-lost-password.php:48
+msgid "Reset Password"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/form-lost-password.php:48
+#: ../chamo/woocommerce/myaccount/form-lost-password.php:48
+#: ../james/woocommerce/myaccount/form-lost-password.php:48
+#: ../teemo/woocommerce/myaccount/form-lost-password.php:48
+#: ../zeiran/woocommerce/myaccount/form-lost-password.php:48
+msgid "Save"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-address.php:17
+#: ../chamo/woocommerce/myaccount/my-address.php:17
+#: ../james/woocommerce/myaccount/my-address.php:17
+#: ../teemo/woocommerce/myaccount/my-address.php:17
+#: ../zeiran/woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-address.php:19
+#: ../chairman/woocommerce/myaccount/my-address.php:25
+#: ../chamo/woocommerce/myaccount/my-address.php:19
+#: ../chamo/woocommerce/myaccount/my-address.php:25
+#: ../james/woocommerce/myaccount/my-address.php:19
+#: ../james/woocommerce/myaccount/my-address.php:25
+#: ../teemo/woocommerce/myaccount/my-address.php:19
+#: ../teemo/woocommerce/myaccount/my-address.php:25
+#: ../zeiran/woocommerce/myaccount/my-address.php:19
+#: ../zeiran/woocommerce/myaccount/my-address.php:25
+msgid "Billing Address"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-address.php:20
+#: ../chamo/woocommerce/myaccount/my-address.php:20
+#: ../james/woocommerce/myaccount/my-address.php:20
+#: ../teemo/woocommerce/myaccount/my-address.php:20
+#: ../zeiran/woocommerce/myaccount/my-address.php:20
+msgid "Shipping Address"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-address.php:23
+#: ../chamo/woocommerce/myaccount/my-address.php:23
+#: ../james/woocommerce/myaccount/my-address.php:23
+#: ../teemo/woocommerce/myaccount/my-address.php:23
+#: ../zeiran/woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-address.php:35
+#: ../chamo/woocommerce/myaccount/my-address.php:35
+#: ../james/woocommerce/myaccount/my-address.php:35
+#: ../teemo/woocommerce/myaccount/my-address.php:35
+#: ../zeiran/woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-address.php:64
+#: ../chamo/woocommerce/myaccount/my-address.php:64
+#: ../james/woocommerce/myaccount/my-address.php:64
+#: ../teemo/woocommerce/myaccount/my-address.php:64
+#: ../zeiran/woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-orders.php:26
+#: ../chamo/woocommerce/myaccount/my-orders.php:34
+#: ../james/woocommerce/myaccount/my-orders.php:34
+#: ../teemo/woocommerce/myaccount/my-orders.php:42
+#: ../zeiran/woocommerce/myaccount/my-orders.php:34
+msgid "Recent Orders"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-orders.php:32
+#: ../chamo/woocommerce/myaccount/my-orders.php:40
+#: ../james/woocommerce/myaccount/my-orders.php:40
+#: ../teemo/woocommerce/myaccount/my-orders.php:25
+#: ../zeiran/woocommerce/myaccount/my-orders.php:40
+msgid "Order"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-orders.php:33
+#: ../chairman/woocommerce/myaccount/my-orders.php:52
+#: ../chamo/woocommerce/myaccount/my-orders.php:41
+#: ../chamo/woocommerce/myaccount/my-orders.php:60
+#: ../james/woocommerce/myaccount/my-orders.php:41
+#: ../james/woocommerce/myaccount/my-orders.php:60
+#: ../teemo/woocommerce/myaccount/my-orders.php:26
+#: ../zeiran/woocommerce/myaccount/my-orders.php:41
+#: ../zeiran/woocommerce/myaccount/my-orders.php:60
+msgid "Date"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-orders.php:47
+#: ../chamo/woocommerce/myaccount/my-orders.php:55
+#: ../james/woocommerce/myaccount/my-orders.php:55
+#: ../zeiran/woocommerce/myaccount/my-orders.php:55
+msgid "Order Number"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-orders.php:59
+#: ../chamo/woocommerce/myaccount/my-orders.php:67
+#: ../james/woocommerce/myaccount/my-orders.php:67
+#: ../teemo/woocommerce/myaccount/my-orders.php:77
+#: ../zeiran/woocommerce/myaccount/my-orders.php:67
+#, php-format
+msgid "%s for %s item"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-orders.php:75
+#: ../chamo/woocommerce/myaccount/my-orders.php:83
+#: ../james/woocommerce/myaccount/my-orders.php:83
+#: ../teemo/woocommerce/myaccount/my-orders.php:92
+#: ../zeiran/woocommerce/myaccount/my-orders.php:83
+msgid "Cancel"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/my-orders.php:81
+#: ../chamo/woocommerce/myaccount/my-orders.php:89
+#: ../james/woocommerce/myaccount/my-orders.php:89
+#: ../teemo/woocommerce/myaccount/my-orders.php:88
+#: ../zeiran/woocommerce/myaccount/my-orders.php:89
+msgid "View"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/view-order.php:19
+#: ../chamo/woocommerce/myaccount/view-order.php:19
+#: ../james/woocommerce/myaccount/view-order.php:19
+#: ../teemo/woocommerce/myaccount/view-order.php:19
+#: ../zeiran/woocommerce/myaccount/view-order.php:19
+#, php-format
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/view-order.php:23
+#: ../chamo/woocommerce/myaccount/view-order.php:23
+#: ../james/woocommerce/myaccount/view-order.php:23
+#: ../teemo/woocommerce/myaccount/view-order.php:23
+#: ../zeiran/woocommerce/myaccount/view-order.php:23
+msgid "Order Updates"
+msgstr ""
+
+#: ../chairman/woocommerce/myaccount/view-order.php:29
+#: ../chamo/woocommerce/myaccount/view-order.php:29
+#: ../james/woocommerce/myaccount/view-order.php:29
+#: ../teemo/woocommerce/myaccount/view-order.php:29
+#: ../zeiran/woocommerce/myaccount/view-order.php:29
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:24
+#: ../chamo/woocommerce/single-product-reviews.php:24
+#: ../james/woocommerce/single-product-reviews.php:24
+#: ../teemo/woocommerce/single-product-reviews.php:24
+#: ../zeiran/woocommerce/single-product-reviews.php:24
+#, php-format
+msgid "%s review for %s"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:26
+#: ../chamo/woocommerce/single-product-reviews.php:26
+#: ../james/woocommerce/single-product-reviews.php:26
+#: ../teemo/woocommerce/single-product-reviews.php:26
+#: ../zeiran/woocommerce/single-product-reviews.php:26
+msgid "Reviews"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:47
+#: ../chamo/woocommerce/single-product-reviews.php:47
+#: ../james/woocommerce/single-product-reviews.php:47
+#: ../teemo/woocommerce/single-product-reviews.php:47
+#: ../zeiran/woocommerce/single-product-reviews.php:47
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:60
+#: ../chamo/woocommerce/single-product-reviews.php:60
+#: ../james/woocommerce/single-product-reviews.php:60
+#: ../teemo/woocommerce/single-product-reviews.php:60
+#: ../zeiran/woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:60
+#: ../chamo/woocommerce/single-product-reviews.php:60
+#: ../james/woocommerce/single-product-reviews.php:60
+#: ../teemo/woocommerce/single-product-reviews.php:60
+#: ../zeiran/woocommerce/single-product-reviews.php:60
+msgid "Be the first to review"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:61
+#: ../chamo/woocommerce/single-product-reviews.php:61
+#: ../james/woocommerce/single-product-reviews.php:61
+#: ../teemo/woocommerce/single-product-reviews.php:61
+#: ../zeiran/woocommerce/single-product-reviews.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:65
+#: ../chamo/woocommerce/single-product-reviews.php:65
+#: ../james/woocommerce/single-product-reviews.php:65
+#: ../teemo/woocommerce/cart/cart.php:26
+#: ../teemo/woocommerce/single-product-reviews.php:65
+#: ../zeiran/woocommerce/single-product-reviews.php:65
+msgid "Name"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:67
+#: ../chamo/woocommerce/single-product-reviews.php:67
+#: ../james/woocommerce/single-product-reviews.php:67
+#: ../teemo/woocommerce/single-product-reviews.php:67
+#: ../zeiran/woocommerce/single-product-reviews.php:67
+msgid "Email"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:70
+#: ../chamo/woocommerce/single-product-reviews.php:70
+#: ../james/woocommerce/single-product-reviews.php:70
+#: ../teemo/woocommerce/single-product-reviews.php:70
+#: ../zeiran/woocommerce/single-product-reviews.php:70
+msgid "Submit"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:76
+#: ../chamo/woocommerce/single-product-reviews.php:76
+#: ../james/woocommerce/single-product-reviews.php:76
+#: ../teemo/woocommerce/single-product-reviews.php:76
+#: ../zeiran/woocommerce/single-product-reviews.php:76
+msgid "Your Rating"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:77
+#: ../chamo/woocommerce/single-product-reviews.php:77
+#: ../james/woocommerce/single-product-reviews.php:77
+#: ../teemo/woocommerce/single-product-reviews.php:77
+#: ../zeiran/woocommerce/single-product-reviews.php:77
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:78
+#: ../chamo/woocommerce/single-product-reviews.php:78
+#: ../james/woocommerce/single-product-reviews.php:78
+#: ../teemo/woocommerce/single-product-reviews.php:78
+#: ../zeiran/woocommerce/single-product-reviews.php:78
+msgid "Perfect"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:79
+#: ../chamo/woocommerce/single-product-reviews.php:79
+#: ../james/woocommerce/single-product-reviews.php:79
+#: ../teemo/woocommerce/single-product-reviews.php:79
+#: ../zeiran/woocommerce/single-product-reviews.php:79
+msgid "Good"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:80
+#: ../chamo/woocommerce/single-product-reviews.php:80
+#: ../james/woocommerce/single-product-reviews.php:80
+#: ../teemo/woocommerce/single-product-reviews.php:80
+#: ../zeiran/woocommerce/single-product-reviews.php:80
+msgid "Average"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:81
+#: ../chamo/woocommerce/single-product-reviews.php:81
+#: ../james/woocommerce/single-product-reviews.php:81
+#: ../teemo/woocommerce/single-product-reviews.php:81
+#: ../zeiran/woocommerce/single-product-reviews.php:81
+msgid "Not that bad"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:82
+#: ../chamo/woocommerce/single-product-reviews.php:82
+#: ../james/woocommerce/single-product-reviews.php:82
+#: ../teemo/woocommerce/single-product-reviews.php:82
+#: ../zeiran/woocommerce/single-product-reviews.php:82
+msgid "Very Poor"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:86
+#: ../chamo/woocommerce/single-product-reviews.php:86
+#: ../james/woocommerce/single-product-reviews.php:86
+#: ../teemo/woocommerce/single-product-reviews.php:86
+#: ../zeiran/woocommerce/single-product-reviews.php:86
+msgid "Your Review"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product-reviews.php:95
+#: ../chamo/woocommerce/single-product-reviews.php:95
+#: ../james/woocommerce/single-product-reviews.php:95
+#: ../teemo/woocommerce/single-product-reviews.php:95
+#: ../zeiran/woocommerce/single-product-reviews.php:95
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/add-to-cart/variable.php:23
+#: ../chamo/woocommerce/single-product/add-to-cart/variable.php:31
+#: ../james/woocommerce/single-product/add-to-cart/variable.php:31
+#: ../teemo/woocommerce/single-product/add-to-cart/variable.php:31
+#: ../zeiran/woocommerce/single-product/add-to-cart/variable.php:31
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/add-to-cart/variable.php:33
+msgid "Clear selection"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/product-image.php:40
+#: ../chamo/woocommerce/single-product/product-image.php:40
+#: ../james/woocommerce/single-product/product-image.php:40
+#: ../teemo/woocommerce/single-product/product-image.php:40
+#: ../zeiran/woocommerce/single-product/product-image.php:40
+msgid "Placeholder"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/rating.php:27
+#: ../chamo/woocommerce/single-product/rating.php:27
+#: ../james/woocommerce/single-product/rating.php:27
+#: ../teemo/woocommerce/single-product/rating.php:27
+#: ../zeiran/woocommerce/single-product/rating.php:27
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/rating.php:29
+#: ../chamo/woocommerce/single-product/rating.php:29
+#: ../james/woocommerce/single-product/rating.php:29
+#: ../teemo/woocommerce/single-product/rating.php:29
+#: ../zeiran/woocommerce/single-product/rating.php:29
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/rating.php:30
+#: ../chamo/woocommerce/single-product/rating.php:30
+#: ../james/woocommerce/single-product/rating.php:30
+#: ../teemo/woocommerce/single-product/rating.php:30
+#: ../zeiran/woocommerce/single-product/rating.php:30
+#, php-format
+msgid "based on %s customer rating"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/rating.php:33
+#: ../chamo/woocommerce/single-product/rating.php:33
+#: ../james/woocommerce/single-product/rating.php:33
+#: ../teemo/woocommerce/single-product/rating.php:33
+#: ../zeiran/woocommerce/single-product/rating.php:33
+#, php-format
+msgid "%s customer review"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/review.php:26
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/review.php:27
+msgid "out of 5"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/review.php:34
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/review.php:43
+msgid "verified owner"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/tabs/additional-information.php:17
+#: ../chamo/woocommerce/single-product/tabs/additional-information.php:17
+#: ../james/woocommerce/single-product/tabs/additional-information.php:17
+#: ../teemo/woocommerce/single-product/tabs/additional-information.php:17
+#: ../zeiran/woocommerce/single-product/tabs/additional-information.php:17
+msgid "Additional Information"
+msgstr ""
+
+#: ../chairman/woocommerce/single-product/tabs/description.php:14
+#: ../chamo/woocommerce/single-product/tabs/description.php:14
+#: ../james/woocommerce/single-product/tabs/description.php:14
+#: ../teemo/woocommerce/single-product/tabs/description.php:14
+#: ../zeiran/woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
+
+#: ../chamo/404.php:16 ../teemo/404.php:16
+msgid "404"
+msgstr ""
+
+#: ../chamo/404.php:17
+msgid "This is not the web page you are looking for"
+msgstr ""
+
+#: ../chamo/404.php:19
+msgid "Please try one of the following pages "
+msgstr ""
+
+#: ../chamo/404.php:20
+msgid "Home page"
+msgstr ""
+
+#: ../chamo/content-audio.php:64 ../chamo/content-gallery.php:49
+#: ../chamo/content-image.php:63 ../chamo/content-video.php:51
+#: ../chamo/content.php:60
+msgid "Posted by"
+msgstr ""
+
+#: ../chamo/content-audio.php:76 ../chamo/content-gallery.php:61
+#: ../chamo/content-image.php:74 ../chamo/content-video.php:63
+#: ../chamo/content.php:72
+msgid "by "
+msgstr ""
+
+#: ../chamo/header-fifth.php:27 ../chamo/header-first.php:63
+#: ../chamo/header-fourth.php:36 ../chamo/header-second.php:63
+#: ../chamo/header-sixth.php:25 ../chamo/header-third.php:25
+#: ../chamo/page-templates/demo2.php:112 ../chamo/page-templates/demo3.php:98
+#: ../chamo/page-templates/demo4.php:101 ../chamo/page-templates/demo5.php:92
+#: ../chamo/page-templates/demo6.php:92 ../zeiran/header-eighth.php:47
+#: ../zeiran/header-fifth.php:48 ../zeiran/header-first.php:49
+#: ../zeiran/header-fourth.php:48 ../zeiran/header-second.php:48
+#: ../zeiran/header-seventh.php:50 ../zeiran/header-sixth.php:81
+#: ../zeiran/header-third.php:48
+msgid "My account"
+msgstr ""
+
+#: ../chamo/include/hugewidgets.php:8
+msgid "HugeShop Widgets"
+msgstr ""
+
+#: ../chamo/theme-config.php:239
+msgid "Logo in homepage 1, 2"
+msgstr ""
+
+#: ../chamo/theme-config.php:291
+msgid "Pick a color for primary color (default: #f26522)."
+msgstr ""
+
+#: ../chamo/theme-config.php:302
+msgid "Pick a color for bg sale label (default: #f26522)."
+msgstr ""
+
+#: ../chamo/theme-config.php:324
+msgid "Pick a color for star of rating (default: #f7c71d)."
+msgstr ""
+
+#: ../chamo/theme-config.php:334
+msgid "Pick a color for link (default: #7d7d7d)."
+msgstr ""
+
+#: ../chamo/theme-config.php:402 ../chamo/theme-config.php:447
+msgid "Pick a color for top bar text color (default: #363636)."
+msgstr ""
+
+#: ../chamo/theme-config.php:411
+msgid "Pick a color for header link color (default: #363636)."
+msgstr ""
+
+#: ../chamo/theme-config.php:422
+msgid "Slider Alias"
+msgstr ""
+
+#: ../chamo/theme-config.php:423
+msgid "Enter the slider alias, only for homepage 4"
+msgstr ""
+
+#: ../chamo/theme-config.php:439
+msgid "Upload image or select color(default: #ffffff)."
+msgstr ""
+
+#: ../chamo/theme-config.php:457
+msgid "Pick a color for top bar link color (default: #363636)."
+msgstr ""
+
+#: ../chamo/theme-config.php:528
+msgid "Pick a color for sub menu bg (default: #252525)."
+msgstr ""
+
+#: ../chamo/theme-config.php:538
+msgid "Pick a color for sub menu color (default: #959595)."
+msgstr ""
+
+#: ../chamo/theme-config.php:548
+msgid "Header Static Block"
+msgstr ""
+
+#: ../chamo/theme-config.php:555
+msgid "Content header static block (default: in header layout6)"
+msgstr ""
+
+#: ../chamo/theme-config.php:556
+msgid "HTML tags allowed: a, img, br, em, strong, p, ul, li, div, h4"
+msgstr ""
+
+#: ../chamo/theme-config.php:593
+msgid "Upload image or select color ( default: #252525)."
+msgstr ""
+
+#: ../chamo/theme-config.php:603
+msgid "Pick a color for top bar text color (default: #959595)."
+msgstr ""
+
+#: ../chamo/theme-config.php:613
+msgid "Pick a color for footer link color (default: #f26522)."
+msgstr ""
+
+#: ../chamo/theme-config.php:708
+msgid "Recent post title"
+msgstr ""
+
+#: ../chamo/theme-config.php:709
+msgid "Footer recent post title."
+msgstr ""
+
+#: ../chamo/theme-config.php:717
+msgid "Product Tags"
+msgstr ""
+
+#: ../chamo/theme-config.php:723
+msgid "Product tag title"
+msgstr ""
+
+#: ../chamo/theme-config.php:724
+msgid "Footer product tag title."
+msgstr ""
+
+#: ../chamo/theme-config.php:755 ../chamo/theme-config.php:767
+msgid "Contact Information"
+msgstr ""
+
+#: ../chamo/theme-config.php:761
+msgid "Contact title"
+msgstr ""
+
+#: ../chamo/theme-config.php:786
+msgid "Footer bottom Menu"
+msgstr ""
+
+#: ../chamo/theme-config.php:959
+msgid "Number of logos to scroll one time, default value: 1"
+msgstr ""
+
+#: ../chamo/theme-config.php:1163 ../chamo/theme-config.php:1173
+msgid "Background category"
+msgstr ""
+
+#: ../chamo/theme-config.php:1164
+msgid ""
+"Use this section to upload background image for product category page, "
+"select background color"
+msgstr ""
+
+#: ../chamo/theme-config.php:1174
+msgid "Body background with image, color."
+msgstr ""
+
+#: ../chamo/woocommerce/loop/orderby.php:14
+msgid "Sort By :"
+msgstr ""
+
+#: ../chamo/woocommerce/single-product/add-to-cart/variable.php:41
+#: ../james/woocommerce/single-product/add-to-cart/variable.php:41
+#: ../teemo/woocommerce/single-product/add-to-cart/variable.php:41
+#: ../zeiran/woocommerce/single-product/add-to-cart/variable.php:41
+msgid "Clear"
+msgstr ""
+
+#: ../james/404.php:18
+msgid "not found"
+msgstr ""
+
+#: ../james/404.php:19 ../zeiran/404.php:19
+msgid "Can't find what you need, Take a moment and do a search below"
+msgstr ""
+
+#: ../james/functions.php:771 ../zeiran/functions.php:837
+msgid "Footer 1"
+msgstr ""
+
+#: ../james/functions.php:773 ../zeiran/functions.php:839
+msgid "Footer column #1"
+msgstr ""
+
+#: ../james/functions.php:781 ../zeiran/functions.php:847
+msgid "Footer 2"
+msgstr ""
+
+#: ../james/functions.php:783 ../zeiran/functions.php:849
+msgid "Footer column #2"
+msgstr ""
+
+#: ../james/functions.php:791 ../zeiran/functions.php:857
+msgid "Footer 3"
+msgstr ""
+
+#: ../james/functions.php:793 ../zeiran/functions.php:859
+msgid "Footer column #3"
+msgstr ""
+
+#: ../james/functions.php:801 ../zeiran/functions.php:867
+msgid "Footer 4"
+msgstr ""
+
+#: ../james/functions.php:803 ../zeiran/functions.php:869
+msgid "Footer column #4"
+msgstr ""
+
+#: ../james/functions.php:1201 ../james/functions.php:1223
+#: ../teemo/functions.php:1206 ../teemo/functions.php:1228
+#: ../twentyfifteen/inc/template-tags.php:91
+#: ../twentyfifteen/inc/template-tags.php:99
+#: ../twentyfourteen/content-aside.php:17
+#: ../twentyfourteen/content-audio.php:17
+#: ../twentyfourteen/content-featured-post.php:28
+#: ../twentyfourteen/content-gallery.php:17
+#: ../twentyfourteen/content-image.php:17
+#: ../twentyfourteen/content-link.php:17
+#: ../twentyfourteen/content-quote.php:17
+#: ../twentyfourteen/content-video.php:17 ../twentyfourteen/content.php:19
+#: ../twentythirteen/functions.php:328 ../twentythirteen/functions.php:334
+#: ../zeiran/functions.php:1266 ../zeiran/functions.php:1288
+msgid ", "
+msgstr ""
+
+#: ../james/include/roadwidgets.php:8 ../teemo/include/roadwidgets.php:8
+#: ../zeiran/include/roadwidgets.php:8
+msgid "Road Widgets"
+msgstr ""
+
+#: ../james/theme-config.php:272
+msgid "Pick a color for primary color (default: #f25862)."
+msgstr ""
+
+#: ../james/theme-config.php:283
+msgid "Pick a color for bg sale label (default: #333333)."
+msgstr ""
+
+#: ../james/theme-config.php:294 ../zeiran/theme-config.php:294
+msgid "Pick a color for sale label text (default: #fff)."
+msgstr ""
+
+#: ../james/theme-config.php:305
+msgid "Pick a color for star of rating (default: #ffb21e)."
+msgstr ""
+
+#: ../james/theme-config.php:315
+msgid "Pick a color for link (default: #f25862)."
+msgstr ""
+
+#: ../james/theme-config.php:375 ../zeiran/theme-config.php:382
+msgid "Pick a color for top bar text color (default: #787878)."
+msgstr ""
+
+#: ../james/theme-config.php:384
+msgid "Pick a color for header link color (default: #252525)."
+msgstr ""
+
+#: ../james/theme-config.php:395 ../teemo/theme-config.php:519
+#: ../teemo/theme-config.php:520 ../zeiran/theme-config.php:402
+msgid "Phone Number"
+msgstr ""
+
+#: ../james/theme-config.php:459
+msgid "Pick a color for top bar text color (default: #252525)."
+msgstr ""
+
+#: ../james/theme-config.php:469
+msgid "Pick a color for top bar link color (default: #252525)."
+msgstr ""
+
+#: ../james/theme-config.php:499
+msgid "Pick a color for sub menu bg (default: #000)."
+msgstr ""
+
+#: ../james/theme-config.php:509
+msgid "Pick a color for sub menu color (default: #fff)."
+msgstr ""
+
+#: ../james/theme-config.php:542
+msgid "Twitter title"
+msgstr ""
+
+#: ../james/theme-config.php:560
+msgid "Pick a color for top bar text color (default: #a8a8a8)."
+msgstr ""
+
+#: ../james/theme-config.php:570
+msgid "Pick a color for footer link color (default: #eee)."
+msgstr ""
+
+#: ../james/theme-config.php:742 ../zeiran/theme-config.php:930
+msgid "Vertical Menu font"
+msgstr ""
+
+#: ../teemo/404.php:19
+msgid "Oops ! that page can't be found."
+msgstr ""
+
+#: ../teemo/404.php:20
+msgid "Can't find what you need? Take a moment and do a search below!"
+msgstr ""
+
+#: ../teemo/functions.php:1127
+msgid "Prev"
+msgstr ""
+
+#: ../teemo/functions.php:1236
+#, php-format
+msgid "%3$s %1$s on %2$s"
+msgstr ""
+
+#: ../teemo/header-error.php:97 ../teemo/header-first.php:72
+#: ../teemo/header-second.php:86 ../teemo/header-third.php:72
+msgid "All Categories"
+msgstr ""
+
+#: ../teemo/theme-config.php:272
+msgid "Pick a color for primary color (default: #db3838)."
+msgstr ""
+
+#: ../teemo/theme-config.php:283
+msgid "Pick a color for bg sale label (default: #0074bd)."
+msgstr ""
+
+#: ../teemo/theme-config.php:305
+msgid "Pick a color for star of rating (default: #ffc861)."
+msgstr ""
+
+#: ../teemo/theme-config.php:315
+msgid "Pick a color for link (default: #444444)."
+msgstr ""
+
+#: ../teemo/theme-config.php:344
+msgid "Border color"
+msgstr ""
+
+#: ../teemo/theme-config.php:345
+msgid "Select color for border color (default: #e5e5e5)."
+msgstr ""
+
+#: ../teemo/theme-config.php:354
+msgid "Dark Color"
+msgstr ""
+
+#: ../teemo/theme-config.php:355
+msgid "Pick a color for dark color (default: #2f2f2f)."
+msgstr ""
+
+#: ../teemo/theme-config.php:363
+msgid "Grey Color"
+msgstr ""
+
+#: ../teemo/theme-config.php:364
+msgid "Pick a color for grey color (default: #999999)."
+msgstr ""
+
+#: ../teemo/theme-config.php:404
+msgid "Header Background Shop"
+msgstr ""
+
+#: ../teemo/theme-config.php:405
+msgid "Header background shop with image, color. Only work with box layout"
+msgstr ""
+
+#: ../teemo/theme-config.php:413 ../teemo/theme-config.php:498
+msgid "Pick a color for top bar text color (default: #ffffff)."
+msgstr ""
+
+#: ../teemo/theme-config.php:422
+msgid "Pick a color for header link color (default: #ffffff)."
+msgstr ""
+
+#: ../teemo/theme-config.php:433
+msgid "Welcome message"
+msgstr ""
+
+#: ../teemo/theme-config.php:508
+msgid "Pick a color for top bar link color (default: #ffffff)."
+msgstr ""
+
+#: ../teemo/theme-config.php:526
+msgid "Policy Banner"
+msgstr ""
+
+#: ../teemo/theme-config.php:527
+msgid ""
+"Only show on page \"Home Shop 2\". HTML tags allowed: div, a, h3, img, br, "
+"em, strong, p, ul, li, i"
+msgstr ""
+
+#: ../teemo/theme-config.php:564
+msgid "Pick a color for sub menu color (default: #444444)."
+msgstr ""
+
+#: ../teemo/theme-config.php:677
+msgid "Middle Footer background color"
+msgstr ""
+
+#: ../teemo/theme-config.php:678
+msgid "The block contains \"subscribe\" and \"social network icon\""
+msgstr ""
+
+#: ../teemo/theme-config.php:684
+msgid "Bottom Footer background color"
+msgstr ""
+
+#: ../teemo/theme-config.php:685
+msgid "The block contains below \"Middle footer\""
+msgstr ""
+
+#: ../teemo/theme-config.php:693 ../zeiran/theme-config.php:466
+msgid "Pick a color for top bar text color (default: #666666)."
+msgstr ""
+
+#: ../teemo/theme-config.php:703
+msgid "Pick a color for footer link color (default: #797979)."
+msgstr ""
+
+#: ../teemo/theme-config.php:723
+msgid "HTML tags allowed: a, div, img, h3, ul, li, i, br, em, strong, p, span"
+msgstr ""
+
+#: ../teemo/theme-config.php:758
+msgid "Bottom Menu"
+msgstr ""
+
+#: ../teemo/theme-config.php:765
+msgid "Menu Footer 1"
+msgstr ""
+
+#: ../teemo/theme-config.php:772
+msgid "Menu Footer 2"
+msgstr ""
+
+#: ../teemo/theme-config.php:853
+msgid "HTML tags allowed: a, h3, img, br, em, strong, p, ul, li, i"
+msgstr ""
+
+#: ../teemo/theme-config.php:1439
+msgid "Logo for error 404 page"
+msgstr ""
+
+#: ../teemo/woocommerce/cart/cart.php:25
+msgid "Image"
+msgstr ""
+
+#: ../teemo/woocommerce/cart/cart.php:30
+msgid "Remove"
+msgstr ""
+
+#: ../teemo/woocommerce/cart/mini-cart.php:29
+msgid "Shopping cart"
+msgstr ""
+
+#: ../teemo/woocommerce/myaccount/my-orders.php:67
+msgid "#"
+msgstr ""
+
+#: ../twentyfifteen/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../twentyfifteen/404.php:21 ../twentyfourteen/404.php:21
+#: ../twentythirteen/404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../twentyfifteen/archive.php:49 ../twentyfifteen/index.php:46
+#: ../twentyfifteen/search.php:38
+msgid "Previous page"
+msgstr ""
+
+#: ../twentyfifteen/archive.php:50 ../twentyfifteen/index.php:47
+#: ../twentyfifteen/search.php:39
+msgid "Next page"
+msgstr ""
+
+#: ../twentyfifteen/archive.php:51 ../twentyfifteen/content-link.php:40
+#: ../twentyfifteen/content-page.php:29 ../twentyfifteen/content.php:42
+#: ../twentyfifteen/image.php:63 ../twentyfifteen/index.php:48
+#: ../twentyfifteen/search.php:40
+msgid "Page"
+msgstr ""
+
+#: ../twentyfifteen/author-bio.php:12
+msgid "Published by"
+msgstr ""
+
+#: ../twentyfifteen/content-link.php:31 ../twentyfifteen/content.php:33
+#: ../twentyfifteen/inc/template-tags.php:238
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: ../twentyfifteen/content-none.php:22 ../twentyfourteen/content-none.php:18
+#: ../twentythirteen/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../twentyfifteen/content-none.php:26 ../twentyfourteen/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../twentyfifteen/content-none.php:31 ../twentyfourteen/content-none.php:27
+#: ../twentythirteen/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../twentyfifteen/footer.php:25 ../twentyfourteen/footer.php:21
+#: ../twentythirteen/footer.php:19
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: ../twentyfifteen/footer.php:25 ../twentyfourteen/footer.php:21
+#: ../twentythirteen/footer.php:19
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:86
+msgid "Social Links Menu"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:133
+msgid "Widget Area"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: ../twentyfifteen/functions.php:255
+msgid "expand child menu"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:256
+msgid "collapse child menu"
+msgstr ""
+
+#: ../twentyfifteen/header.php:26 ../twentyfourteen/header.php:53
+#: ../twentythirteen/header.php:44
+msgid "Skip to content"
+msgstr ""
+
+#: ../twentyfifteen/header.php:43
+msgid "Menu and widgets"
+msgstr ""
+
+#: ../twentyfifteen/image.php:24 ../twentyfourteen/image.php:65
+msgid "Previous Image"
+msgstr ""
+
+#: ../twentyfifteen/image.php:24 ../twentyfourteen/image.php:66
+msgid "Next Image"
+msgstr ""
+
+#: ../twentyfifteen/image.php:84
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: ../twentyfifteen/inc/back-compat.php:37
+#: ../twentyfifteen/inc/back-compat.php:47
+#: ../twentyfifteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fifteen requires at least WordPress version 4.1. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:47
+#: ../twentyfifteen/inc/customizer.php:63
+#: ../twentyfifteen/inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:92
+msgid "Default"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:103
+msgid "Dark"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:114
+msgid "Yellow"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:125
+msgid "Pink"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:136
+msgid "Purple"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:147
+msgid "Blue"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:23 ../twentyfourteen/comments.php:34
+#: ../twentyfourteen/comments.php:52 ../twentythirteen/comments.php:45
+msgid "Comment navigation"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:26
+msgid "Older Comments"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:49
+msgid "Featured"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:55
+msgid "Format"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:76
+msgid "Posted on"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:85
+msgid "Author"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:113
+msgid "Full size"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:123
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: ../twentyfifteen/single.php:34
+msgid "Next post:"
+msgstr ""
+
+#: ../twentyfifteen/single.php:37
+msgid "Previous post:"
+msgstr ""
+
+#: ../twentyfourteen/404.php:17 ../twentythirteen/404.php:16
+msgid "Not Found"
+msgstr ""
+
+#: ../twentyfourteen/author.php:31 ../twentythirteen/author.php:31
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: ../twentyfourteen/comments.php:27
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: ../twentyfourteen/comments.php:35 ../twentyfourteen/comments.php:53
+#: ../twentythirteen/comments.php:46
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../twentyfourteen/comments.php:36 ../twentyfourteen/comments.php:54
+#: ../twentythirteen/comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37
+#: ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37
+#: ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37
+#: ../twentyfourteen/content-video.php:37 ../twentyfourteen/content.php:38
+#: ../twentyfourteen/inc/widgets.php:194
+#: ../twentythirteen/content-gallery.php:43
+#: ../twentythirteen/content-image.php:39
+#: ../twentythirteen/content-quote.php:29
+#: ../twentythirteen/content-video.php:39 ../twentythirteen/content.php:56
+msgid "Leave a comment"
+msgstr ""
+
+#: ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37
+#: ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37
+#: ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37
+#: ../twentyfourteen/content-video.php:37 ../twentyfourteen/content.php:38
+#: ../twentyfourteen/inc/widgets.php:194
+msgid "1 Comment"
+msgstr ""
+
+#: ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37
+#: ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37
+#: ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37
+#: ../twentyfourteen/content-video.php:37 ../twentyfourteen/content.php:38
+#: ../twentyfourteen/inc/widgets.php:194
+msgid "% Comments"
+msgstr ""
+
+#: ../twentyfourteen/content-aside.php:48
+#: ../twentyfourteen/content-audio.php:48
+#: ../twentyfourteen/content-gallery.php:48
+#: ../twentyfourteen/content-image.php:48
+#: ../twentyfourteen/content-link.php:48
+#: ../twentyfourteen/content-quote.php:48
+#: ../twentyfourteen/content-video.php:48 ../twentyfourteen/content.php:56
+#: ../twentyfourteen/inc/template-tags.php:222
+#: ../twentythirteen/content-aside.php:16
+#: ../twentythirteen/content-audio.php:27
+#: ../twentythirteen/content-chat.php:26
+#: ../twentythirteen/content-gallery.php:27
+#: ../twentythirteen/content-image.php:26
+#: ../twentythirteen/content-link.php:27
+#: ../twentythirteen/content-quote.php:16
+#: ../twentythirteen/content-status.php:16
+#: ../twentythirteen/content-video.php:26 ../twentythirteen/content.php:44
+#: ../twentythirteen/functions.php:478
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:83
+msgid "Top primary menu"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:84
+msgid "Secondary menu in left sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:171
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:173
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:180
+msgid "Content Sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:182
+msgid "Additional sidebar that appears on the right."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:189
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:191 ../twentythirteen/functions.php:233
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:376
+#, php-format
+msgid "%d Article"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:495 ../twentythirteen/functions.php:218
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../twentyfourteen/header.php:48
+msgid "Search"
+msgstr ""
+
+#: ../twentyfourteen/inc/back-compat.php:37
+#: ../twentyfourteen/inc/back-compat.php:47
+#: ../twentyfourteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fourteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:24
+msgid "Site Title Color"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:27
+msgid "Display Site Title &amp; Tagline"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:31
+#: ../twentyfourteen/inc/customizer.php:32
+msgid "May only be visible on wide screens."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:34
+#: ../twentyfourteen/inc/customizer.php:35
+msgid "Background may only be visible on wide screens."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:40
+#: ../twentyfourteen/inc/featured-content.php:403
+msgid "Featured Content"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:41
+#: ../twentyfourteen/inc/featured-content.php:404
+#, php-format
+msgid ""
+"Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the "
+"tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:42
+#: ../twentyfourteen/inc/customizer.php:108
+#: ../twentyfourteen/inc/featured-content.php:405
+#: ../twentyfourteen/inc/featured-content.php:414
+#: ../twentyfourteen/inc/featured-content.php:474
+msgid "featured"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:60
+msgid "Grid"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:61
+msgid "Slider"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:105
+msgid "Twenty Fourteen"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:108
+#, php-format
+msgid ""
+"The home page features your choice of up to 6 posts prominently displayed in "
+"a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change "
+"the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If "
+"no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed "
+"instead."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:109
+#, php-format
+msgid ""
+"Enhance your site design by using <a href=\"%s\">Featured Images</a> for "
+"posts you&rsquo;d like to stand out (also known as post thumbnails). This "
+"allows you to associate an image with your post without inserting it. Twenty "
+"Fourteen uses featured images for posts and pages&mdash;above the "
+"title&mdash;and in the Featured Content area on the home page."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:110
+#, php-format
+msgid ""
+"For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s"
+"\">Twenty Fourteen documentation</a>."
+msgstr ""
+
+#: ../twentyfourteen/inc/featured-content.php:426
+msgid "Tag Name"
+msgstr ""
+
+#: ../twentyfourteen/inc/featured-content.php:431
+msgid "Don&rsquo;t display tag on front end."
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:58
+#: ../twentythirteen/functions.php:266
+msgid "Posts navigation"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:89
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:91
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:92
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:109
+#: ../twentythirteen/functions.php:322
+msgid "Sticky"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:34
+msgid "Twenty Fourteen Ephemera"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:36
+msgid ""
+"Use this widget to list your recent Aside, Quote, Video, Audio, Image, "
+"Gallery, and Link posts."
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:54
+#: ../twentyfourteen/taxonomy-post_format.php:33
+msgid "Images"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:55
+msgid "More images"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:58
+#: ../twentyfourteen/taxonomy-post_format.php:36
+msgid "Videos"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:59
+msgid "More videos"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:62
+#: ../twentyfourteen/taxonomy-post_format.php:39
+msgid "Audio"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:63
+msgid "More audio"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:66
+#: ../twentyfourteen/taxonomy-post_format.php:42
+msgid "Quotes"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:67
+msgid "More quotes"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:70
+#: ../twentyfourteen/taxonomy-post_format.php:45
+msgid "Links"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:71
+msgid "More links"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:74
+#: ../twentyfourteen/taxonomy-post_format.php:48
+msgid "Galleries"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:75
+msgid "More galleries"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:79
+#: ../twentyfourteen/taxonomy-post_format.php:30
+msgid "Asides"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:80
+msgid "More asides"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:162
+#, php-format
+msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:206
+#, php-format
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:258
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:261
+msgid "Post format to show:"
+msgstr ""
+
+#: ../twentythirteen/404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../twentythirteen/author-bio.php:30
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:43
+#: ../twentythirteen/content-image.php:39
+#: ../twentythirteen/content-quote.php:29
+#: ../twentythirteen/content-video.php:39 ../twentythirteen/content.php:56
+msgid "One comment so far"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:43
+#: ../twentythirteen/content-image.php:39
+#: ../twentythirteen/content-quote.php:29
+#: ../twentythirteen/content-video.php:39 ../twentythirteen/content.php:56
+#, php-format
+msgid "View all % comments"
+msgstr ""
+
+#: ../twentythirteen/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: ../twentythirteen/functions.php:97
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../twentythirteen/functions.php:231
+msgid "Main Widget Area"
+msgstr ""
+
+#: ../twentythirteen/functions.php:241
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../twentythirteen/functions.php:243
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: ../twentythirteen/functions.php:303
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: ../twentythirteen/functions.php:304
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentythirteen/functions.php:363
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../twentythirteen/functions.php:369
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../twentythirteen/image.php:22
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: ../twentythirteen/image.php:39
+msgid "Full resolution"
+msgstr ""
+
+#: ../twentythirteen/image.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../twentythirteen/image.php:52
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentythirteen/inc/back-compat.php:37
+#: ../twentythirteen/inc/back-compat.php:47
+#: ../twentythirteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Thirteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentythirteen/inc/custom-header.php:49
+msgid "Circle"
+msgstr ""
+
+#: ../twentythirteen/inc/custom-header.php:54
+msgid "Diamond"
+msgstr ""
+
+#: ../twentythirteen/inc/custom-header.php:59
+msgid "Star"
+msgstr ""
+
+#: ../twentythirteen/taxonomy-post_format.php:23
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: ../zeiran/404.php:18
+msgid "Oops, that page can't be found."
+msgstr ""
+
+#: ../zeiran/theme-config.php:272
+msgid "Pick a color for primary color (default: #010101)."
+msgstr ""
+
+#: ../zeiran/theme-config.php:283
+msgid "Pick a color for bg sale label (default: #d01d23 )."
+msgstr ""
+
+#: ../zeiran/theme-config.php:305
+msgid "Pick a color for star of rating (default: #f2a62b)."
+msgstr ""
+
+#: ../zeiran/theme-config.php:315
+msgid "Pick a color for link (default: #666)."
+msgstr ""
+
+#: ../zeiran/theme-config.php:391
+msgid "Pick a color for header link color (default: #898989)."
+msgstr ""
+
+#: ../zeiran/theme-config.php:476
+msgid "Pick a color for top bar link color (default: #898989)."
+msgstr ""
+
+#: ../zeiran/theme-config.php:544
+msgid "Pick a color for sub menu bg (default: #fff)."
+msgstr ""
+
+#: ../zeiran/theme-config.php:554
+msgid "Pick a color for sub menu color (default: #666666)."
+msgstr ""
+
+#: ../zeiran/theme-config.php:563
+msgid "Vertical Menu"
+msgstr ""
+
+#: ../zeiran/theme-config.php:570
+msgid "Vertical menu background"
+msgstr ""
+
+#: ../zeiran/theme-config.php:571
+msgid "Pick a color for vertical menu background (default: #f2f2f2)."
+msgstr ""
+
+#: ../zeiran/theme-config.php:579
+msgid "Vertical menu label"
+msgstr ""
+
+#: ../zeiran/theme-config.php:580
+msgid "The label for vertical menu"
+msgstr ""
+
+#: ../zeiran/theme-config.php:586
+msgid "Number of items"
+msgstr ""
+
+#: ../zeiran/theme-config.php:587
+msgid "Number of menu items level 1 to show, default value: 8"
+msgstr ""
+
+#: ../zeiran/theme-config.php:597
+msgid "More items label"
+msgstr ""
+
+#: ../zeiran/theme-config.php:598
+msgid "The label for more items button"
+msgstr ""
+
+#: ../zeiran/theme-config.php:604
+msgid "Less items label"
+msgstr ""
+
+#: ../zeiran/theme-config.php:605
+msgid "The label for less items button"
+msgstr ""
+
+#: ../zeiran/theme-config.php:611
+msgid "Home Vertical Menu"
+msgstr ""
+
+#: ../zeiran/theme-config.php:612
+msgid "Always show vertical menu on home page"
+msgstr ""
+
+#: ../zeiran/theme-config.php:618
+msgid "Inner Vertical Menu"
+msgstr ""
+
+#: ../zeiran/theme-config.php:619
+msgid "Always show vertical menu on inner pages"
+msgstr ""
+
+#: ../zeiran/theme-config.php:653
+msgid "Pick a color for top bar text color (default: #898989)."
+msgstr ""
+
+#: ../zeiran/theme-config.php:663
+msgid "Pick a color for footer link color (default: #898989)."
+msgstr ""
+
+#: ../zeiran/theme-config.php:711
+msgid "Newsletter Lable"
+msgstr ""
+
+#: ../zeiran/theme-config.php:727
+msgid "Instagram"
+msgstr ""
+
+#: ../zeiran/theme-config.php:733
+msgid "Instagram title"
+msgstr ""
+
+#: ../zeiran/theme-config.php:739
+msgid "Instagram shortcode"
+msgstr ""
+
+#: ../zeiran/theme-config.php:740
+msgid ""
+"Shortcode to show instagram feed, plugin url: https://wordpress.org/plugins/"
+"instagram-feed/"
+msgstr ""
+
+#: ../zeiran/theme-config.php:754
+msgid "Contact Info"
+msgstr ""
+
+#: ../zeiran/woocommerce/cart/mini-cart.php:33
+msgid "Cart:"
+msgstr ""
