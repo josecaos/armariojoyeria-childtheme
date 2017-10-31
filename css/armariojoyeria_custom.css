@@ -1,0 +1,64 @@
+.ontop {
+  background-color: white;
+}
+
+/*js stickers descuentos*/
+.woocommerce .product-wrapper .onsale, .woocommerce .single-product-image .onsale {
+  background-color: #2fd9de;
+  color: black;
+}
+/**/
+h4.titulo-empaque {
+  width: 100%;
+  display: block;
+}
+.checkbox-envoltura {
+  width: auto !important;
+  display: inline-block !important;
+  position: relative;
+  padding-right: 15px;
+}
+.checkbox-envoltura p label input {
+    position: absolute;
+    left: 0;
+    margin-right: 0px !important;
+}
+.checkbox-envoltura p label{
+  padding-left: 25px;
+  width: 47% !important;
+  display: inline-flex;
+}
+.m-b-1 {
+  margin-bottom: 10px;
+}
+
+
+/**/
+/*.header-main {
+  -webkit-animation: fondo 0.5s infinite;
+  -moz-animation:    fondo 0.5s infinite;
+  -o-animation:      fondo 0.5s infinite;
+  animation:         fondo 0.5s infinite;
+
+}*/
+
+@-webkit-keyframes fondo {
+0%   { background-color: lime; }
+50% { background-color: purple; }
+0%   { background-color: lime; }
+}
+@-moz-keyframes fondo {
+  0%   { background-color: lime; }
+  50% { background-color: purple; }
+  0%   { background-color: lime; }
+}
+@-o-keyframes fondo {
+  0%   { background-color: lime; }
+  50% { background-color: purple; }
+  0%   { background-color: lime; }
+}
+@keyframes fondo {
+  0%   { background-color: lime; }
+  50% { background-color: purple; }
+  0%   { background-color: lime; }
+}
