@@ -8,7 +8,7 @@
 }
 /**/
 .modulo-caja {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   background-color: #F8F8F8;
   padding: 15px;
 }
@@ -29,7 +29,7 @@ h4.titulo-empaque {
     margin-left: 1px !important;
 }
 .checkbox-envoltura p label{
-  padding-left: 15px;
+  padding-left: 0px;
   padding-bottom: 3px;
   width: 100% !important;
   display: inline-flex;
