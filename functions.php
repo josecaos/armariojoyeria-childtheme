@@ -16,32 +16,39 @@ add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
 // add_action( 'woocommerce_before_checkout_form', 'checkbox_regalo' );
 function checkbox_regalo( $checkout ) {
   echo '<div class="modulo-caja">
-  <h3 class="titulo-empaque"><i class="fa fa-dropbox"></i>&nbsp;¿Lo quieres para Regalo?</h3>
+  <h3 class="titulo-empaque">
+    <i class="fa fa-dropbox"></i>&nbsp;¿Lo quieres para Regalo?
+  </h3>
   <div class="checkbox-envoltura">
-  <div class="thumb-regalo">
-  <img src="' . get_stylesheet_directory_uri() .'/img/caja-regalo-grande.jpg" / >
-  </div>';
+    <div class="thumb-regalo">
+      <img src="' . get_stylesheet_directory_uri() .'/img/caja-regalo-grande.jpg" / >
+    </div>';
   woocommerce_form_field( 'checkbox_caja_grande', array(
     'type'          => 'checkbox',
     'class'         => array('checkbox_caja_grande'),
-    'label'         => __('Para collares, dijes ,cadenas y pulseras (10cmX10cm) + $30.00 c/u'),
+    'label'         => __('Para collares, dijes ,cadenas y pulseras (10cm x 10cm)'),
+  ));
+  woocommerce_form_field( 'cantidad_caja_grande', array(
+    'type'          => 'number',
+    'class'         => array('cantidad_caja_grande'),
+    'label'         => __('$30.00 c/u cantidad:'),
   ));
 
   echo '</div>
   <div class="checkbox-envoltura">
-    <div class="thumb-regalo">
-      <img src="' . get_stylesheet_directory_uri() .'/img/caja-regalo-chico.jpg" / >
-    </div>';
+  <div class="thumb-regalo">
+  <img src="' . get_stylesheet_directory_uri() .'/img/caja-regalo-chico.jpg" / >
+  </div>';
 
   woocommerce_form_field( 'checkbox_caja_chica', array(
     'type'          => 'checkbox',
     'class'         => array('checkbox_caja_chica'),
-    'label'         => __('Para anillos, piedras, charms, aretes (5cm X 5cm)'),
+    'label'         => __('Para anillos, piedras, charms, aretes (5cm x 5cm)'),
   ));
   woocommerce_form_field( 'cantidad_caja_chica', array(
     'type'          => 'number',
     'class'         => array('cantidad_caja_chica'),
-    'label'         => __('Cantidad: $15.00 c/u'),
+    'label'         => __('$15.00 c/u cantidad:'),
   ));
   echo '</div>
   </div>';
@@ -56,15 +63,19 @@ function agrega_evento() {
       // caja chica
       jQuery('#cantidad_caja_chica').attr('min',1).attr('max',15).attr('value',1);
       jQuery('#checkbox_caja_chica').click(function(){
-        jQuery('#checkbox_caja_grande').attr('checked', false);
+        // jQuery('#checkbox_caja_grande').attr('checked', false);
         jQuery('body').trigger('update_checkout');
       });
       jQuery('#cantidad_caja_chica').on('change',function(){
         jQuery('body').trigger('update_checkout');
       });
       // caja grande
+      jQuery('#cantidad_caja_grande').attr('min',1).attr('max',15).attr('value',1);
       jQuery('#checkbox_caja_grande').click(function(){
-        $('#checkbox_caja_chica').attr('checked', false);
+        // $('#checkbox_caja_chica').attr('checked', false);
+        jQuery('body').trigger('update_checkout');
+      });
+      jQuery('#cantidad_caja_grande').on('change',function(){
         jQuery('body').trigger('update_checkout');
       });
       //
@@ -89,15 +100,15 @@ function agrega_datos( $cart ){
 
   if (isset($post_data['checkbox_caja_chica'])) {
 
-    $cantidad = $post_data['cantidad_caja_chica'];
-    $extracost = 15 * $cantidad ; //
-    // $extracost = 15;
-    WC()->cart->add_fee($cantidad . ' Caja(s) de regalo chico', $extracost );
-    // var_dump($_POST);
-  } else if (isset($post_data['checkbox_caja_grande'])) {
+    $small_quant = $post_data['cantidad_caja_chica'];
+    $smallcost = 15 * $small_quant; //
+    WC()->cart->add_fee($small_quant . ' Caja(s) de regalo chico', $smallcost );
+  }
 
-    $extracost = 30;
-    WC()->cart->add_fee( 'Caja regalo grande', $extracost );
+  if (isset($post_data['checkbox_caja_grande'])) {
+    $large_quant = $post_data['cantidad_caja_grande'];
+    $largecost = 30 * $large_quant;
+    WC()->cart->add_fee($large_quant . ' Caja(s) de regalo grande', $largecost );
   }
 
 }
