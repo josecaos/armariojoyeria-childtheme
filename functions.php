@@ -48,7 +48,7 @@ function checkbox_regalo( $checkout ) {
   woocommerce_form_field( 'cantidad_caja_chica', array(
     'type'          => 'number',
     'class'         => array('cantidad_caja_chica'),
-    'label'         => __('$15.00 c/u cantidad:'),
+    'label'         => __('$20.00 c/u cantidad:'),
   ));
   echo '</div>
   </div>';
@@ -101,7 +101,7 @@ function agrega_datos( $cart ){
   if (isset($post_data['checkbox_caja_chica'])) {
 
     $small_quant = $post_data['cantidad_caja_chica'];
-    $smallcost = 15 * $small_quant; //
+    $smallcost = 20 * $small_quant; //
     WC()->cart->add_fee($small_quant . ' Caja(s) de regalo chico', $smallcost );
   }
 
