@@ -9,8 +9,6 @@ jQuery(document).ready(function() {
 function sticker_descuentos() {
 
 	jQuery('.product-wrapper').each(function(index) {
-		// var descuento = jQuery(this).find('.special-price .woocommerce-Price-amount').text()
-		// var precio = jQuery(this).find('.old-price .woocommerce-Price-amount').text()
 		var precioFinal,precioInicial,precioFinalClean,precioInicialClean
 		var oper,tdescuento,tprecio,descuento
 		var cleanOldNumber,cleanNewNumber
@@ -33,23 +31,14 @@ function sticker_descuentos() {
 			cleanOldNumber=parseInt(cleanOldNumber,10)
 			console.log(cleanOldNumber)
 
-			// console.log(precioFinalClean + ' descuento ' + precioFinalClean.length/4 )// regresa el precio sin repeticiones
-			// console.log(precioInicialClean + ' precio ' + precioInicialClean.length/4)
-
-			// tDescuento = precioFinalClean.slice(0,precioFinalClean.length/4)
-			// tPrecio = precioInicialClean.slice(0,precioInicialClean.length/4)
 			tDescuento = cleanNewNumber
 			tPrecio = cleanOldNumber
 
 			oper = (1 - (tDescuento/tPrecio) ) * 100
 
 			console.log(oper)
-			// console.log(tDescuento + ' descuento ')// regresa el precio sin repeticiones
-			// console.log(tPrecio + ' precio ')
 
 			descuento = Math.round(oper)
-
-			// console.log(total + '%' + ' Total ')
 
 			if ( oper >= 1) {
 
