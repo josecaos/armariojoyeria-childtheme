@@ -112,3 +112,78 @@ function agrega_datos( $cart ){
   }
 
 }
+echo vardump($_POST);
+// Oferta 3x2
+// WooCommerce Dynamic Pricing & Discounts
+// Aplicar oferta 3x2 a un producto determinado
+add_filter( 'woocommerce_cart_item_subtotal', 'aplicar_oferta_3x2', 10, 3 );
+function aplicar_oferta_3x2( $subtotal, $cart_item, $cart_item_key ){
+
+    $ofertaFinal = $subtotal;
+    $cantidad = $cart_item[ 'quantity' ];
+    echo var_dump($ofertaFinal);
+    echo var_dump($cantidad);
+
+    if ( ( $cart_item[ 'product_id' ] === 4696 ) && ( $cantidad >= 3 ) ) {
+
+        $precioProducto = $cart_item[ 'data' ]->get_price();
+        $precioProductoImpuestoIncl = $cart_item[ 'data' ]->get_price_including_tax();
+        $descuento = floor( $cantidad / 3 ) * $precioProducto;
+        $descuentoImpuestoIncl = floor( $cantidad / 3 ) * $precioProductoImpuestoIncl;
+
+        // Calcula oferta para configuración de impuestos activa
+        if ( WC()->cart->tax_display_cart == 'excl' ) {
+
+            $oferta = $cart_item[ 'data' ]->get_price_excluding_tax( $cantidad ) - $descuento;
+            $ofertaFinal = wc_price( $oferta );
+
+            if ( WC()->cart->prices_include_tax && WC()->cart->tax_total > 0 ) {
+                $ofertaFinal .= ' <small class="tax_label">' . WC()->countries->ex_tax_or_vat() . '</small>';
+            }
+        } else {
+
+            $oferta = $cart_item[ 'data' ]->get_price_including_tax( $cantidad ) - $descuentoImpuestoIncl;
+            $ofertaFinal = wc_price( $oferta );
+
+            if ( ! WC()->cart->prices_include_tax && WC()->cart->tax_total > 0 ) {
+                $ofertaFinal .= ' <small class="tax_label">' . WC()->countries->inc_tax_or_vat() . '</small>';
+            }
+        }
+
+        // Actualiza subtotal del carrito
+        if ( WC()->cart->tax_display_cart == 'excl' ) {
+
+            WC()->cart->subtotal_ex_tax = WC()->cart->subtotal_ex_tax - $descuento;
+        }else{
+
+            WC()->cart->subtotal = WC()->cart->subtotal - $descuentoImpuestoIncl;
+        }
+        // Actualiza total del carrito
+        WC()->cart->total = WC()->cart->total - $descuentoImpuestoIncl;
+    }
+
+    return $ofertaFinal;
+}
+
+// Actualiza los impuestos después de aplicar la oferta
+add_filter( 'woocommerce_cart_tax_totals', 'actualiza_impuestos_aplicados', 10, 2 );
+function actualiza_impuestos_aplicados( $tax_totals, $cartObject ){
+
+    $impuestosDesc = 0;
+    foreach ( $cartObject->get_cart() as $cart_item_key => $cart_item ){
+
+        if ( ( $cart_item[ 'product_id' ] === 4696 ) && ( $cart_item[ 'quantity' ] >= 3 ) ) {
+
+            $impuestosDesc = ( $cart_item[ 'data' ]->get_price_including_tax() - $cart_item[ 'data' ]->get_price_excluding_tax() ) * floor( $cart_item[ 'quantity' ] / 3 );
+        }
+    }
+    // Aplica descuento al desglose de impuestos mostrado debajo del total del carrito
+    $newTaxTotal = current( $tax_totals );
+    $clave = key( $tax_totals );
+    $newTaxTotal->amount -= $impuestosDesc;
+    $newTaxTotal->formatted_amount = wc_price( $newTaxTotal->amount );
+
+    $tax_totals[ $clave ] = $newTaxTotal;
+
+    return $tax_totals;
+}
