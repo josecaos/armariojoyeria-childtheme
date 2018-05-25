@@ -17,12 +17,12 @@ add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
 function checkbox_regalo( $checkout ) {
   echo '<div class="modulo-caja">
   <h3 class="titulo-empaque">
-    <i class="fa fa-dropbox"></i>&nbsp;¿Lo quieres para Regalo?
+  <i class="fa fa-dropbox"></i>&nbsp;¿Lo quieres para Regalo?
   </h3>
   <div class="checkbox-envoltura">
-    <div class="thumb-regalo">
-      <img src="' . get_stylesheet_directory_uri() .'/img/caja-regalo-grande.jpg" / >
-    </div>';
+  <div class="thumb-regalo">
+  <img src="' . get_stylesheet_directory_uri() .'/img/caja-regalo-grande.jpg" / >
+  </div>';
   woocommerce_form_field( 'checkbox_caja_grande', array(
     'type'          => 'checkbox',
     'class'         => array('checkbox_caja_grande'),
@@ -112,78 +112,80 @@ function agrega_datos( $cart ){
   }
 
 }
-echo vardump($_POST);
 // Oferta 3x2
 // WooCommerce Dynamic Pricing & Discounts
 // Aplicar oferta 3x2 a un producto determinado
 add_filter( 'woocommerce_cart_item_subtotal', 'aplicar_oferta_3x2', 10, 3 );
 function aplicar_oferta_3x2( $subtotal, $cart_item, $cart_item_key ){
 
-    $ofertaFinal = $subtotal;
-    $cantidad = $cart_item[ 'quantity' ];
-    echo var_dump($ofertaFinal);
-    echo var_dump($cantidad);
+  $ofertaFinal = $subtotal;
+  $cantidad = $cart_item['quantity'];
 
-    if ( ( $cart_item[ 'product_id' ] === 4696 ) && ( $cantidad >= 3 ) ) {
+  foreach ( $cartObject->get_cart() as $cart_item_key => $cart_item ){
 
-        $precioProducto = $cart_item[ 'data' ]->get_price();
-        $precioProductoImpuestoIncl = $cart_item[ 'data' ]->get_price_including_tax();
-        $descuento = floor( $cantidad / 3 ) * $precioProducto;
-        $descuentoImpuestoIncl = floor( $cantidad / 3 ) * $precioProductoImpuestoIncl;
+    // if ( ( $cart_item[ 'product_id' ] === 4696 ) && ( $cantidad >= 3 ) ) {
+    if (( $cantidad >= 3 ) ) {
 
-        // Calcula oferta para configuración de impuestos activa
-        if ( WC()->cart->tax_display_cart == 'excl' ) {
+      $precioProducto = $cart_item[ 'data' ]->get_price();
+      $precioProductoImpuestoIncl = $cart_item[ 'data' ]->get_price_including_tax();
+      $descuento = floor( $cantidad / 3 ) * $precioProducto;
+      $descuentoImpuestoIncl = floor( $cantidad / 3 ) * $precioProductoImpuestoIncl;
 
-            $oferta = $cart_item[ 'data' ]->get_price_excluding_tax( $cantidad ) - $descuento;
-            $ofertaFinal = wc_price( $oferta );
+      // Calcula oferta para configuración de impuestos activa
+      if ( WC()->cart->tax_display_cart == 'excl' ) {
 
-            if ( WC()->cart->prices_include_tax && WC()->cart->tax_total > 0 ) {
-                $ofertaFinal .= ' <small class="tax_label">' . WC()->countries->ex_tax_or_vat() . '</small>';
-            }
-        } else {
+        $oferta = $cart_item[ 'data' ]->get_price_excluding_tax( $cantidad ) - $descuento;
+        $ofertaFinal = wc_price( $oferta );
 
-            $oferta = $cart_item[ 'data' ]->get_price_including_tax( $cantidad ) - $descuentoImpuestoIncl;
-            $ofertaFinal = wc_price( $oferta );
-
-            if ( ! WC()->cart->prices_include_tax && WC()->cart->tax_total > 0 ) {
-                $ofertaFinal .= ' <small class="tax_label">' . WC()->countries->inc_tax_or_vat() . '</small>';
-            }
+        if ( WC()->cart->prices_include_tax && WC()->cart->tax_total > 0 ) {
+          $ofertaFinal .= ' <small class="tax_label">' . WC()->countries->ex_tax_or_vat() . '</small>';
         }
+      } else {
 
-        // Actualiza subtotal del carrito
-        if ( WC()->cart->tax_display_cart == 'excl' ) {
+        $oferta = $cart_item[ 'data' ]->get_price_including_tax( $cantidad ) - $descuentoImpuestoIncl;
+        $ofertaFinal = wc_price( $oferta );
 
-            WC()->cart->subtotal_ex_tax = WC()->cart->subtotal_ex_tax - $descuento;
-        }else{
-
-            WC()->cart->subtotal = WC()->cart->subtotal - $descuentoImpuestoIncl;
+        if ( ! WC()->cart->prices_include_tax && WC()->cart->tax_total > 0 ) {
+          $ofertaFinal .= ' <small class="tax_label">' . WC()->countries->inc_tax_or_vat() . '</small>';
         }
-        // Actualiza total del carrito
-        WC()->cart->total = WC()->cart->total - $descuentoImpuestoIncl;
+      }
+
+      // Actualiza subtotal del carrito
+      if ( WC()->cart->tax_display_cart == 'excl' ) {
+
+        WC()->cart->subtotal_ex_tax = WC()->cart->subtotal_ex_tax - $descuento;
+
+      } else {
+
+        WC()->cart->subtotal = WC()->cart->subtotal - $descuentoImpuestoIncl;
+      }
+      // Actualiza total del carrito
+      WC()->cart->total = WC()->cart->total - $descuentoImpuestoIncl;
     }
-
-    return $ofertaFinal;
+  }
+  return $ofertaFinal;
 }
 
 // Actualiza los impuestos después de aplicar la oferta
 add_filter( 'woocommerce_cart_tax_totals', 'actualiza_impuestos_aplicados', 10, 2 );
 function actualiza_impuestos_aplicados( $tax_totals, $cartObject ){
 
-    $impuestosDesc = 0;
-    foreach ( $cartObject->get_cart() as $cart_item_key => $cart_item ){
+  $impuestosDesc = 0;
+  foreach ( $cartObject->get_cart() as $cart_item_key => $cart_item ){
 
-        if ( ( $cart_item[ 'product_id' ] === 4696 ) && ( $cart_item[ 'quantity' ] >= 3 ) ) {
+    // if ( ( $cart_item[ 'product_id' ] === 4696 ) && ( $cart_item[ 'quantity' ] >= 3 ) ) {
+    if (( $cart_item[ 'quantity' ] >= 3 ) ) {
 
-            $impuestosDesc = ( $cart_item[ 'data' ]->get_price_including_tax() - $cart_item[ 'data' ]->get_price_excluding_tax() ) * floor( $cart_item[ 'quantity' ] / 3 );
-        }
+      $impuestosDesc = ( $cart_item[ 'data' ]->get_price_including_tax() - $cart_item[ 'data' ]->get_price_excluding_tax() ) * floor( $cart_item[ 'quantity' ] / 3 );
     }
-    // Aplica descuento al desglose de impuestos mostrado debajo del total del carrito
-    $newTaxTotal = current( $tax_totals );
-    $clave = key( $tax_totals );
-    $newTaxTotal->amount -= $impuestosDesc;
-    $newTaxTotal->formatted_amount = wc_price( $newTaxTotal->amount );
+  }
+  // Aplica descuento al desglose de impuestos mostrado debajo del total del carrito
+  $newTaxTotal = current( $tax_totals );
+  $clave = key( $tax_totals );
+  $newTaxTotal->amount -= $impuestosDesc;
+  $newTaxTotal->formatted_amount = wc_price( $newTaxTotal->amount );
 
-    $tax_totals[ $clave ] = $newTaxTotal;
+  $tax_totals[ $clave ] = $newTaxTotal;
 
-    return $tax_totals;
+  return $tax_totals;
 }
