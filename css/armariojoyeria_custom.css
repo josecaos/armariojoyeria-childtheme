@@ -54,6 +54,11 @@ h4.titulo-empaque {
 .logo a img {
   width: 150px
 }
+/*  */
+body.page-id-23 header.entry-header
+body.page-id-23 .breadcrumbs {
+  display: none;
+}
 
 /**/
 /*.header-main {
