@@ -55,8 +55,7 @@ h4.titulo-empaque {
   width: 150px
 }
 /*  */
-body.page-id-23 > h1.entry-title,
-body.page-id-23 > .breadcrumbs {
+body.page-id-23 .wrapper .page-wrapper .main-container .title-breadcrumb {
   display: none !important;
 }
 
