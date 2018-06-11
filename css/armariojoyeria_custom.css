@@ -58,7 +58,9 @@ h4.titulo-empaque {
 body.home .wrapper .page-wrapper .main-container .title-breadcrumb {
   display: none !important;
 }
-
+.archive .shop-desc .shop-desc-inner {
+    min-height: 0px;
+}
 
 /**/
 /*.header-main {

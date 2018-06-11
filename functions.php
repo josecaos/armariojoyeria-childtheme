@@ -115,6 +115,7 @@ function agrega_datos( $cart ){
 // Oferta 3x2
 // WooCommerce Dynamic Pricing & Discounts
 // Aplicar oferta 3x2 a un producto determinado
+/*
 add_filter( 'woocommerce_cart_item_subtotal', 'aplicar_oferta_3x2', 10, 3 );
 function aplicar_oferta_3x2( $subtotal, $cart_item, $cart_item_key ){
 
@@ -189,3 +190,4 @@ function actualiza_impuestos_aplicados( $tax_totals, $cartObject ){
 
   return $tax_totals;
 }
+*/

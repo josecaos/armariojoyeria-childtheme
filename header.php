@@ -10,10 +10,10 @@
  */
 ?><!DOCTYPE html>
 <!--[if IE 7]>
-<html class="ie ie7" <?php language_attributes(); ?>>
+<html class="ie ie7" <?php #language_attributes(); ?>>
 <![endif]-->
 <!--[if IE 8]>
-<html class="ie ie8" <?php language_attributes(); ?>>
+<html class="ie ie8" <?php #language_attributes(); ?>>
 <![endif]-->
 <!--[if !(IE 7) | !(IE 8)  ]><!-->
 <html <?php language_attributes(); ?>>
@@ -27,6 +27,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-K4WJQMN');</script>
 <!-- End Google Tag Manager -->
 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <?php $chamo_opt = get_option( 'chamo_opt' ); ?>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
