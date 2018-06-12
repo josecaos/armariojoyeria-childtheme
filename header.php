@@ -31,6 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <?php $chamo_opt = get_option( 'chamo_opt' ); ?>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="la7KIbJS2LEM-Gbw6vdbd_VMUJMquBk-7gIGGbBn3oE" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
@@ -44,8 +45,10 @@ if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) {
 	<?php }
 }
 ?>
+
 <?php wp_head(); ?>
-</head>
+
+	</head>
 
 <body <?php body_class(); ?>>
 
