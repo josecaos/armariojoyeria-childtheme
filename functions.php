@@ -2,9 +2,9 @@
 // php armariojoyeria custom
 function armariojoyeria_scripts() {
   // estilos
-  wp_enqueue_style( 'armariojoyeria-child', get_stylesheet_directory_uri() . '/css/armariojoyeria_custom.css', array('chamocss-responsive'), '1.0.0' );
+  wp_enqueue_style( 'armariojoyeria-child', get_stylesheet_directory_uri() . '/assets/css/armariojoyeria_custom.css', array(''), '1.0.0' );
   // js custom
-  wp_enqueue_script('custom-script',get_stylesheet_directory_uri() . '/js/armariojoyeria_custom.js', array( 'jquery' ));
+  wp_enqueue_script('custom-script',get_stylesheet_directory_uri() . '/assets/js/armariojoyeria_custom.js', array( 'jquery' ));
 }
 add_action( 'wp_enqueue_scripts', 'armariojoyeria_scripts' );
 
