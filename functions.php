@@ -15,11 +15,11 @@ add_action( 'wp_enqueue_scripts', 'armariojoyeria_scripts' );
 add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
 // add_action( 'woocommerce_before_checkout_form', 'checkbox_regalo' );
 function checkbox_regalo( $checkout ) {
-  echo '<div class="modulo-caja">
+  echo '<div class="modulo-caja container">
   <h3 class="titulo-empaque">
   <i class="fa fa-dropbox"></i>&nbsp;¿Lo quieres para Regalo?
   </h3>
-  <div class="checkbox-envoltura">
+  <div class="checkbox-envoltura col-sm-12 col-md-6">
   <div class="thumb-regalo">
   <img src="' . get_stylesheet_directory_uri() .'/assets/img/caja-regalo-grande.jpg" / >
   </div>';
@@ -35,7 +35,7 @@ function checkbox_regalo( $checkout ) {
   ));
 
   echo '</div>
-  <div class="checkbox-envoltura">
+  <div class="checkbox-envoltura col-sm-12 col-md-6">
   <div class="thumb-regalo">
   <img src="' . get_stylesheet_directory_uri() .'/assets/img/caja-regalo-chico.jpg" / >
   </div>';
