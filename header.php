@@ -110,4 +110,4 @@
 	endif;
 	?>
 
-	<div class="site-content">
+	<div class="site-content container">
