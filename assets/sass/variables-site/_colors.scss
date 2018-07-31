@@ -7,7 +7,7 @@ $color__background-ins: #fff9c0;
 
 // $color__brand-primary: #F66249 !default;
 $color__brand-primary: #24D1CB !default;
-$color__brand-primary-hover: darken($color__brand-primary, 20%);
+$color__brand-primary-hover: darken($color__brand-primary, 10%);
 
 $color__text-screen: #21759b;
 $color__text-input: #666;
@@ -19,8 +19,7 @@ $color__text-main: #717171;
 $color__title: #2a313e;
 
 
-// $color__header_bg: #2b2e34;
-$color__header_bg: #FFF;
+$color__header_bg: #2b2e34;
 
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;

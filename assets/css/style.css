@@ -1834,7 +1834,7 @@ a {
   color: #717171;
 }
 a:hover, a:focus {
-  color: #157a76;
+  color: #1da5a1;
 }
 
 /*--------------------------------------------------------------
@@ -1990,8 +1990,8 @@ button:focus:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
 input[type=button]:focus,
 input[type=reset]:focus,
 input[type=submit]:focus {
-  border-color: #157a76;
-  background: #157a76;
+  border-color: #1da5a1;
+  background: #1da5a1;
 }
 
 .button, .woocommerce .price_slider_amount .button,
@@ -2117,8 +2117,8 @@ input[type=reset].primary:focus,
 input[type=submit].primary:hover,
 input[type=submit].primary:active,
 input[type=submit].primary:focus {
-  border-color: #157a76;
-  background: #157a76;
+  border-color: #1da5a1;
+  background: #1da5a1;
   color: #FFF;
 }
 .button.red, .woocommerce .price_slider_amount .red.button,
@@ -2917,7 +2917,7 @@ a:visited {
   color: #48e0da;
 }
 a:hover, a:focus, a:active {
-  color: #157a76;
+  color: #1da5a1;
 }
 a:focus {
   outline: thin dotted;
@@ -3267,7 +3267,7 @@ a:hover, a:active {
   color: #777;
 }
 .tyche-breadcrumbs a:hover, .tyche-breadcrumbs a:focus {
-  color: #157a76;
+  color: #1da5a1;
 }
 
 /*--------------------------------------------------------------
@@ -3726,7 +3726,7 @@ a:hover, a:active {
   color: #24D1CB;
 }
 .widget.widget_categories ul li a:hover, .widget.widget_recent_entries ul li a:hover, .widget.widget_archive ul li a:hover, .widget.widget_meta ul li a:hover, .widget.widget_pages ul li a:hover, .widget.widget_nav_menu ul li a:hover {
-  color: #157a76;
+  color: #1da5a1;
 }
 .widget.widget_tag_cloud a {
   display: inline-block;
@@ -3773,7 +3773,7 @@ a:hover, a:active {
   color: #fff;
 }
 .widget.widget_product_search input[type=submit]:hover, .widget.widget_product_search input[type=submit]:active, .widget.widget_product_search input[type=submit]:focus {
-  background: #157a76;
+  background: #1da5a1;
 }
 .widget.widget_calendar {
   border: 1px solid #e1e1e1;
@@ -3839,11 +3839,11 @@ a:hover, a:active {
 }
 .widget.widget_calendar #wp-calendar td#today:hover, .widget.widget_calendar #wp-calendar td#today:focus, .widget.widget_calendar #wp-calendar th#today:hover, .widget.widget_calendar #wp-calendar th#today:focus {
   text-decoration: none;
-  background: #157a76;
+  background: #1da5a1;
 }
 .widget.widget_calendar #wp-calendar td#today:hover a, .widget.widget_calendar #wp-calendar td#today:focus a, .widget.widget_calendar #wp-calendar th#today:hover a, .widget.widget_calendar #wp-calendar th#today:focus a {
   text-decoration: none;
-  background: #157a76;
+  background: #1da5a1;
 }
 .widget.widget_calendar #wp-calendar td a, .widget.widget_calendar #wp-calendar th a {
   color: #fff;
@@ -3854,7 +3854,7 @@ a:hover, a:active {
 }
 .widget.widget_calendar #wp-calendar td a:hover, .widget.widget_calendar #wp-calendar td a:focus, .widget.widget_calendar #wp-calendar th a:hover, .widget.widget_calendar #wp-calendar th a:focus {
   text-decoration: none;
-  background: #157a76;
+  background: #1da5a1;
 }
 .widget.widget_calendar #wp-calendar #prev {
   position: absolute;
@@ -3982,7 +3982,7 @@ a:hover, a:active {
   font-weight: bold;
 }
 .widget.widget_tyche_recent .tyche-recent-post-alternate-widget .tyche-post-content p a:hover {
-  color: #157a76;
+  color: #1da5a1;
 }
 .widget.widget_tyche_recent .tyche-recent-post-alternate-widget .tyche-post-content ul {
   list-style-type: none;
@@ -4022,7 +4022,7 @@ a:hover, a:active {
   color: #717171;
 }
 .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a:hover {
-  color: #157a76;
+  color: #1da5a1;
 }
 .widget.beige .widget-title > span:before, .widget.secondary .widget-title > span:before {
   background: #eaab76;
@@ -4371,7 +4371,7 @@ a:hover, a:active {
   color: #2a313e;
 }
 .tyche-blog-post .tyche-blog-meta .meta ul li a:hover, .tyche-blog-post .tyche-blog-meta .meta ul li a:focus {
-  color: #157a76;
+  color: #1da5a1;
 }
 .tyche-blog-post .entry-content {
   margin: 0;
@@ -4383,8 +4383,8 @@ a:hover, a:active {
   display: inline-block;
 }
 .tyche-blog-post .more-link:hover, .tyche-blog-post .more-link:active, .tyche-blog-post .more-link:focus {
-  border-color: #157a76;
-  background: #157a76;
+  border-color: #1da5a1;
+  background: #1da5a1;
   color: #FFF;
 }
 .tyche-blog-post .entry-tags {
@@ -4745,7 +4745,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .top-header-bar-container {
   width: 100%;
-  background: #FFF;
+  background: #2b2e34;
   color: #FFF;
   vertical-align: middle;
 }
@@ -4794,7 +4794,7 @@ a:hover, a:active {
   background: #24D1CB;
 }
 .top-header-bar-container .top-header-bar li.top-cart:hover {
-  background: #157a76;
+  background: #1da5a1;
 }
 .top-header-bar-container .top-header-bar li.top-cart a:hover i {
   color: #FFF;
@@ -4937,7 +4937,7 @@ a:hover, a:active {
 # Modules ## Header
 --------------------------------------------------------------*/
 .site-header {
-  background: #25262B;
+  background: whitesmoke;
   padding-top: 15px;
 }
 .site-header .banner-wide {
@@ -5082,8 +5082,8 @@ a:hover, a:active {
   transition: all 0.2s ease-in-out;
 }
 .main-slider .hero-caption .btn-group a:hover {
-  background: #157a76;
-  border-color: #157a76;
+  background: #1da5a1;
+  border-color: #1da5a1;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -5322,8 +5322,8 @@ a:hover, a:active {
   color: #FFF;
 }
 .woocommerce a.button.primary:hover, .woocommerce .tyche-product-slider-container .tyche-banner a.primary:hover, .tyche-product-slider-container .tyche-banner .woocommerce a.primary:hover, .woocommerce div.product form.cart a.primary.button:hover, .woocommerce .tyche-blog-post a.primary.more-link:hover, .tyche-blog-post .woocommerce a.primary.more-link:hover, .woocommerce .main-slider .hero-caption .btn-group a.primary:hover, .main-slider .hero-caption .btn-group .woocommerce a.primary:hover, .woocommerce a.button.primary:active, .woocommerce .tyche-product-slider-container .tyche-banner a.primary:active, .tyche-product-slider-container .tyche-banner .woocommerce a.primary:active, .woocommerce div.product form.cart a.primary.button:active, .woocommerce .tyche-blog-post a.primary.more-link:active, .tyche-blog-post .woocommerce a.primary.more-link:active, .woocommerce .main-slider .hero-caption .btn-group a.primary:active, .main-slider .hero-caption .btn-group .woocommerce a.primary:active, .woocommerce a.button.primary:focus, .woocommerce .tyche-product-slider-container .tyche-banner a.primary:focus, .tyche-product-slider-container .tyche-banner .woocommerce a.primary:focus, .woocommerce div.product form.cart a.primary.button:focus, .woocommerce .tyche-blog-post a.primary.more-link:focus, .tyche-blog-post .woocommerce a.primary.more-link:focus, .woocommerce .main-slider .hero-caption .btn-group a.primary:focus, .main-slider .hero-caption .btn-group .woocommerce a.primary:focus {
-  border-color: #157a76;
-  background: #157a76;
+  border-color: #1da5a1;
+  background: #1da5a1;
   color: #FFF;
 }
 .woocommerce .widget_shopping_cart .total, .woocommerce .widget_shopping_cart .total {
@@ -5404,8 +5404,8 @@ a:hover, a:active {
 .woocommerce input.wc-forward[type=button]:focus,
 .woocommerce input.wc-forward[type=reset]:focus,
 .woocommerce input.wc-forward[type=submit]:focus, .woocommerce .tyche-blog-post .wc-forward.more-link:focus, .tyche-blog-post .woocommerce .wc-forward.more-link:focus, .woocommerce .main-slider .hero-caption .btn-group a.wc-forward:focus, .main-slider .hero-caption .btn-group .woocommerce a.wc-forward:focus {
-  background: #157a76;
-  border-color: #157a76;
+  background: #1da5a1;
+  border-color: #1da5a1;
   color: #FFF;
 }
 .woocommerce .button.checkout, .woocommerce .tyche-product-slider-container .tyche-banner a.checkout, .tyche-product-slider-container .tyche-banner .woocommerce a.checkout, .woocommerce div.product form.cart .tyche-product-slider-container .tyche-banner a.checkout, .tyche-product-slider-container .tyche-banner .woocommerce div.product form.cart a.checkout, .woocommerce div.product form.cart .checkout.button,
@@ -5479,8 +5479,8 @@ a:hover, a:active {
 .woocommerce input.checkout[type=button]:focus,
 .woocommerce input.checkout[type=reset]:focus,
 .woocommerce input.checkout[type=submit]:focus, .woocommerce .tyche-blog-post .checkout.more-link:focus, .tyche-blog-post .woocommerce .checkout.more-link:focus, .woocommerce .main-slider .hero-caption .btn-group a.checkout:focus, .main-slider .hero-caption .btn-group .woocommerce a.checkout:focus {
-  border-color: #157a76;
-  background: #157a76;
+  border-color: #1da5a1;
+  background: #1da5a1;
   color: #FFF;
 }
 .woocommerce .page-title {
@@ -5603,8 +5603,8 @@ a:hover, a:active {
 .woocommerce form.checkout_coupon input[type=button]:hover,
 .woocommerce form.checkout_coupon input[type=reset]:hover,
 .woocommerce form.checkout_coupon input[type=submit]:hover, .woocommerce form.checkout_coupon .tyche-blog-post .more-link:hover, .tyche-blog-post .woocommerce form.checkout_coupon .more-link:hover, .woocommerce form.checkout_coupon .main-slider .hero-caption .btn-group a:hover, .main-slider .hero-caption .btn-group .woocommerce form.checkout_coupon a:hover {
-  background: #157a76;
-  border-color: #157a76;
+  background: #1da5a1;
+  border-color: #1da5a1;
 }
 .woocommerce form.login,
 .woocommerce form.register {
@@ -6390,7 +6390,7 @@ a:hover, a:active {
   color: #fff;
 }
 .woocommerce .woocommerce-MyAccount-content .woocommerce-Button:hover, .woocommerce .woocommerce-MyAccount-content .woocommerce-Button:focus {
-  background: #157a76;
+  background: #1da5a1;
   color: #fff;
 }
 .woocommerce .woocommerce-result-count {
@@ -6457,7 +6457,7 @@ a:hover, a:active {
   line-height: 10px;
 }
 .woocommerce .woocommerce-breadcrumb a:hover, .woocommerce .woocommerce-breadcrumb a:focus, .woocommerce .woocommerce-breadcrumb a:active {
-  color: #157a76;
+  color: #1da5a1;
 }
 .woocommerce ul.products .star-rating {
   margin: 0 auto;
@@ -6488,7 +6488,7 @@ a:hover, a:active {
 .woocommerce ul.products li.product input[type=button]:hover,
 .woocommerce ul.products li.product input[type=reset]:hover,
 .woocommerce ul.products li.product input[type=submit]:hover, .woocommerce ul.products li.product .tyche-blog-post .more-link:hover, .tyche-blog-post .woocommerce ul.products li.product .more-link:hover, .woocommerce ul.products li.product .main-slider .hero-caption .btn-group a:hover, .main-slider .hero-caption .btn-group .woocommerce ul.products li.product a:hover {
-  background-color: #157a76;
+  background-color: #1da5a1;
   color: #FFF;
 }
 .woocommerce ul.products li.product .woocommerce-loop-product__title {
@@ -6646,8 +6646,8 @@ a:hover, a:active {
 .woocommerce div.product form.cart input[type=button]:focus,
 .woocommerce div.product form.cart input[type=reset]:focus,
 .woocommerce div.product form.cart input[type=submit]:focus, .woocommerce div.product form.cart .tyche-blog-post .more-link:focus, .tyche-blog-post .woocommerce div.product form.cart .more-link:focus, .woocommerce div.product form.cart .main-slider .hero-caption .btn-group a:focus, .main-slider .hero-caption .btn-group .woocommerce div.product form.cart a:focus, .woocommerce .tyche-blog-post div.product form.cart a.more-link:focus {
-  border-color: #157a76;
-  background: #157a76;
+  border-color: #1da5a1;
+  background: #1da5a1;
   color: #FFF;
 }
 .woocommerce #reviews #comments ol.commentlist {
@@ -6758,7 +6758,7 @@ a:hover, a:active {
   color: #FFF !important;
 }
 .woocommerce table.shop_table .product-remove a.remove:hover {
-  background: #157a76;
+  background: #1da5a1;
 }
 .woocommerce table.shop_table .quantity .input-text.qty.text {
   border: none;
@@ -6876,7 +6876,7 @@ a:hover, a:active {
 .woocommerce table.shop_table .coupon input[type=button]:hover,
 .woocommerce table.shop_table .coupon input[type=reset]:hover,
 .woocommerce table.shop_table .coupon input[type=submit]:hover, .woocommerce table.shop_table .coupon .tyche-blog-post .more-link:hover, .tyche-blog-post .woocommerce table.shop_table .coupon .more-link:hover, .woocommerce table.shop_table .coupon .main-slider .hero-caption .btn-group a:hover, .main-slider .hero-caption .btn-group .woocommerce table.shop_table .coupon a:hover, .woocommerce div.product form.cart .tyche-blog-post table.shop_table .coupon .more-link:hover, .woocommerce .tyche-blog-post div.product form.cart table.shop_table .coupon a.more-link:hover {
-  background: #157a76;
+  background: #1da5a1;
 }
 .woocommerce table.shop_table .actions .button, .woocommerce table.shop_table .actions .price_slider_amount .button, .woocommerce .price_slider_amount table.shop_table .actions .button,
 .woocommerce table.shop_table .actions .price_slider_amount button:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
@@ -7009,7 +7009,7 @@ a:hover, a:active {
   background-color: #24D1CB;
 }
 .woocommerce .wc-proceed-to-checkout a.checkout-button:hover {
-  background-color: #157a76;
+  background-color: #1da5a1;
 }
 .woocommerce .woocommerce-info {
   border: none;
@@ -7129,7 +7129,7 @@ a:hover, a:active {
   right: 50px;
 }
 .woocommerce-checkout #place_order:hover {
-  background: #157a76;
+  background: #1da5a1;
 }
 
 .added_to_cart.wc-forward {
@@ -7141,7 +7141,7 @@ a:hover, a:active {
   display: inline-block;
 }
 .added_to_cart.wc-forward:hover, .added_to_cart.wc-forward:focus {
-  background-color: #157a76;
+  background-color: #1da5a1;
 }
 
 .tyche-product {
@@ -7721,8 +7721,8 @@ a:hover, a:active {
 .woocommerce .price_slider_amount div.product form.cart .price_slider_amount input[type=button]:focus,
 .woocommerce .price_slider_amount div.product form.cart .price_slider_amount input[type=reset]:focus,
 .woocommerce .price_slider_amount div.product form.cart .price_slider_amount input[type=submit]:focus, .woocommerce .price_slider_amount div.product form.cart .tyche-blog-post .price_slider_amount .more-link:focus, .tyche-blog-post .woocommerce .price_slider_amount div.product form.cart .price_slider_amount .more-link:focus, .woocommerce .price_slider_amount .tyche-blog-post div.product form.cart .price_slider_amount a.more-link:focus, .woocommerce .tyche-blog-post .price_slider_amount div.product form.cart .price_slider_amount a.more-link:focus, .woocommerce .price_slider_amount div.product form.cart .tyche-product-slider-container .tyche-banner .price_slider_amount a:focus, .tyche-product-slider-container .tyche-banner .woocommerce .price_slider_amount div.product form.cart .price_slider_amount a:focus, .woocommerce .main-slider .hero-caption .btn-group div.product form.cart .price_slider_amount a:focus, .woocommerce .price_slider_amount div.product form.cart .price_slider_amount .tyche-blog-post .more-link:focus, .woocommerce .tyche-product-slider-container .tyche-banner div.product form.cart .price_slider_amount a:focus, .woocommerce .price_slider_amount div.product form.cart .price_slider_amount .tyche-product-slider-container .tyche-banner a:focus {
-  border-color: #157a76;
-  background: #157a76;
+  border-color: #1da5a1;
+  background: #1da5a1;
   color: #FFF;
 }
 .woocommerce .price_slider_amount .price_label {
@@ -7909,8 +7909,8 @@ a:hover, a:active {
 .woocommerce div.product form.cart input[type=button]:focus,
 .woocommerce div.product form.cart input[type=reset]:focus,
 .woocommerce div.product form.cart input[type=submit]:focus, .woocommerce div.product form.cart .tyche-blog-post input.more-link:focus, .tyche-blog-post .woocommerce div.product form.cart input.more-link:focus {
-  border-color: #157a76;
-  background: #157a76;
+  border-color: #1da5a1;
+  background: #1da5a1;
   color: #fff;
 }
 

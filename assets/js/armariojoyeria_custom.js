@@ -3,6 +3,7 @@
 jQuery(document).ready(function() {
 
 	sticker_descuentos()
+	alert('test JS')
 
 })// fin ready
 
