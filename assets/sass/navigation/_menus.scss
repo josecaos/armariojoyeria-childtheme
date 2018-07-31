@@ -97,7 +97,8 @@
 .sf-menu > li > a,
 .sf-menu > li.dropdown > a {
   padding: 15px 30px 15px 0;
-  color: #ffffff;
+  // color: #ffffff;
+  color: $color__text-screen;
 }
 
 .sf-menu > li a i {

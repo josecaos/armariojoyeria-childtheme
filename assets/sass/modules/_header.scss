@@ -1,26 +1,26 @@
 .site-header {
   // background: #25262B;
-  background: whitesmoke;
+  background: #FFF;
   padding-top: 15px;
   .banner-wide {
     float: right;
   }
   .custom-logo-link {
     img {
-      width: 165px;
-      height: 70px;
+      width: 135px;
+      height: auto;
     }
     display:block;
     color: #FFF;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .site-title{
     display:block;
     color: #FFF;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 400;
   }
 
   @media (max-width: 767px) {

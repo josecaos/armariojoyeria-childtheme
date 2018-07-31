@@ -2,8 +2,8 @@
 // ready
 jQuery(document).ready(function() {
 
+	// alert('test JS')
 	sticker_descuentos()
-	alert('test JS')
 
 })// fin ready
 

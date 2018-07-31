@@ -1727,7 +1727,7 @@ blockquote cite {
 }
 
 hr {
-  background-color: #ccc;
+  background-color: lightgray;
   border: 0;
   height: 1px;
   margin-bottom: 1.5em;
@@ -3025,7 +3025,7 @@ a:hover, a:active {
 .sf-menu > li > a,
 .sf-menu > li.dropdown > a {
   padding: 15px 30px 15px 0;
-  color: #ffffff;
+  color: #21759b;
 }
 
 .sf-menu > li a i {
@@ -4937,7 +4937,7 @@ a:hover, a:active {
 # Modules ## Header
 --------------------------------------------------------------*/
 .site-header {
-  background: whitesmoke;
+  background: #FFF;
   padding-top: 15px;
 }
 .site-header .banner-wide {
@@ -4947,17 +4947,17 @@ a:hover, a:active {
   display: block;
   color: #FFF;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .site-header .custom-logo-link img {
-  width: 165px;
-  height: 70px;
+  width: 135px;
+  height: auto;
 }
 .site-header .site-title {
   display: block;
   color: #FFF;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 400;
 }
 @media (max-width: 767px) {
   .site-header .header-logo {
