@@ -3025,7 +3025,7 @@ a:hover, a:active {
 .sf-menu > li > a,
 .sf-menu > li.dropdown > a {
   padding: 15px 30px 15px 0;
-  color: #21759b;
+  color: #717171;
 }
 
 .sf-menu > li a i {
@@ -8026,6 +8026,14 @@ object {
 
 .gallery-caption {
   display: block;
+}
+
+.woocommerce-store-notice, p.demo_store {
+  font-size: 1.1em;
+  padding: 1em 0;
+  text-align: center;
+  background-color: #24D1CB;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

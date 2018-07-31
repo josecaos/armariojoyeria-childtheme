@@ -102,3 +102,13 @@
 # Media
 --------------------------------------------------------------*/
 @import "media/_media";
+
+//
+.woocommerce-store-notice, p.demo_store {
+    font-size: 1.1em;
+    padding: 1em 0;
+    text-align: center;
+    // background-color: #a46497;
+    background-color: $color__brand-primary;
+    color: #fff;
+}
