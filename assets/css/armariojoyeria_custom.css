@@ -1,3 +1,8 @@
+
+:root {
+  --armario-primario: #26CFCB;
+}
+
 * {
-  /* outline: 1px solid lime; */
+  outline: 1px solid var(--armario-primario,#26CFCB);
 }
