@@ -25,7 +25,7 @@ if ( $breadcrumbs_enabled ) { ?>
 <?php } ?>
 
 <?php
-$shop_page    = Tyche_Helper::has_sidebar();
+// $shop_page    = Tyche_Helper::has_sidebar();
 $account_page = false;
 if ( class_exists( 'WooCommerce' ) ) {
 	$account_page = is_account_page();
