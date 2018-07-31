@@ -1,42 +1,24 @@
 <?php
 /**
- * The template for displaying Front page.
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
+ * The template for displaying archive pages.
  *
  * @link    https://codex.wordpress.org/Template_Hierarchy
  *
  * @package Tyche
  */
 
-/**
- * Grab the header
- */
 get_header();
-$show_on_front = get_option( 'show_on_front' );
-if ( 'posts' == $show_on_front ) :
-	$header = get_custom_header();
-	if ( ! empty( $header->url ) ) {
-		echo '<img src="' . esc_url( $header->url ) . '" class="img-centered img-responsive" />';
-	}
-	?>
+$breadcrumbs_enabled = get_theme_mod( 'tyche_enable_post_breadcrumbs', true );
+if ( $breadcrumbs_enabled ) { ?>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<header>
-					<?php
-					$blog_name = get_option( 'blogname', 'Tyche' );
-					if ( 0 !== (int) get_option( 'page_for_posts' ) ) {
-						$blog_name = get_the_title( get_option( 'page_for_posts' ) );
-					}
-					?>
-					<h1 class="page-title margin-top"><?php echo esc_html( $blog_name ); ?></h1>
-				</header>
+			<div class="col-xs-12">
+				<?php Tyche_Helper::add_breadcrumbs(); ?>
 			</div>
 		</div>
+	</div>
+<?php } ?>
+	<div class="container">
 		<div class="row">
 			<?php
 			$class = 'col-md-12';
@@ -44,14 +26,21 @@ if ( 'posts' == $show_on_front ) :
 				$class = 'col-md-8';
 			}
 			?>
-			<!-- <div id="primary" class="content-area <?php //echo $class; ?>"> -->
-			<div id="primary" class="content-area col-12">
+			<div id="primary" class="content-area <?php echo $class; ?>">
 				<main id="main" class="site-main" role="main">
 					<?php
-					// echo "SOY FRONT-PAGE";
 					if ( have_posts() ) :
+						?>
 
-						/* Start the Loop */
+						<header class="page-header">
+							<?php
+							the_archive_title( '<h1 class="page-title">', '</h1>' );
+							the_archive_description( '<div class="archive-description">', '</div>' );
+							?>
+						</header><!-- .page-header -->
+
+						<?php
+						/* Start the Loop. */
 						while ( have_posts() ) :
 							the_post();
 
@@ -81,20 +70,10 @@ if ( 'posts' == $show_on_front ) :
 				</main><!-- #main -->
 			</div><!-- #primary -->
 			<?php
-			// get_sidebar();
+			get_sidebar();
 			?>
 		</div>
 	</div>
-	<?php
-else :
-	/**
-	 * Load the frontpage class and output the
-	 * widget sections as per customizer order
-	 */
-	new Tyche_Frontpage();
-endif;
 
-/**
- * Grab the footer
- */
+<?php
 get_footer();

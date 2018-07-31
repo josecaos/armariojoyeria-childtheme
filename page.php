@@ -38,6 +38,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 				<main id="main" class="site-main" role="main">
 
 					<?php
+					// echo "SOY PAGE PAGE PAGE JIMMY PAGE";
 					while ( have_posts() ) :
 						the_post();
 
