@@ -21,7 +21,7 @@ function checkbox_regalo( $checkout ) {
   </h3>
   <div class="checkbox-envoltura">
   <div class="thumb-regalo">
-  <img src="' . get_stylesheet_directory_uri() .'/img/caja-regalo-grande.jpg" / >
+  <img src="' . get_stylesheet_directory_uri() .'/assets/img/caja-regalo-grande.jpg" / >
   </div>';
   woocommerce_form_field( 'checkbox_caja_grande', array(
     'type'          => 'checkbox',
@@ -37,7 +37,7 @@ function checkbox_regalo( $checkout ) {
   echo '</div>
   <div class="checkbox-envoltura">
   <div class="thumb-regalo">
-  <img src="' . get_stylesheet_directory_uri() .'/img/caja-regalo-chico.jpg" / >
+  <img src="' . get_stylesheet_directory_uri() .'/assets/img/caja-regalo-chico.jpg" / >
   </div>';
 
   woocommerce_form_field( 'checkbox_caja_chica', array(

@@ -79,7 +79,7 @@ if ( 'posts' == $show_on_front ) :
 				</main><!-- #main -->
 			</div><!-- #primary -->
 			<?php
-			get_sidebar();
+			// get_sidebar();
 			?>
 		</div>
 	</div>
