@@ -15,7 +15,7 @@ if ( ! class_exists( 'Kirki' ) ) {
 
 ?>
 <!-- Main Slider -->
-<section class="main-slider">
+<section class="main-slider container">
 	<?php if ( empty( $images ) ) : ?>
 		<div class="owl-carousel owl-theme" id="main-slider">
 			<div class="item">
