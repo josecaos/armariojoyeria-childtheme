@@ -8056,4 +8056,8 @@ object {
   bottom: 10%;
 }
 
+.woocommerce-loop-product__title {
+  height: 90px;
+}
+
 /*# sourceMappingURL=style.css.map */
