@@ -8040,4 +8040,20 @@ object {
   margin-top: 16px;
 }
 
+.main-slider .hero-caption.center {
+  left: 23%;
+  -webkit-transform: translateX(-23);
+  -khtml-transform: translateX(-23);
+  -moz-transform: translateX(-23);
+  -ms-transform: translateX(-23);
+  -o-transform: translateX(-23);
+  transform: translateX(-23%);
+}
+
+.main-slider .hero-caption {
+  position: absolute;
+  width: 350px;
+  bottom: 10%;
+}
+
 /*# sourceMappingURL=style.css.map */

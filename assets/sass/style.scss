@@ -103,7 +103,7 @@
 --------------------------------------------------------------*/
 @import "media/_media";
 
-//
+// some custom styles
 .woocommerce-store-notice, p.demo_store {
     font-size: 1.1em;
     padding: 1em 0;
@@ -114,4 +114,18 @@
 }
 .custom-logo {
   margin-top: 16px;
+}
+.main-slider .hero-caption.center {
+    left: 23%;
+    -webkit-transform: translateX(-23);
+    -khtml-transform: translateX(-23);
+    -moz-transform: translateX(-23);
+    -ms-transform: translateX(-23);
+    -o-transform: translateX(-23);
+    transform: translateX(-23%);
+}
+.main-slider .hero-caption {
+    position: absolute;
+    width: 350px;
+    bottom: 10%;
 }
