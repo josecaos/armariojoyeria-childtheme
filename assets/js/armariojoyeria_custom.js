@@ -57,7 +57,7 @@ function sticker_descuentos() {
 
 // forzar contenedor sin sidebar
 function wide_tweak() {
-	$("#primary").removeClass("col-md-8 tyche-has-sidebar")
-	$("#primary").addClass("col-12")
+	jQuery("#primary").removeClass("col-md-8 tyche-has-sidebar")
+	jQuery("#primary").addClass("col-12")
 
 }
