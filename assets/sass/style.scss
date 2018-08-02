@@ -193,6 +193,13 @@ body {
     margin-bottom: 5px;
     background-color: black;
     color: lightgray;
+    &[type="button"] {
+      background-color: $color__brand-primary;
+      &:hover {
+        opacity:0.9;
+      }
+    }
+
   }
   .clear {
     text-align: center;

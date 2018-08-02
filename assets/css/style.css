@@ -8166,6 +8166,12 @@ body .sf-menu a {
   background-color: black;
   color: lightgray;
 }
+#mc-embedded-subscribe-form input[type=button] {
+  background-color: #24D1CB;
+}
+#mc-embedded-subscribe-form input[type=button]:hover {
+  opacity: 0.9;
+}
 #mc-embedded-subscribe-form .clear {
   text-align: center;
 }
