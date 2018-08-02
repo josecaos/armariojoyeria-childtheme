@@ -8,26 +8,26 @@
 # Elements
 # Forms
 # Navigation
-	## Links
-	## Menus
-	## Socials
-	## Pager
+## Links
+## Menus
+## Socials
+## Pager
 # Accessibility
 # Alignments
 # Clearings
 # Widgets
 # Content
-    ## Posts and pages
-	## Comments
+## Posts and pages
+## Comments
 # Modules
-  ## Header Bar
-  ## Main Slider
-  ## Footer
-  ## WooCommerce
+## Header Bar
+## Main Slider
+## Footer
+## WooCommerce
 # Infinite scroll
 # Media
-	## Captions
-	## Galleries
+## Captions
+## Galleries
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Normalize
@@ -8029,12 +8029,18 @@ object {
   display: block;
 }
 
-body p, body div, body section, body article {
+body p, body div, body section, body article, body a, body span {
   font-family: "Lato", sans-serif;
-  font-weight: lighter !important;
+  font-weight: lighter;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+body .sf-menu a {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
 }
 
 .woocommerce-store-notice, p.demo_store {
