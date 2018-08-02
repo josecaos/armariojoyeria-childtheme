@@ -8045,6 +8045,9 @@ body .sf-menu a {
   font-weight: lighter;
   text-transform: uppercase;
 }
+body .site-content {
+  padding-bottom: 32px;
+}
 
 .woocommerce-store-notice, p.demo_store {
   font-size: 1.1em;
