@@ -8072,6 +8072,19 @@ body .sf-menu a {
   text-align: center;
 }
 
+.main-slider .main-slider-previous i, .main-slider .main-slider-next i {
+  color: #24D1CB;
+  font-size: 90px;
+}
+
+.main-slider .main-slider-previous {
+  left: 3%;
+}
+
+.main-slider .main-slider-next {
+  rught: 3%;
+}
+
 .main-slider .hero-caption .btn-group a {
   border: 2px solid #24D1CB !important;
   color: #24D1CB;

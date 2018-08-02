@@ -150,6 +150,16 @@ body {
   top: 80%;
   text-align: center;
 }
+.main-slider .main-slider-previous i, .main-slider .main-slider-next i {
+    color: $color__brand-primary;
+    font-size: 90px;
+}
+.main-slider .main-slider-previous {
+    left: 3%;
+}
+.main-slider .main-slider-next {
+    rught: 3%;
+}
 .main-slider .hero-caption .btn-group a {
   border: 2px solid $color__brand-primary !important;
   color: $color__brand-primary;
