@@ -16,7 +16,10 @@
 		</div>
 	</header><!-- .entry-header -->
 	<div class="entry-content">
-		<img src="<?php echo wp_get_attachment_image_src( $attachment_ids[0], 'small')?>" alt="">
+		<?php 
+		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $loop->post->ID ), 'single-post-thumbnail' );?>
+    <img src="<?php  echo $image[0]; ?>" data-id="<?php echo $loop->post->ID; ?>">
+		<hr>
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
