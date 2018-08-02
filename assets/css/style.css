@@ -8041,19 +8041,24 @@ object {
 }
 
 .main-slider .hero-caption.center {
-  left: -23%;
-  -webkit-transform: translateX(-23);
-  -khtml-transform: translateX(-23);
-  -moz-transform: translateX(-23);
-  -ms-transform: translateX(-23);
-  -o-transform: translateX(-23);
-  transform: translateX(-23%);
+  left: 50%;
+  -webkit-transform: translateX(50%);
+  -khtml-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  transform: translateX(50%);
 }
 
 .main-slider .hero-caption {
   position: absolute;
   width: 350px;
-  bottom: 10%;
+  top: 80%;
+}
+
+.main-slider .hero-caption .btn-group a {
+  border: 2px solid #24D1CB !important;
+  color: #24D1CB !important;
 }
 
 .woocommerce-loop-product__title {

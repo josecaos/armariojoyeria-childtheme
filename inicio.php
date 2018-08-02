@@ -24,7 +24,7 @@ if ( $breadcrumbs_enabled ) { ?>
 ?>
 	<div class="contenedor_armario container">
 		<div class="row">
-			<div id="primary" class="content-area col-12">
+			<div id="primary" class="primary_armario content-area col-12">
 				<main id="main" class="site-main" role="main">
 
 					<?php
