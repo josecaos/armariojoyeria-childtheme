@@ -12,11 +12,11 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'tyche-blog-post' ); ?>>
 	<header class="entry-header">
 		<div class="tyche-blog-meta">
-			<?php //Tyche_Helper::post_meta(); ?>
+			<?php Tyche_Helper::post_meta(); ?>
 		</div>
 	</header><!-- .entry-header -->
 	<div class="entry-content">
-		<img src="<?php wp_get_attachment_url( $attachment_ids[0], 'small')?>" alt="">
+		<img src="<?php echo wp_get_attachment_image_src( $attachment_ids[0], 'small')?>" alt="">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
