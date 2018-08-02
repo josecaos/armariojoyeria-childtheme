@@ -174,12 +174,14 @@ body {
 .woocommerce ul.products li.product .button {
   text-transform: capitalize;
 }
-.wpb_wrapper p {
-  color: white;
+.texto_suscripcion {
+  p {
+    color: white;
+  }
 }
 #mc_embed_signup {
     background: #fff;
-    border-radius: 15px;
+    border-radius: 6px;
     font: 16px 'Lato', sans-serif;
 
 }
@@ -189,6 +191,8 @@ body {
     width: 100% !important;
     margin-top: 5px;
     margin-bottom: 5px;
+    background-color: black;
+    color: lightgray;
   }
   .clear {
     text-align: center;
@@ -206,7 +210,7 @@ body {
   p {
     color: black;
     span {
-      input {
+      input, textarea {
         background-color: black;
         color: lightgray;
       }

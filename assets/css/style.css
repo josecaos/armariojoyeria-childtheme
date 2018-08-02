@@ -8146,13 +8146,13 @@ body .sf-menu a {
   text-transform: capitalize;
 }
 
-.wpb_wrapper p {
+.texto_suscripcion p {
   color: white;
 }
 
 #mc_embed_signup {
   background: #fff;
-  border-radius: 15px;
+  border-radius: 6px;
   font: 16px "Lato", sans-serif;
 }
 
@@ -8163,6 +8163,8 @@ body .sf-menu a {
   width: 100% !important;
   margin-top: 5px;
   margin-bottom: 5px;
+  background-color: black;
+  color: lightgray;
 }
 #mc-embedded-subscribe-form .clear {
   text-align: center;
@@ -8178,7 +8180,7 @@ body .sf-menu a {
 .wpcf7-form p {
   color: black;
 }
-.wpcf7-form p span input {
+.wpcf7-form p span input, .wpcf7-form p span textarea {
   background-color: black;
   color: lightgray;
 }
