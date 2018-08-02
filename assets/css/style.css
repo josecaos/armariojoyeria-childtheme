@@ -8146,4 +8146,41 @@ body .sf-menu a {
   text-transform: capitalize;
 }
 
+.wpb_wrapper p {
+  color: white;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  border-radius: 15px;
+  font: 16px "Lato", sans-serif;
+}
+
+#mc-embedded-subscribe-form {
+  padding: 16px;
+}
+#mc-embedded-subscribe-form input {
+  width: 100% !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#mc-embedded-subscribe-form .clear {
+  text-align: center;
+}
+
+.wpb_text_column p {
+  color: black;
+}
+.wpb_text_column p a:hover {
+  color: white;
+}
+
+.wpcf7-form p {
+  color: black;
+}
+.wpcf7-form p span input {
+  background-color: black;
+  color: lightgray;
+}
+
 /*# sourceMappingURL=style.css.map */
