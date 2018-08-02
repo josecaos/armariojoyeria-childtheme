@@ -19,7 +19,32 @@ function custom_woocommerce_tag_cloud_widget() {
     return $args;
 }
 
-// Opcion de empaque para regalo en el checkout
+// custom_woocommerce_template_loop_add_to_cart
+add_filter( 'woocommerce_product_add_to_cart_text' , 'custom_woocommerce_product_add_to_cart_text' );
+function custom_woocommerce_product_add_to_cart_text() {
+	global $product;
+
+	$product_type = $product->product_type;
+
+	switch ( $product_type ) {
+		case 'external':
+			return __( 'Comprar', 'woocommerce' );
+		break;
+		case 'grouped':
+			return __( 'Ver todos', 'woocommerce' );
+		break;
+		case 'simple':
+			return __( 'Agrega a carrito', 'woocommerce' );
+		break;
+		case 'variable':
+			return __( 'Ver opciones', 'woocommerce' );
+		break;
+		default:
+			return __( 'Conoce más', 'woocommerce' );
+	}
+}
+
+// Empaque para regalo en el checkout
 // dos empaques chico y grande
 //
 add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );

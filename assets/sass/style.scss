@@ -171,3 +171,6 @@ body {
 .woocommerce-loop-product__title {
   height: 100px;
 }
+.woocommerce ul.products li.product .button {
+  text-transform: capitalize;
+}
