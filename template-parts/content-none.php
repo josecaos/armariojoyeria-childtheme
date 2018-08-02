@@ -11,7 +11,7 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'tyche' ); ?></h1>
+		<h1 class="page-title"><?php esc_html_e( 'No hemos encontrado', 'tyche' ); ?></h1>
 	</header><!-- .page-header -->
 
 	<div class="page-content">
@@ -20,20 +20,20 @@
 			?>
 			<p>
 				<?php
-				printf( wp_kses_post( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.' ), esc_url( admin_url( 'post-new.php' ) ) );
+				printf( wp_kses_post( 'Listo para publicar tu primer producto? <a href="%1$s">COmienza por aquí</a>.' ), esc_url( admin_url( 'post-new.php' ) ) );
 				?>
 			</p>
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'tyche' ); ?></p>
+			<p><?php esc_html_e( 'Lo sentimos, No hemos encontrado lo que buscabas. Intenta de nuevo con otras palabras clave.', 'tyche' ); ?></p>
 			<?php
 			get_search_form();
 
 		else :
 			?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'tyche' ); ?></p>
+			<p><?php esc_html_e( 'Parece que no encontramos lo que buscas. Utiliza el buscador para poder ayudarte.', 'tyche' ); ?></p>
 			<?php
 			get_search_form();
 

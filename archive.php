@@ -22,14 +22,13 @@ if ( $breadcrumbs_enabled ) { ?>
 		<div class="row">
 			<?php
 			$class = 'col-md-12';
-			// if ( is_active_sidebar( 'sidebar' ) ) {
-			// 	$class = 'col-md-8';
-			// }
+			if ( is_active_sidebar( 'sidebar' ) ) {
+				$class = 'col-md-8';
+			}
 			?>
-			<div id="primary" class="content-area <?php echo $class; ?>">
+			<div id="primary" class="archive_armario content-area <?php echo $class; ?>">
 				<main id="main" class="site-main" role="main">
 					<?php
-					echo "Soy archivo";
 					if ( have_posts() ) :
 						?>
 

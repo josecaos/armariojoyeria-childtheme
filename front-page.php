@@ -45,10 +45,9 @@ if ( 'posts' == $show_on_front ) :
 			// }
 			?>
 			<!-- <div id="primary" class="content-area <?php //echo $class; ?>"> -->
-			<div id="primary" class="content-area col-12">
+			<div id="primary" class="front_armario content-area col-12">
 				<main id="main" class="site-main" role="main">
 					<?php
-					// echo "SOY FRONT-PAGE";
 					if ( have_posts() ) :
 
 						/* Start the Loop */

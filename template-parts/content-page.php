@@ -16,7 +16,7 @@
 				<?php
 				if (is_page('inicio')):
 					?>
-					<h1 class="page-title margin-top"><?php echo 'INICIO ARMARIO DEBUG' ?></h1>
+					<p></p>
 					<?php
 				else:
 					?>
@@ -32,7 +32,7 @@
 	the_content();
 	wp_link_pages(
 		array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'tyche' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Páginas:', 'tyche' ),
 			'after'  => '</div>',
 		)
 	);

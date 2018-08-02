@@ -36,7 +36,6 @@ if ( $breadcrumbs_enabled ) { ?>
 				<main id="main" class="site-main" role="main">
 
 					<?php
-					echo "Soy Single, ahora soy single de nuevo";
 					while ( have_posts() ) :
 						the_post();
 

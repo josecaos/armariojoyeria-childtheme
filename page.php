@@ -25,7 +25,7 @@ if ( $breadcrumbs_enabled ) { ?>
 <?php } ?>
 
 <?php
-// $shop_page    = Tyche_Helper::has_sidebar();
+$shop_page    = Tyche_Helper::has_sidebar();
 $account_page = false;
 if ( class_exists( 'WooCommerce' ) ) {
 	$account_page = is_account_page();
@@ -34,11 +34,10 @@ if ( class_exists( 'WooCommerce' ) ) {
 	<div class="container">
 		<div class="row">
 			<!-- <div id="primary" class="content-area <?php //echo $account_page ? 'col-md-12' : 'col-md-8 tyche-has-sidebar'; ?>"> -->
-			<div id="primary" class="content-area col-md-12">
+			<div id="primary" class="page_armario content-area col-md-12">
 				<main id="main" class="site-main" role="main">
 
 					<?php
-					// echo "SOY PAGE PAGE PAGE JIMMY PAGE";
 					while ( have_posts() ) :
 						the_post();
 
@@ -58,10 +57,10 @@ if ( class_exists( 'WooCommerce' ) ) {
 			<?php
 			if ( $shop_page ) {
 				if ( ! $account_page ) {
-					//get_sidebar( 'shop' );
+					get_sidebar( 'shop' );
 				}
 			} else {
-				// get_sidebar();
+				get_sidebar();
 			}
 			?>
 		</div>

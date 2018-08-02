@@ -35,10 +35,10 @@ if ( is_main_site() ) {
 			// 	$class = 'col-md-8';
 			// }
 			?>
-			<div id="primary" class="content-area <?php echo $class; ?>">
+			<!-- <div id="primary" class="content-area <?php //echo $class; ?>"> -->
+			<div id="primary" class="index_content content-area col-12">
 				<main id="main" class="site-main" role="main">
 					<?php
-					echo "Soy Index";
 					if ( have_posts() ) :
 
 						/* Start the Loop */
