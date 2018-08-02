@@ -1,5 +1,7 @@
 <?php
 //Template Name: Inicio Armario Joyeria
+$filepath = str_replace(get_option('template'), get_option('stylesheet'), __FILE__);
+if (file_exists($filepath)) {include($filepath); return;}
 
 get_header();
 

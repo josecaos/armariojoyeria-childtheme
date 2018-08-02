@@ -124,10 +124,12 @@
     -o-transform: translateX(25%);
     transform: translateX(25%);
 }
+
 .main-slider .hero-caption {
     position: absolute;
     width: 350px;
     top: 80%;
+    text-align: center;
 }
 .main-slider .hero-caption .btn-group a {
   border: 2px solid $color__brand-primary !important;

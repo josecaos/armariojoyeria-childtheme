@@ -8054,6 +8054,7 @@ object {
   position: absolute;
   width: 350px;
   top: 80%;
+  text-align: center;
 }
 
 .main-slider .hero-caption .btn-group a {
