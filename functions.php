@@ -13,7 +13,7 @@ add_filter('widget_tag_cloud_args', 'tag_widget_limit');
 
 function tag_widget_limit($args){
 
- if(isset($args['taxonomy']) && $args['taxonomy'] == 'post_tag'){
+ if(isset($args['taxonomy']) && $args['taxonomy'] == 'product_tag'){
   $args['number'] = 22; //Limit number of tags
  }
 
