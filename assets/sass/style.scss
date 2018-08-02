@@ -104,6 +104,18 @@
 @import "media/_media";
 
 // some custom styles
+@import "https://fonts.googleapis.com/css?family=Lato|Open+Sans";
+
+body {
+  p, div, section, article {
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter !important;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
 .woocommerce-store-notice, p.demo_store {
     font-size: 1.1em;
     padding: 1em 0;

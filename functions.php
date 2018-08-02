@@ -12,8 +12,9 @@ add_action( 'wp_enqueue_scripts', 'armariojoyeria_scripts' );
 add_filter( 'woocommerce_product_tag_cloud_widget_args', 'custom_woocommerce_tag_cloud_widget' );
 function custom_woocommerce_tag_cloud_widget() {
     $args = array(
-        'number' => 20,
-        'taxonomy' => 'product_tag'
+        'number' => 15,
+        'taxonomy' => 'product_tag',
+        'orderby' => 'rand',
     );
     return $args;
 }
