@@ -151,14 +151,14 @@ body {
   text-align: center;
 }
 .main-slider .main-slider-previous i, .main-slider .main-slider-next i {
-    color: $color__brand-primary;
-    font-size: 90px;
+  color: $color__brand-primary;
+  font-size: 90px;
 }
 .main-slider .main-slider-previous {
-    left: 3%;
+  left: 3%;
 }
 .main-slider .main-slider-next {
-    right: 3%;
+  right: 3%;
 }
 .main-slider .hero-caption .btn-group a {
   border: 2px solid $color__brand-primary !important;
@@ -175,14 +175,16 @@ body {
   text-transform: capitalize;
 }
 .texto_suscripcion {
-  p {
-    color: white;
+  div {
+    p {
+      color: white;
+    }
   }
 }
 #mc_embed_signup {
-    background: #fff;
-    border-radius: 6px;
-    font: 16px 'Lato', sans-serif;
+  background: #fff;
+  border-radius: 6px;
+  font: 16px 'Lato', sans-serif;
 
 }
 #mc-embedded-subscribe-form {
@@ -193,7 +195,7 @@ body {
     margin-bottom: 5px;
     background-color: black;
     color: lightgray;
-    &[type="button"] {
+    &[type="submit"] {
       background-color: $color__brand-primary;
       &:hover {
         opacity:0.9;

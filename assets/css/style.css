@@ -8146,7 +8146,7 @@ body .sf-menu a {
   text-transform: capitalize;
 }
 
-.texto_suscripcion p {
+.texto_suscripcion div p {
   color: white;
 }
 
@@ -8166,10 +8166,10 @@ body .sf-menu a {
   background-color: black;
   color: lightgray;
 }
-#mc-embedded-subscribe-form input[type=button] {
+#mc-embedded-subscribe-form input[type=submit] {
   background-color: #24D1CB;
 }
-#mc-embedded-subscribe-form input[type=button]:hover {
+#mc-embedded-subscribe-form input[type=submit]:hover {
   opacity: 0.9;
 }
 #mc-embedded-subscribe-form .clear {
