@@ -116,7 +116,7 @@
   margin-top: 16px;
 }
 .main-slider .hero-caption.center {
-    left: 23%;
+    left: -23%;
     -webkit-transform: translateX(-23);
     -khtml-transform: translateX(-23);
     -moz-transform: translateX(-23);
@@ -130,5 +130,5 @@
     bottom: 10%;
 }
 .woocommerce-loop-product__title {
-  height: 90px;
+  height: 100px;
 }

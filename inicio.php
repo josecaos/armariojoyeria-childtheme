@@ -22,9 +22,9 @@ if ( $breadcrumbs_enabled ) { ?>
 // 	$account_page = is_account_page();
 }
 ?>
-	<div class="container">
+	<div class="contenedor_armario container">
 		<div class="row">
-			<div id="primary" class="content-area col-md-12">
+			<div id="primary" class="content-area col-12">
 				<main id="main" class="site-main" role="main">
 
 					<?php
