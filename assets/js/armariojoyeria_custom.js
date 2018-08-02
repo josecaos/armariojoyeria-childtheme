@@ -3,6 +3,7 @@
 jQuery(document).ready(function() {
 
 	// alert('test JS')
+	wide_tweak()
 	sticker_descuentos()
 
 })// fin ready
@@ -52,4 +53,11 @@ function sticker_descuentos() {
 			}
 		}
 	})
+}
+
+// forzar contenedor sin sidebar
+funtion wide_tweak() {
+	$("#primary").removeClass("col-md-8 tyche-has-sidebar")
+	$("#primary").addClass("col-12")
+
 }
