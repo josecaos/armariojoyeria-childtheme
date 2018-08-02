@@ -17,9 +17,9 @@ if ( $breadcrumbs_enabled ) { ?>
 
 <?php
 // $shop_page    = Tyche_Helper::has_sidebar();
-$account_page = false;
-if ( class_exists( 'WooCommerce' ) ) {
-	$account_page = is_account_page();
+// $account_page = false;
+// if ( class_exists( 'WooCommerce' ) ) {
+// 	$account_page = is_account_page();
 }
 ?>
 	<div class="container">
@@ -28,16 +28,18 @@ if ( class_exists( 'WooCommerce' ) ) {
 				<main id="main" class="site-main" role="main">
 
 					<?php
-					echo "DEBUG PAGINA INICIO JOYERIA";
 					while ( have_posts() ) :
 						the_post();
 
+
 						get_template_part( 'template-parts/content', 'page' );
 
+						echo "DEBUG PAGINA INICIO JOYERIA";
+
 						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) :
-							comments_template();
-						endif;
+						// if ( comments_open() || get_comments_number() ) :
+						// 	comments_template();
+						// endif;
 
 					endwhile; // End of the loop.
 					?>
@@ -46,13 +48,13 @@ if ( class_exists( 'WooCommerce' ) ) {
 			</div><!-- #primary -->
 
 			<?php
-			if ( $shop_page ) {
-				if ( ! $account_page ) {
-					//get_sidebar( 'shop' );
-				}
-			} else {
-				// get_sidebar();
-			}
+			// if ( $shop_page ) {
+			// 	if ( ! $account_page ) {
+			// 		//get_sidebar( 'shop' );
+			// 	}
+			// } else {
+			// 	// get_sidebar();
+			// }
 			?>
 		</div>
 	</div>

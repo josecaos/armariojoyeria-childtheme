@@ -1,11 +1,11 @@
 <?php
 /**
- * Template part for displaying pages.
- *
- * @link    https://codex.wordpress.org/Template_Hierarchy
- *
- * @package Tyche
- */
+* Template part for displaying pages.
+*
+* @link    https://codex.wordpress.org/Template_Hierarchy
+*
+* @package Tyche
+*/
 
 ?>
 
@@ -13,7 +13,18 @@
 	<div class="row">
 		<div class="col-md-12">
 			<header>
-				<h1 class="page-title margin-top"><?php echo esc_html( get_the_title() ); ?></h1>
+				<?php
+				if (is_page('inicio')):
+					?>
+					<h1 class="page-title margin-top"><?php echo 'INICIO ARMARIO DEBUG' ?></h1>
+					<?php
+				else:
+					?>
+					<h1 class="page-title margin-top"><?php echo esc_html( get_the_title() ); ?></h1>
+					<?php
+				endif;
+				?>
+
 			</header>
 		</div>
 	</div>
