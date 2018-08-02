@@ -115,14 +115,16 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
   }
-  .sf-menu a {
-    // font-family: "Open Sans",sans-serif;
-    font-family: 'Lato', sans-serif;
-    font-weight: lighter;
-    text-transform: uppercase;
+  .sf-menu {
+    border-top: 1px solid lightgray;
+    a {
+      // font-family: "Open Sans",sans-serif;
+      font-family: 'Lato', sans-serif;
+      font-weight: lighter;
+      text-transform: uppercase;
+    }
   }
 }
-
 .woocommerce-store-notice, p.demo_store {
   font-size: 1.1em;
   padding: 1em 0;

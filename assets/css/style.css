@@ -8037,6 +8037,9 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
 }
+body .sf-menu {
+  border-top: 1px solid lightgray;
+}
 body .sf-menu a {
   font-family: "Lato", sans-serif;
   font-weight: lighter;
