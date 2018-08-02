@@ -8,7 +8,18 @@ function armariojoyeria_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'armariojoyeria_scripts' );
 
-//
+// Limite de numero de tags en widget
+add_filter('widget_tag_cloud_args', 'tag_widget_limit');
+
+function tag_widget_limit($args){
+
+ if(isset($args['taxonomy']) && $args['taxonomy'] == 'post_tag'){
+  $args['number'] = 22; //Limit number of tags
+ }
+
+ return $args;
+}
+
 // Opcion de empaque para regalo en el checkout
 // dos empaques chico y grande
 //
