@@ -30,9 +30,9 @@ global $product
 		<div class="col-md-9 col-lg-10">
 			<?php the_excerpt(); ?>
 			<!--  -->
-			<div id="product-description-container" style="border:2px dashed green;">
-				<ul>
-					<li><h6><?php echo $product->get_price_html();					
+			<h4 class="col-12 text-left"><?php echo $product->get_price_html();?></h4>
+					<h6 class="col-12 text-center">
+					<?php
 					echo apply_filters( 'woocommerce_loop_add_to_cart_link',
 					sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" class="button %s product_type_%s">%s</a>',
 					esc_url( $product->add_to_cart_url() ),
@@ -43,11 +43,9 @@ global $product
 					esc_html( $product->add_to_cart_text() )
 				),
 				$product );
-
 				?>
-			</h6></li>
-		</ul>
-	</div>
+			</h6>
+
 	<!--  -->
 </div>
 </div><!-- .entry-content -->
