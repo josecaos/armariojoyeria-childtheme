@@ -8037,6 +8037,9 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
 }
+body input, body textarea, body select {
+  color: gray;
+}
 body .sf-menu {
   border-top: 1px solid lightgray;
 }
@@ -8195,6 +8198,11 @@ body .site-content {
 .wpcf7-form p span input, .wpcf7-form p span textarea {
   background-color: black;
   color: lightgray;
+}
+
+.woocommerce .woocommerce-info {
+  border: 0;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

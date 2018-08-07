@@ -115,6 +115,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
   }
+  input, textarea, select {
+    color: gray;
+  }
   .sf-menu {
     border-top: 1px solid lightgray;
     a {
@@ -232,3 +235,7 @@ body {
   }
 
 }
+.woocommerce .woocommerce-info {
+    border: 0;
+    width: 100%;
+  }
