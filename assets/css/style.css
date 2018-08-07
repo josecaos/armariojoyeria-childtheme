@@ -8205,4 +8205,8 @@ body .site-content {
   width: 100%;
 }
 
+.tyche-blog-meta a {
+  margin-bottom: 2.5px !important;
+}
+
 /*# sourceMappingURL=style.css.map */
