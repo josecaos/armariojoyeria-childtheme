@@ -13,8 +13,8 @@ global $product
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'tyche-blog-post' ); ?>>
 	<header class="entry-header">
 		<div class="tyche-blog-meta">
-			<?php //Tyche_Helper::post_meta(); ?>
-			<?php echo get_the_post_title(); ?>
+			<?php Tyche_Helper::post_meta(); ?>
+			<?php //echo get_the_post_title(); ?>
 		</div>
 	</header><!-- .entry-header -->
 	<div class="entry-content">
