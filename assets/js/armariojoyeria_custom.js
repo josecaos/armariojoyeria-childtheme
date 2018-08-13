@@ -3,8 +3,10 @@
 jQuery(document).ready(function() {
 
 	wide_tweak()
-	translate_accesories()
 	sticker_descuentos()
+	setTimeout(()=>{
+		translate_accesories()
+	},3000)
 
 })// fin ready
 
