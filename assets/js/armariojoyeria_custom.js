@@ -61,3 +61,13 @@ function wide_tweak() {
 	jQuery("#primary").addClass("col-12")
 
 }
+
+//traduccion 'Crea tu accesorio'
+function translate_accesories() {
+
+jQuery('li.pagination_element_review .element_title a.element_link').html('Revisa tus accesesorios')
+jQuery('p.selected_option_label_wrapper label.selected_option_label').html('Tu selección: ')
+jQuery('p.component_section_title label.select_label').html('Opciones disponibles: ')
+jQuery('p.component_section_title label.select_label').html('Opciones disponibles: ')
+
+}
