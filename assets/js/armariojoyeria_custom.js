@@ -5,6 +5,7 @@ jQuery(document).ready(function() {
 	// alert('test JS')
 	wide_tweak()
 	sticker_descuentos()
+	translate_accesories()
 
 })// fin ready
 
