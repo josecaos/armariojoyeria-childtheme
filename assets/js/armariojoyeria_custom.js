@@ -4,9 +4,11 @@ jQuery(document).ready(function() {
 
 	wide_tweak()
 	sticker_descuentos()
+	//retarda la traduccion de composite product para evitar overrides por plugin
 	setTimeout(()=>{
 		translate_accesories()
-	},3000)
+	},1500)
+//
 
 })// fin ready
 

@@ -19,7 +19,12 @@ function custom_woocommerce_tag_cloud_widget() {
     return $args;
 }
 
-// custom_woocommerce_template_loop_add_to_cart
+//remueve woocomerce breadcrumbs
+add_action( 'init', 'remove_wc_breadcrumbs' );
+function remove_wc_breadcrumbs() {
+remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
+}
+// agrega loop agrega a carrito
 add_filter( 'woocommerce_product_add_to_cart_text' , 'custom_woocommerce_product_add_to_cart_text' );
 function custom_woocommerce_product_add_to_cart_text() {
 	global $product;
