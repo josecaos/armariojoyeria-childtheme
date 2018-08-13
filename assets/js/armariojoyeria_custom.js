@@ -8,14 +8,6 @@ jQuery(document).ready(function() {
 	setTimeout(()=>{
 		translate_accesories()
 	},1500)
-	jQuery.ajax({
-		url: script_vars.ajaxurl,
-		data: script_vars.data,
-		type: 'post',
-		success: function(response){
-			translate_accesories()
-		}
-	});
 	//
 
 })// fin ready
