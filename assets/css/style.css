@@ -8049,6 +8049,7 @@ body .sf-menu a {
   text-transform: uppercase;
 }
 body .site-content {
+  padding-top: 32px;
   padding-bottom: 32px;
 }
 
