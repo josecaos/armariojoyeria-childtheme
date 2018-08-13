@@ -24,11 +24,6 @@ add_action( 'init', 'remove_wc_breadcrumbs' );
 function remove_wc_breadcrumbs() {
 remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
 }
-// detecta ajax request para traducir composite
-$cont = '<script> setTimeout(()=>{translate_accesories()},1500)</script>';
-if(isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-	echo $cont;
-}
 // agrega loop agrega a carrito
 add_filter( 'woocommerce_product_add_to_cart_text' , 'custom_woocommerce_product_add_to_cart_text' );
 function custom_woocommerce_product_add_to_cart_text() {

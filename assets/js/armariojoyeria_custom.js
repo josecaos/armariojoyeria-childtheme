@@ -8,7 +8,15 @@ jQuery(document).ready(function() {
 	setTimeout(()=>{
 		translate_accesories()
 	},1500)
-//
+	jQuery.ajax({
+		url: script_vars.ajaxurl,
+		data: script_vars.data,
+		type: 'post',
+		success: function(response){
+			translate_accesories()
+		}
+	});
+	//
 
 })// fin ready
 
@@ -67,9 +75,9 @@ function wide_tweak() {
 //traduccion 'Crea tu accesorio'
 function translate_accesories() {
 
-jQuery('li.pagination_element_review .element_title a.element_link').html('Revisa tus accesesorios')
-jQuery('p.selected_option_label_wrapper label.selected_option_label').html('Tu selección: ')
-jQuery('p.component_section_title label.select_label').html('Opciones disponibles: ')
-jQuery('p.component_section_title label.select_label').html('Opciones disponibles: ')
+	jQuery('li.pagination_element .element_title a.element_link').html('Revisa tus accesesorios')
+	jQuery('p.selected_option_label_wrapper label.selected_option_label').html('Tu selección: ')
+	jQuery('p.component_section_title label.select_label').html('Opciones disponibles: ')
+	jQuery('p.component_section_title label.select_label').html('Opciones disponibles: ')
 
 }
