@@ -2,10 +2,9 @@
 // ready
 jQuery(document).ready(function() {
 
-	// alert('test JS')
 	wide_tweak()
-	sticker_descuentos()
 	translate_accesories()
+	sticker_descuentos()
 
 })// fin ready
 
@@ -38,8 +37,6 @@ function sticker_descuentos() {
 			tPrecio = cleanOldNumber
 
 			oper = (1 - (tDescuento/tPrecio) ) * 100
-
-			console.log(oper)
 
 			descuento = Math.round(oper)
 
