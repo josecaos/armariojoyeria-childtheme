@@ -15,9 +15,7 @@
 			<div class="col-md-12">
 				<ul class="top-header-bar">
 					<!-- Email -->
-					<!--  -->
-					<div class="copyright-text pull-left">
-
+					<li class="top-email">
 						<?php
 						if ( has_nav_menu( 'social' ) ) {
 
@@ -37,9 +35,6 @@
 							);
 						}
 						?>
-					</div>
-					<!--  -->
-					<li class="top-email">
 						<i class="fa fa-envelope-o"></i> <?php echo esc_html( get_theme_mod( 'tyche_top_bar_email', get_option( 'admin_email' ) ) ); ?>
 					</li>
 					<!-- / Email -->
