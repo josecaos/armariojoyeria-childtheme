@@ -35,7 +35,7 @@
 							);
 						}
 						?>
-						<i class="fa fa-envelope-o"></i> <?php echo esc_html( get_theme_mod( 'tyche_top_bar_email', get_option( 'admin_email' ) ) ); ?>
+						&nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa fa-envelope-o"></i> <?php echo esc_html( get_theme_mod( 'tyche_top_bar_email', get_option( 'admin_email' ) ) ); ?>
 					</li>
 					<!-- / Email -->
 					<?php if ( class_exists( 'WooCommerce' ) ) : ?>
