@@ -15,6 +15,30 @@
 			<div class="col-md-12">
 				<ul class="top-header-bar">
 					<!-- Email -->
+					<!--  -->
+					<div class="copyright-text pull-left">
+
+						<?php
+						if ( has_nav_menu( 'social' ) ) {
+
+							wp_nav_menu(
+								array(
+									'theme_location'  => 'social',
+									'container'       => 'div',
+									'container_id'    => 'menu-social',
+									'container_class' => 'menu pull-left',
+									'menu_id'         => 'menu-social-items',
+									'menu_class'      => 'menu-items',
+									'depth'           => 1,
+									'link_before'     => '<span class="screen-reader-text">',
+									'link_after'      => '</span>',
+									'fallback_cb'     => '',
+								)
+							);
+						}
+						?>
+					</div>
+					<!--  -->
 					<li class="top-email">
 						<i class="fa fa-envelope-o"></i> <?php echo esc_html( get_theme_mod( 'tyche_top_bar_email', get_option( 'admin_email' ) ) ); ?>
 					</li>
