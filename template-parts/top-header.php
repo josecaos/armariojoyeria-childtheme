@@ -34,8 +34,10 @@
 								)
 							);
 						}
+						$current_user = wp_get_current_user();
 						?>
 						<!-- &nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa fa-envelope-o"></i> <?php //echo esc_html( get_theme_mod( 'tyche_top_bar_email', get_option( 'admin_email' ) ) ); ?> -->
+						&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;<i class="fa fa-envelope-o"></i> <?php printf( __( '%s', 'textdomain' ), esc_html( $current_user->user_email )); ?>
 					</li>
 					<!-- / Email -->
 					<?php if ( class_exists( 'WooCommerce' ) ) : ?>
