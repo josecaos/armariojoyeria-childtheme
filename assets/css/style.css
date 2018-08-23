@@ -8210,4 +8210,8 @@ body .site-content {
   margin-bottom: 2.5px !important;
 }
 
+.woocommerce table.shop_table .product-remove a.remove {
+  line-height: 22px;
+}
+
 /*# sourceMappingURL=style.css.map */
