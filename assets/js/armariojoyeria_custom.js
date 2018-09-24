@@ -24,20 +24,20 @@ function sticker_descuentos() {
 
 			// limpia los precios para la operacion
 			precioFinal = jQuery(this).find('span.special-price span.amount')
-			console.log("Precio final: " +  precioFinal)
 			precioFinal.children().remove()//quita elemento antes del texto
 			precioFinalClean = precioFinal.text()//regresa el precio sin simbolo
 			cleanNewNumber=precioFinalClean.replace(/\,/g,'') // 1125, but a string, so convert it to number
 			cleanNewNumber=parseInt(cleanNewNumber,10)
-			console.log(cleanNewNumber)
+			console.log("Precio con descuento: " + cleanNewNumber)
 
 			// precioInicial = jQuery(this).find('span.old-price span.amount')
 			precioInicial = jQuery(this).find('span.woocommerce-Price-amount amount')
+			console.log("Precio final: " +  precioInicial)
 			precioInicial.children().remove()
 			precioInicialClean = precioInicial.text()
 			cleanOldNumber=precioInicialClean.replace(/\,/g,'') // 1125, but a string, so convert it to number
 			cleanOldNumber=parseInt(cleanOldNumber,10)
-			console.log(cleanOldNumber)
+			console.log("Precio sin descuento: " + cleanOldNumber)
 
 			tDescuento = cleanNewNumber
 			tPrecio = cleanOldNumber
