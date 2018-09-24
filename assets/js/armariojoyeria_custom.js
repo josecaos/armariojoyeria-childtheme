@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
 
 function sticker_descuentos() {
 
-	jQuery('.product-wrapper').each(function(index) {
+	jQuery('.product').each(function(index) {
 		var precioFinal,precioInicial,precioFinalClean,precioInicialClean
 		var oper,tdescuento,tprecio,descuento
 		var cleanOldNumber,cleanNewNumber
