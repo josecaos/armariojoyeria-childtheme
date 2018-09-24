@@ -23,7 +23,7 @@ function sticker_descuentos() {
 		if (jQuery(this).has('span.onsale')) {
 
 			// limpia los precios para la operacion
-			precioFinal = jQuery(this).find('span.special-price span.amount')
+			precioFinal = jQuery(this).find('ins span.woocommerce-Price-amount.amount')
 			precioFinal.children().remove()//quita elemento antes del texto
 			precioFinalClean = precioFinal.text()//regresa el precio sin simbolo
 			cleanNewNumber=precioFinalClean.replace(/\,/g,'') // 1125, but a string, so convert it to number
@@ -31,8 +31,7 @@ function sticker_descuentos() {
 			console.log("Precio con descuento: " + cleanNewNumber)
 
 			// precioInicial = jQuery(this).find('span.old-price span.amount')
-			precioInicial = jQuery(this).find('span.woocommerce-Price-amount amount')
-			console.log("Precio final: " +  precioInicial)
+			precioInicial = jQuery(this).find('del span.woocommerce-Price-amount.amount')
 			precioInicial.children().remove()
 			precioInicialClean = precioInicial.text()
 			cleanOldNumber=precioInicialClean.replace(/\,/g,'') // 1125, but a string, so convert it to number
@@ -48,11 +47,11 @@ function sticker_descuentos() {
 
 			if ( oper >= 1) {
 
-				jQuery(this).find('span.sale-text').html('- ' + descuento + '%')//imprime resultado
+				jQuery(this).find('span.onsale').html('- ' + descuento + '%')//imprime resultado
 
 			} else {
 
-				jQuery(this).find('span.sale-text').html('Oferta')//resultado fijo
+				jQuery(this).find('span.onsale').html('Oferta')//resultado fijo
 
 			}
 		}
