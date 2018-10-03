@@ -164,19 +164,19 @@ add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
 
 function cupon3x2( WC_Cart $cart ){
 
-    // add the coupons here
-    $buy3_coupons = array('onefree', 'anothercouponcode');
+    // El cupon
+    $buy3_coupons = array('Test3x2', 'anothercouponcode');
 
-    // return if cart has less than 4 items
+    // cantidad de objetos a comprar
     if( $cart->cart_contents_count < 3 ) {
       return;
     } $applied_coupons = $cart->get_applied_coupons();
     $matches = array_intersect($buy3_coupons, $applied_coupons);
 
-    // return if no coupon matches
+    // pasa, si no existe el cupon
     if (empty($matches)) return;
 
-    // loop through the items in cart to find the cheapest
+    // itera el carrito y encuentra el mas barato
     foreach ( $cart->get_cart() as $cart_item_key => $values ) {
         $_product = $values['data'];
         $product_price[] = $_product->get_price_including_tax();
@@ -184,5 +184,5 @@ function cupon3x2( WC_Cart $cart ){
 
     $cheapest = min($product_price);
 
-    $cart->add_fee( 'Promo: compra 3 llevate 1 gratis', -$cheapest);
+    $cart->add_fee( 'Cupón: El tercer más barato es gratis', -$cheapest);
 }
