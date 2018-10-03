@@ -165,13 +165,13 @@ add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
 function cupon3x2( WC_Cart $cart ){
 
     // El cupon
-    $buy3_coupons = array('Test3x2', 'anothercouponcode');
+    $promo_cupons = array('test32', 'anothercouponcode');
 
     // cantidad de objetos a comprar
     if( $cart->cart_contents_count < 3 ) {
       return;
     } $applied_coupons = $cart->get_applied_coupons();
-    $matches = array_intersect($buy3_coupons, $applied_coupons);
+    $matches = array_intersect($promo_cupons, $applied_coupons);
 
     // pasa, si no existe el cupon
     if (empty($matches)) return;
