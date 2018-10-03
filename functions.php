@@ -152,3 +152,37 @@ function agrega_datos( $cart ){
   }
 
 }
+
+// 3X2
+// Hook before calculate fees - "Buy 3 get cheapest free" coupon
+add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
+
+/**
+ * Add discount for "Buy 3 get cheapest free" coupon
+ * @param WC_Cart $cart
+ */
+
+function cupon3x2( WC_Cart $cart ){
+
+    // add the coupons here
+    $buy3_coupons = array('onefree', 'anothercouponcode');
+
+    // return if cart has less than 4 items
+    if( $cart->cart_contents_count < 3 ) {
+      return;
+    } $applied_coupons = $cart->get_applied_coupons();
+    $matches = array_intersect($buy3_coupons, $applied_coupons);
+
+    // return if no coupon matches
+    if (empty($matches)) return;
+
+    // loop through the items in cart to find the cheapest
+    foreach ( $cart->get_cart() as $cart_item_key => $values ) {
+        $_product = $values['data'];
+        $product_price[] = $_product->get_price_including_tax();
+    }
+
+    $cheapest = min($product_price);
+
+    $cart->add_fee( 'Promo: compra 3 llevate 1 gratis', -$cheapest);
+}
