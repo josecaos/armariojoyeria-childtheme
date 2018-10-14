@@ -165,7 +165,7 @@ add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
 function cupon3x2( WC_Cart $cart ){
 
     // El cupon
-    $promo_cupons = array('#3X2ANIVERSARIO', 'anothercouponcode');
+    $promo_cupons = array('#3x2aniversario', 'anothercouponcode');
 
     // cantidad de objetos a comprar
     if( $cart->cart_contents_count < 3 ) {
