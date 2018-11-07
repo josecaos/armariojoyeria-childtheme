@@ -8066,20 +8066,24 @@ body .site-content {
 }
 
 .main-slider .hero-caption.center {
-  left: 25%;
-  -webkit-transform: translateX(25%);
-  -khtml-transform: translateX(50%);
-  -moz-transform: translateX(25%);
-  -ms-transform: translateX(25%);
-  -o-transform: translateX(25%);
-  transform: translateX(25%);
+  left: -10%;
+  -webkit-transform: translateX(-10%);
+  -khtml-transform: translateX(-10%);
+  -moz-transform: translateX(-10%);
+  -ms-transform: translateX(-10%);
+  -o-transform: translateX(-10%);
+  transform: translateX(-10%);
 }
 
 .main-slider .hero-caption {
   position: absolute;
   width: 350px;
-  top: 80%;
+  top: 40%;
   text-align: center;
+}
+
+.hero-caption span {
+  color: black;
 }
 
 .main-slider .main-slider-previous i, .main-slider .main-slider-next i {
