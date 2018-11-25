@@ -154,7 +154,7 @@ function agrega_datos( $cart ){
 }
 
 // 3X2
-// Hook before calculate fees - "Buy 3 get cheapest free" coupon
+// Hook before calculate fees - "Buy X get cheapest free" coupon
 add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
 
 /**
@@ -164,8 +164,8 @@ add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
 
 function cupon3x2( WC_Cart $cart ){
 
-    // El cupon
-    $promo_cupons = array('#3x2aniversario', '3x2aniversario');
+    // los cupones en array
+    $promo_cupons = array('3x2NAVIDAD');
 
     // cantidad de objetos a comprar
     if( $cart->cart_contents_count < 3 ) {
