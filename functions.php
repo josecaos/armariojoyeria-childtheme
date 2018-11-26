@@ -165,7 +165,7 @@ add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
 function cupon3x2( WC_Cart $cart ){
 
     // los cupones en array
-    $promo_cupons = array('3x2NAVIDAD');
+    $promo_cupons = array('3x2NAVIDAD','3x2navidad');
 
     // cantidad de objetos a comprar
     if( $cart->cart_contents_count < 3 ) {
