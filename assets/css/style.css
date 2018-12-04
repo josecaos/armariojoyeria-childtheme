@@ -8066,18 +8066,18 @@ body .site-content {
 }
 
 .main-slider .hero-caption.center {
-  left: 31%;
-  -webkit-transform: translateX(31%);
-  -moz-transform: translateX(31%);
-  -ms-transform: translateX(31%);
-  -o-transform: translateX(31%);
-  transform: translateX(31%);
+  left: 25%;
+  -webkit-transform: translateX(25%);
+  -moz-transform: translateX(25%);
+  -ms-transform: translateX(25%);
+  -o-transform: translateX(25%);
+  transform: translateX(25%);
 }
 
 .main-slider .hero-caption {
   position: absolute;
   width: 350px;
-  top: 90%;
+  top: 88%;
   text-align: center;
 }
 
