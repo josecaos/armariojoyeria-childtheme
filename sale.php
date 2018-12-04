@@ -6,6 +6,8 @@ get_header();
 ?>
 <div class="container-fluid">
 
+<h1 class="col text-center">Nuestras ofertas</h1>
+
   <ul class="col products">
 
     <?php

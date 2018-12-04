@@ -8230,16 +8230,27 @@ body .site-content {
   overflow: hidden;
 }
 .sale-item li a.woocommerce-loop-product__link span.onsale {
-  width: 100%;
-  display: block;
-  padding: 5px 35px;
+  padding: 16px 8px;
   background: #24d1cb;
-  color: white;
-  text-align: center;
+  color: #fff;
+  text-align: left;
   position: absolute;
   transform: rotate(-45deg);
-  left: -88px;
+  left: 20px;
   top: 20px;
+  border-radius: 56px;
+  font-weight: bolder;
+}
+.sale-item li a.woocommerce-loop-product__link h2.woocommerce-loop-product__title {
+  line-height: 26px !important;
+  font-size: 1.25em !important;
+}
+.sale-item li a.woocommerce-loop-product__link span.price {
+  display: block !important;
+  width: 100% !important;
+  padding: 8px !important;
+  text-align: center !important;
+  font-size: 1.5em !important;
 }
 
 /*# sourceMappingURL=style.css.map */
