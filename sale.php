@@ -4,6 +4,8 @@ Template Name: Ofertas ArmarioJoyeria
 */
 get_header();
 ?>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 <div class="container-fluid">
 
   <h1 class="col text-center">Nuestras ofertas</h1>
@@ -13,10 +15,10 @@ get_header();
     <?php
     $args = array(
       'post_type'      => 'product',
-      'posts_per_page' => 20,
+      'posts_per_page' => 10,
+      'post__in' => wc_get_product_ids_on_sale(),
       'meta_query'     => array(
         'relation' => 'OR',
-        'post__in' => wc_get_product_ids_on_sale(),
         array( // Simple products type
           'key'           => '_sale_price',
           'value'         => 0,
