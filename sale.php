@@ -13,7 +13,8 @@ get_header();
       'post_type'      => 'product',
       'posts_per_page' => 20,
       'meta_query'     => array(
-        'relation' => 'OR',
+      'relation' => 'OR',
+      'post__in' => wc_get_product_ids_on_sale(),
         array( // Simple products type
           'key'           => '_sale_price',
           'value'         => 0,
@@ -33,14 +34,14 @@ get_header();
       while ( $loop->have_posts() ) : $loop->the_post();
       ?>
 
-      <li class="sale-item col-12 col-sm-6 col-lg-3">
+      <div class="sale-item col-12 col-sm-6 col-lg-3">
 
 
-      <?php
-      woocommerce_get_template_part( 'content', 'product' );
-      ?>
+        <?php
+        woocommerce_get_template_part( 'content', 'product' );
+        ?>
 
-    </li>
+      </div>
 
 
       <?php
