@@ -56,10 +56,11 @@ get_header();
     //   )
     // );
 ?>
+</ul>
     <div class="pag-sale col-12">
       <div class="col">
-        <div class="col-6 text-right"><?php previous_posts_link( '&laquo; SIGUIENTE', $loop->max_num_pages) ?></div>
-        <div class="col-6 text-left"><?php next_posts_link( 'Anterior &raquo;', $loop->max_num_pages) ?></div>
+        <div class="col-6 text-right"><?php previous_posts_link( '&laquo; ANTERIOR', $loop->max_num_pages) ?></div>
+        <div class="col-6 text-left"><?php next_posts_link( 'SIGUIENTE &raquo;', $loop->max_num_pages) ?></div>
       </div>
     </div>
     <?php
@@ -67,10 +68,7 @@ get_header();
     echo __( 'No products found' );
   }
   wp_reset_postdata();
-
-
   ?>
-</ul>
 
 
 
