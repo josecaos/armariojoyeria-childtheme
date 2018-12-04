@@ -6,7 +6,7 @@ get_header();
 ?>
 <div class="container-fluid">
 
-<h1 class="col text-center">Nuestras ofertas</h1>
+  <h1 class="col text-center">Nuestras ofertas</h1>
 
   <ul class="col products">
 
@@ -15,8 +15,8 @@ get_header();
       'post_type'      => 'product',
       'posts_per_page' => 20,
       'meta_query'     => array(
-      'relation' => 'OR',
-      'post__in' => wc_get_product_ids_on_sale(),
+        'relation' => 'OR',
+        'post__in' => wc_get_product_ids_on_sale(),
         array( // Simple products type
           'key'           => '_sale_price',
           'value'         => 0,
@@ -63,13 +63,15 @@ get_header();
 
 
   ?>
-    <nav>
-        <ul>
-            <li><?php previous_posts_link( '&laquo; PREV', $loop->max_num_pages) ?></li>
-            <li><?php next_posts_link( 'NEXT &raquo;', $loop->max_num_pages) ?></li>
-        </ul>
-    </nav>
 </ul>
+
+<nav>
+  <ul>
+    <li><?php previous_posts_link( '&laquo; PREV', $loop->max_num_pages) ?></li>
+    <li><?php next_posts_link( 'NEXT &raquo;', $loop->max_num_pages) ?></li>
+  </ul>
+</nav>
+
 </div>
 
 <?php get_footer(); ?>
