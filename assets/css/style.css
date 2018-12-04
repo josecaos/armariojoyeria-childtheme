@@ -8218,6 +8218,11 @@ body .site-content {
   line-height: 22px;
 }
 
+.sale-prods {
+  display: inline-block;
+  height: 100%;
+}
+
 .sale-item {
   padding: 8px;
 }

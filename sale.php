@@ -8,7 +8,7 @@ get_header();
 
   <h1 class="col text-center">Nuestras ofertas</h1>
 
-  <ul class="col products">
+  <ul class="col-12 sale-prods products">
 
     <?php
     $args = array(
