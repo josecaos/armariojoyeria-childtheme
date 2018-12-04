@@ -65,12 +65,12 @@ get_header();
   ?>
 </ul>
 
-<nav>
-  <ul>
-    <li><?php previous_posts_link( '&laquo; PREV', $loop->max_num_pages) ?></li>
-    <li><?php next_posts_link( 'NEXT &raquo;', $loop->max_num_pages) ?></li>
-  </ul>
-</nav>
+<div class="col-12">
+  <div class="col">
+    <div class="col-6 text-right"><?php previous_posts_link( '&laquo; SIGUIENTE', $loop->max_num_pages) ?></div>
+    <div class="col-6 text-left"><?php next_posts_link( 'Anterior &raquo;', $loop->max_num_pages) ?></div>
+  </div>
+</div class="col-12">
 
 </div>
 
