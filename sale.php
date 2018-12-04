@@ -49,17 +49,26 @@ get_header();
       <?php
 
     endwhile;
-    the_posts_pagination(
-      array(
-        'prev_text' => '<span class="pagination-arrow-container"><span class="fa fa-long-arrow-left"></span> ' . esc_html__( 'PREV', 'tyche' ) . '</span>',
-        'next_text' => '<span class="pagination-arrow-container">' . esc_html__( 'NEXT', 'tyche' ) . ' <span class="fa fa-long-arrow-right"></span></span>',
-      )
-    );
+    // the_posts_pagination(
+    //   array(
+    //     'prev_text' => '<span class="pagination-arrow-container"><span class="fa fa-long-arrow-left"></span> ' . esc_html__( 'PREV', 'tyche' ) . '</span>',
+    //     'next_text' => '<span class="pagination-arrow-container">' . esc_html__( 'NEXT', 'tyche' ) . ' <span class="fa fa-long-arrow-right"></span></span>',
+    //   )
+    // );
+
   } else {
     echo __( 'No products found' );
   }
   wp_reset_postdata();
+
+
   ?>
+    <nav>
+        <ul>
+            <li><?php previous_posts_link( '&laquo; PREV', $loop->max_num_pages) ?></li>
+            <li><?php next_posts_link( 'NEXT &raquo;', $loop->max_num_pages) ?></li>
+        </ul>
+    </nav>
 </ul>
 </div>
 
