@@ -298,8 +298,14 @@ body {
 }
 .pag-sale {
   padding: 8px 16px;
-  div {
+  div.left {
     width: 50%;
     display: inline-block;
+    text-align: left;
+  }
+  div.right {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
   }
 }

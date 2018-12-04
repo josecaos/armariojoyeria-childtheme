@@ -8262,9 +8262,15 @@ body .site-content {
 .pag-sale {
   padding: 8px 16px;
 }
-.pag-sale div {
+.pag-sale div.left {
   width: 50%;
   display: inline-block;
+  text-align: left;
+}
+.pag-sale div.right {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
 }
 
 /*# sourceMappingURL=style.css.map */

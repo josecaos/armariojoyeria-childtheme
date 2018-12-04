@@ -58,8 +58,8 @@ get_header();
 ?>
 </ul>
     <div class="pag-sale row">
-        <div class="col-6 text-left"><?php previous_posts_link( '&laquo; ANTERIOR', $loop->max_num_pages) ?></div>
-        <div class="col-6 text-right"><?php next_posts_link( 'SIGUIENTE &raquo;', $loop->max_num_pages) ?></div>
+        <div class="left"><?php previous_posts_link( '&laquo; ANTERIOR', $loop->max_num_pages) ?></div>
+        <div class="right"><?php next_posts_link( 'SIGUIENTE &raquo;', $loop->max_num_pages) ?></div>
     </div>
     <?php
   } else {
