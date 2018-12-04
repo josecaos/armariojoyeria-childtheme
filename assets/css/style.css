@@ -8273,4 +8273,8 @@ body .site-content {
   text-align: right;
 }
 
+.top-header-bar-container .top-header-bar li {
+  width: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
