@@ -8277,4 +8277,8 @@ body .site-content {
   width: auto;
 }
 
+#mobile-menu-trigger i {
+  font-size: 3rem;
+}
+
 /*# sourceMappingURL=style.css.map */
