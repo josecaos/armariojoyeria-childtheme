@@ -49,12 +49,12 @@ get_header();
       <?php
 
     endwhile;
-    // the_posts_pagination(
-    //   array(
-    //     'prev_text' => '<span class="pagination-arrow-container"><span class="fa fa-long-arrow-left"></span> ' . esc_html__( 'PREV', 'tyche' ) . '</span>',
-    //     'next_text' => '<span class="pagination-arrow-container">' . esc_html__( 'NEXT', 'tyche' ) . ' <span class="fa fa-long-arrow-right"></span></span>',
-    //   )
-    // );
+    the_posts_pagination(
+      array(
+        'prev_text' => '<span class="pagination-arrow-container"><span class="fa fa-long-arrow-left"></span> ' . esc_html__( 'PREV', 'tyche' ) . '</span>',
+        'next_text' => '<span class="pagination-arrow-container">' . esc_html__( 'NEXT', 'tyche' ) . ' <span class="fa fa-long-arrow-right"></span></span>',
+      )
+    );
 
   } else {
     echo __( 'No products found' );
@@ -65,12 +65,12 @@ get_header();
   ?>
 </ul>
 
-<div class="col-12">
+<!-- <div class="pag-sale col-12">
   <div class="col">
-    <div class="col-6 text-right"><?php previous_posts_link( '&laquo; SIGUIENTE', $loop->max_num_pages) ?></div>
-    <div class="col-6 text-left"><?php next_posts_link( 'Anterior &raquo;', $loop->max_num_pages) ?></div>
+    <div class="col-6 text-right"><?php //previous_posts_link( '&laquo; SIGUIENTE', $loop->max_num_pages) ?></div>
+    <div class="col-6 text-left"><?php //next_posts_link( 'Anterior &raquo;', $loop->max_num_pages) ?></div>
   </div>
-</div class="col-12">
+</div> -->
 
 </div>
 
