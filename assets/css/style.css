@@ -8262,5 +8262,9 @@ body .site-content {
 .pag-sale {
   padding: 8px 16px;
 }
+.pag-sale div {
+  width: 50%;
+  display: inline-block;
+}
 
 /*# sourceMappingURL=style.css.map */
