@@ -8237,13 +8237,14 @@ body .site-content {
   position: absolute;
   transform: rotate(-45deg);
   left: 20px;
-  top: 20px;
+  top: 10px;
   border-radius: 56px;
   font-weight: bolder;
 }
 .sale-item li a.woocommerce-loop-product__link h2.woocommerce-loop-product__title {
-  line-height: 26px !important;
-  font-size: 1.25em !important;
+  line-height: 35px !important;
+  font-size: 1.45em !important;
+  height: 75px !important;
 }
 .sale-item li a.woocommerce-loop-product__link span.price {
   display: block !important;
