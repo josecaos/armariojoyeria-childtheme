@@ -8221,5 +8221,25 @@ body .site-content {
 .sale-item {
   padding: 8px;
 }
+.sale-item li {
+  padding: 8px;
+}
+.sale-item li a.woocommerce-loop-product__link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.sale-item li a.woocommerce-loop-product__link span.onsale {
+  width: 100%;
+  display: block;
+  padding: 5px 35px;
+  background: #24d1cb;
+  color: white;
+  text-align: center;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: -88px;
+  top: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */

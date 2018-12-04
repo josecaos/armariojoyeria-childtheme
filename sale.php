@@ -34,7 +34,7 @@ get_header();
       while ( $loop->have_posts() ) : $loop->the_post();
       ?>
 
-      <div class="sale-item col-12 col-sm-6 col-lg-3">
+      <div class="sale-item col-12 col-sm-6 col-lg-4">
 
 
         <?php
