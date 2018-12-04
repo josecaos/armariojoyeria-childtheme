@@ -6,12 +6,12 @@ get_header();
 ?>
 <div class="container-fluid">
 
-  <ul class="row products">
+  <ul class="col products">
 
     <?php
     $args = array(
       'post_type'      => 'product',
-      'posts_per_page' => 4,
+      'posts_per_page' => 20,
       'meta_query'     => array(
         'relation' => 'OR',
         array( // Simple products type
@@ -33,7 +33,7 @@ get_header();
       while ( $loop->have_posts() ) : $loop->the_post();
       ?>
 
-      <li class="col-12 col-sm-6 col-lg-3">
+      <li class="sale-item col-12 col-sm-6 col-lg-3">
 
 
       <?php
