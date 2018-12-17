@@ -129,21 +129,21 @@ body {
         padding: 15px 15px;
       }
       .dropdown {
-        padding: 15px 15px;
+        a {
+          padding: 15px 15px;
+        }
+      }
+      &:nth-child(2) {
+        a {
+          border: 1px solid red;
+          color: #24D1CB;
+        }
       }
     }
   }
   .site-content {
     padding-top: 32px;
     padding-bottom: 32px;
-  }
-}
-.sf-menu {
-  li {
-    a:nth-child(2) {
-      border: 1px solid red;
-      color: #24D1CB;
-    }
   }
 }
 .hidden {

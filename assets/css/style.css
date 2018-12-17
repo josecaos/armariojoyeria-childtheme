@@ -8050,17 +8050,16 @@ body .sf-menu li a {
   text-transform: uppercase;
   padding: 15px 15px;
 }
-body .sf-menu li .dropdown {
+body .sf-menu li .dropdown a {
   padding: 15px 15px;
+}
+body .sf-menu li:nth-child(2) a {
+  border: 1px solid red;
+  color: #24D1CB;
 }
 body .site-content {
   padding-top: 32px;
   padding-bottom: 32px;
-}
-
-.sf-menu li a:nth-child(2) {
-  border: 1px solid red;
-  color: #24D1CB;
 }
 
 .hidden {
