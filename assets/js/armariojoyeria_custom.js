@@ -28,7 +28,7 @@ function sticker_descuentos() {
 			precioFinalClean = precioFinal.text()//regresa el precio sin simbolo
 			cleanNewNumber=precioFinalClean.replace(/\,/g,'') // 1125, but a string, so convert it to number
 			cleanNewNumber=parseInt(cleanNewNumber,10)
-			console.log("Precio con descuento: " + cleanNewNumber)
+			// console.log("Precio con descuento: " + cleanNewNumber)
 
 			// precioInicial = jQuery(this).find('span.old-price span.amount')
 			precioInicial = jQuery(this).find('del span.woocommerce-Price-amount.amount')
@@ -36,7 +36,7 @@ function sticker_descuentos() {
 			precioInicialClean = precioInicial.text()
 			cleanOldNumber=precioInicialClean.replace(/\,/g,'') // 1125, but a string, so convert it to number
 			cleanOldNumber=parseInt(cleanOldNumber,10)
-			console.log("Precio sin descuento: " + cleanOldNumber)
+			// console.log("Precio sin descuento: " + cleanOldNumber)
 
 			tDescuento = cleanNewNumber
 			tPrecio = cleanOldNumber
@@ -77,7 +77,7 @@ function translate_accesories() {
 
 function rebajas_floating_button() {
 
-	jQuery(window).on('scroll', () => {
+	jQuery(document).on('scroll', () => {
 		var top = jQuery(document).scrollTop();
 		console.log(top);
 		if (top >= 150) {
