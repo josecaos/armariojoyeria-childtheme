@@ -8042,7 +8042,8 @@ body input, body textarea, body select {
 }
 body .sf-menu {
   text-align: center;
-  border-top: 1px solid lightgray;
+  border-top: 0;
+  margin-bottom: 32px;
 }
 body .sf-menu li a {
   font-family: "Lato", sans-serif;
@@ -8055,7 +8056,13 @@ body .sf-menu li .dropdown a {
 }
 body .sf-menu li:nth-child(2) a {
   border: 1px solid red;
-  color: #24D1CB;
+  border-radius: 5px;
+  color: red;
+}
+body .sf-menu li:nth-child(2) a:hover {
+  border: 1px solid #24d1cb;
+  border-radius: 5px;
+  color: #24d1cb;
 }
 body .site-content {
   padding-top: 32px;
@@ -8296,7 +8303,6 @@ body .site-content {
 #sale_floating {
   transition: 1s;
   -webkit-transition: 1s;
-  background-color: red;
   border-radius: 5px;
   position: fixed;
   right: 20px;
@@ -8308,9 +8314,17 @@ body .site-content {
   box-shadow: 2px 2px 2px #cacaca;
 }
 #sale_floating a {
+  background-color: red;
   color: white;
+  display: block;
   font-size: 1.5em;
   font-weight: bolder;
+  height: 100%;
+  width: 100%;
+}
+#sale_floating a:hover, #sale_floating a:focus {
+  background-color: #24d1cb;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

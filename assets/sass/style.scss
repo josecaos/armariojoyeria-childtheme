@@ -120,7 +120,9 @@ body {
   }
   .sf-menu {
     text-align: center;
-    border-top: 1px solid lightgray;
+    // border-top: 1px solid lightgray;
+    border-top: 0;
+    margin-bottom: 32px;
     li {
       a {
         font-family: 'Lato', sans-serif;
@@ -136,7 +138,13 @@ body {
       &:nth-child(2) {
         a {
           border: 1px solid red;
-          color: #24D1CB;
+          border-radius: 5px;
+          color: red;
+          &:hover {
+            border: 1px solid #24d1cb;
+            border-radius: 5px;
+            color: #24d1cb;
+          }
         }
       }
     }
@@ -334,7 +342,6 @@ body {
 #sale_floating {
   transition: 1s;
   -webkit-transition: 1s;
-  background-color: red;
   border-radius: 5px;
   position: fixed;
   right: 20px;
@@ -345,8 +352,16 @@ body {
   z-index: 10000;
   box-shadow: 2px 2px 2px #cacaca;
   a {
+    background-color: red;
     color: white;
+    display: block;
     font-size: 1.5em;
     font-weight: bolder;
+    height: 100%;
+    width: 100%;
+    &:hover, &:focus {
+      background-color: #24d1cb;
+      color: white;
+    }
   }
 }
