@@ -8041,12 +8041,18 @@ body input, body textarea, body select {
   color: gray !important;
 }
 body .sf-menu {
+  text-align: center;
   border-top: 1px solid lightgray;
 }
 body .sf-menu a {
   font-family: "Lato", sans-serif;
   font-weight: lighter;
   text-transform: uppercase;
+  padding: 15px 30px 15px;
+}
+body .sf-menu a:nth-child(2) {
+  border: 1px solid red;
+  color: #24D1CB;
 }
 body .site-content {
   padding-top: 32px;
@@ -8287,7 +8293,7 @@ body .site-content {
 #sale_floating {
   transition: 1s;
   -webkit-transition: 1s;
-  background-color: #24D1CB;
+  background-color: red;
   border-radius: 5px;
   position: fixed;
   right: 20px;
@@ -8296,6 +8302,7 @@ body .site-content {
   width: auto;
   height: auto;
   z-index: 10000;
+  box-shadow: 2px 2px 2px #cacaca;
 }
 #sale_floating a {
   color: white;

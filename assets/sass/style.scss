@@ -119,12 +119,18 @@ body {
     color: gray !important;
   }
   .sf-menu {
+    text-align: center;
     border-top: 1px solid lightgray;
     a {
       // font-family: "Open Sans",sans-serif;
       font-family: 'Lato', sans-serif;
       font-weight: lighter;
       text-transform: uppercase;
+      padding: 15px 30px 15px;
+    }
+    a:nth-child(2) {
+      border: 1px solid red;
+      color: #24D1CB;
     }
   }
   .site-content {
@@ -320,7 +326,7 @@ body {
 #sale_floating {
   transition: 1s;
   -webkit-transition: 1s;
-  background-color: #24D1CB;
+  background-color: red;
   border-radius: 5px;
   position: fixed;
   right: 20px;
