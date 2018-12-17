@@ -130,12 +130,7 @@ body {
         text-transform: uppercase;
         padding: 15px 15px;
       }
-      .dropdown {
-        a {
-          padding: 15px 15px;
-        }
-      }
-      &:nth-child(2) {
+      #menu-item-9047 {
         a {
           border: 1px solid red;
           border-radius: 5px;
@@ -154,7 +149,10 @@ body {
     padding-bottom: 32px;
   }
 }
-#mobile-menu li a:nth-child(2) {
+.sf-menu > li.dropdown > a {
+    padding: 15px 15px;
+}
+#mobile-menu li:nth-child(2) a {
   color: red;
 }
 .hidden {

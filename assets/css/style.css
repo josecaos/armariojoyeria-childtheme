@@ -8051,15 +8051,12 @@ body .sf-menu li a {
   text-transform: uppercase;
   padding: 15px 15px;
 }
-body .sf-menu li .dropdown a {
-  padding: 15px 15px;
-}
-body .sf-menu li:nth-child(2) a {
+body .sf-menu li #menu-item-9047 a {
   border: 1px solid red;
   border-radius: 5px;
   color: red;
 }
-body .sf-menu li:nth-child(2) a:hover {
+body .sf-menu li #menu-item-9047 a:hover {
   border: 1px solid #24d1cb;
   border-radius: 5px;
   color: #24d1cb;
@@ -8069,7 +8066,11 @@ body .site-content {
   padding-bottom: 32px;
 }
 
-#mobile-menu li a:nth-child(2) {
+.sf-menu > li.dropdown > a {
+  padding: 15px 15px;
+}
+
+#mobile-menu li:nth-child(2) a {
   color: red;
 }
 
