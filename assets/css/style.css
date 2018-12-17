@@ -8048,15 +8048,19 @@ body .sf-menu li a {
   font-family: "Lato", sans-serif;
   font-weight: lighter;
   text-transform: uppercase;
-  padding: 15px 20px 15px;
+  padding: 15px 15px;
 }
-body .sf-menu li a:nth-child(2) {
-  border: 1px solid red;
-  color: #24D1CB;
+body .sf-menu li .dropdown {
+  padding: 15px 15px;
 }
 body .site-content {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.sf-menu li a:nth-child(2) {
+  border: 1px solid red;
+  color: #24D1CB;
 }
 
 .hidden {

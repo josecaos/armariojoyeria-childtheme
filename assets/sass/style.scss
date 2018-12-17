@@ -126,17 +126,24 @@ body {
         font-family: 'Lato', sans-serif;
         font-weight: lighter;
         text-transform: uppercase;
-        padding: 15px 20px 15px;
-        &:nth-child(2) {
-          border: 1px solid red;
-          color: #24D1CB;
-        }
+        padding: 15px 15px;
+      }
+      .dropdown {
+        padding: 15px 15px;
       }
     }
   }
   .site-content {
     padding-top: 32px;
     padding-bottom: 32px;
+  }
+}
+.sf-menu {
+  li {
+    a:nth-child(2) {
+      border: 1px solid red;
+      color: #24D1CB;
+    }
   }
 }
 .hidden {
