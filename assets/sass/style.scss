@@ -130,23 +130,23 @@ body {
         text-transform: uppercase;
         padding: 15px 15px;
       }
-      #menu-item-9047 {
-        a {
-          border: 1px solid red;
-          border-radius: 5px;
-          color: red;
-          &:hover {
-            border: 1px solid #24d1cb;
-            border-radius: 5px;
-            color: #24d1cb;
-          }
-        }
-      }
     }
   }
   .site-content {
     padding-top: 32px;
     padding-bottom: 32px;
+  }
+}
+#menu-item-9047 {
+  a {
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    &:hover {
+      border: 1px solid #24d1cb;
+      border-radius: 5px;
+      color: #24d1cb;
+    }
   }
 }
 .sf-menu > li.dropdown > a {

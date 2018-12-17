@@ -8051,19 +8051,20 @@ body .sf-menu li a {
   text-transform: uppercase;
   padding: 15px 15px;
 }
-body .sf-menu li #menu-item-9047 a {
+body .site-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+#menu-item-9047 a {
   border: 1px solid red;
   border-radius: 5px;
   color: red;
 }
-body .sf-menu li #menu-item-9047 a:hover {
+#menu-item-9047 a:hover {
   border: 1px solid #24d1cb;
   border-radius: 5px;
   color: #24d1cb;
-}
-body .site-content {
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .sf-menu > li.dropdown > a {
