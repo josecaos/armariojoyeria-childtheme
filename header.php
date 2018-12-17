@@ -28,6 +28,14 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<!-- rebajas floating button -->
+<div id="sale_floating" class="text-center">
+	<a href="#">
+		<i class="fa fa-gift"></i> Rebajas
+	</a>
+</div>
+	<!--  -->
+
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4WJQMN"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

@@ -74,3 +74,16 @@ function translate_accesories() {
 	jQuery('p.component_section_title label.select_label').html('Opciones disponibles: ')
 
 }
+
+function rebajas_floating_button() {
+
+	jQuery(window).on('scroll', () => {
+		var top = jQuery(this).scrollTop();
+		console.log(top);
+		if (top >= 100) {
+			jQuery("#sale_floating").removeClass('hidden')
+		} else {
+			jQuery("#sale_floating").addClass('hidden')
+		}
+	})
+}
