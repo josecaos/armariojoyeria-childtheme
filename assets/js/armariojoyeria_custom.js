@@ -80,8 +80,8 @@ function rebajas_floating_button() {
 
 	jQuery(document).on('scroll', () => {
 		var top = jQuery(document).scrollTop();
-		console.log(top);
-		if (top >= 150) {
+		// console.log(top);
+		if (top >= 250) {
 			jQuery("#sale_floating").removeClass('hidden')
 		} else {
 			jQuery("#sale_floating").addClass('hidden')
