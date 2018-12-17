@@ -8071,8 +8071,13 @@ body .site-content {
   padding: 15px 15px;
 }
 
+#mobile-menu li a {
+  border-top: 0;
+}
+
 #mobile-menu li:nth-child(2) a {
   color: red;
+  border: 0px;
 }
 
 .hidden {
