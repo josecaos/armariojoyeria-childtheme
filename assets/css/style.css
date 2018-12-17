@@ -8069,6 +8069,10 @@ body .site-content {
   padding-bottom: 32px;
 }
 
+#mobile-menu li a:nth-child(2) {
+  color: red;
+}
+
 .hidden {
   display: none;
 }
@@ -8314,6 +8318,7 @@ body .site-content {
 }
 #sale_floating a {
   background-color: red;
+  border-radius: 5px;
   color: white;
   display: block;
   font-size: 1.5em;
