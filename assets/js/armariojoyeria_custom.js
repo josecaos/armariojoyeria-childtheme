@@ -4,6 +4,7 @@ jQuery(document).ready(function() {
 
 	wide_tweak()
 	sticker_descuentos()
+	rebajas_floating_button()
 	//retarda la traduccion de composite product para evitar overrides por plugin
 	setTimeout(()=>{
 		translate_accesories()
