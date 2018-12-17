@@ -8043,7 +8043,7 @@ body input, body textarea, body select {
 body .sf-menu {
   text-align: center;
   border-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 body .sf-menu li a {
   font-family: "Lato", sans-serif;
@@ -8307,7 +8307,6 @@ body .site-content {
   position: fixed;
   right: 20px;
   top: 20px;
-  padding: 10px;
   width: auto;
   height: auto;
   z-index: 10000;
@@ -8319,6 +8318,7 @@ body .site-content {
   display: block;
   font-size: 1.5em;
   font-weight: bolder;
+  padding: 10px;
   height: 100%;
   width: 100%;
 }
