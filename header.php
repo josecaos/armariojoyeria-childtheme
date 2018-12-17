@@ -29,8 +29,8 @@
 
 <body <?php body_class(); ?>>
 	<!-- rebajas floating button -->
-<div id="sale_floating" class="text-center">
-	<a href="#">
+<div id="sale_floating" class="text-center hidden">
+	<a href="https://armariojoyeria.com/rebajas">
 		<i class="fa fa-gift"></i> Rebajas
 	</a>
 </div>

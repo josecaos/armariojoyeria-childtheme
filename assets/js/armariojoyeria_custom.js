@@ -78,7 +78,7 @@ function translate_accesories() {
 function rebajas_floating_button() {
 
 	jQuery(window).on('scroll', () => {
-		var top = jQuery(this).scrollTop();
+		var top = jQuery(window).scrollTop();
 		console.log(top);
 		if (top >= 100) {
 			jQuery("#sale_floating").removeClass('hidden')
