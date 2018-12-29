@@ -389,6 +389,8 @@ body {
   height: 450px;
 }
 .caroufredsel_wrapper {
-  width: auto;
-  height: 100%;
+  img {
+    width: auto;
+    height: 100%;
+  }
 }
