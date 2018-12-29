@@ -8346,9 +8346,18 @@ body .site-content {
 .woocommerce-page div.product div.images {
   float: left;
   width: 100% !important;
-  max-height: 250px;
 }
 .woocommerce-page div.product div.images img {
+  width: auto;
+  height: 100%;
+}
+
+.woocommerce-page div.product div.images img {
+  width: auto;
+  height: 450px;
+}
+
+.caroufredsel_wrapper {
   width: auto;
   height: 100%;
 }
