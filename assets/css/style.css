@@ -8339,4 +8339,18 @@ body .site-content {
   color: white;
 }
 
+.woocommerce-page div.product div.summary {
+  width: 100% !important;
+}
+
+.woocommerce-page div.product div.images {
+  float: left;
+  width: 100% !important;
+  max-height: 250px;
+}
+.woocommerce-page div.product div.images img {
+  width: auto;
+  height: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

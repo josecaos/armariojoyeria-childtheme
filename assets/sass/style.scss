@@ -150,7 +150,7 @@ body {
   }
 }
 .sf-menu > li.dropdown > a {
-    padding: 15px 15px;
+  padding: 15px 15px;
 }
 #mobile-menu li a {
   border-top: 0;
@@ -369,5 +369,18 @@ body {
       background-color: #24d1cb;
       color: white;
     }
+  }
+}
+// arma tu accesorio
+.woocommerce-page div.product div.summary {
+  width: 100% !important;
+}
+.woocommerce-page div.product div.images {
+  float: left;
+  width: 100% !important;
+  max-height: 250px;
+  img {
+    width: auto;
+    height: 100%;
   }
 }
