@@ -8358,8 +8358,8 @@ body .site-content {
 }
 
 .caroufredsel_wrapper img {
-  width: auto;
-  height: 100%;
+  width: auto !important;
+  height: 100% !important;
 }
 
 /*# sourceMappingURL=style.css.map */
