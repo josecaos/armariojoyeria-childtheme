@@ -49,10 +49,11 @@ function custom_woocommerce_product_add_to_cart_text() {
 	}
 }
 
-// Empaque para regalo en el checkout
+// Empaque para regalo en el carrito
 // dos empaques chico y grande
 //
-add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
+// add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
+add_action( 'woocommerce_cart_totals_before_order_total', 'checkbox_regalo' );
 // add_action( 'woocommerce_before_checkout_form', 'checkbox_regalo' );
 function checkbox_regalo( $checkout ) {
   echo '<div class="modulo-caja container">
@@ -96,7 +97,8 @@ function checkbox_regalo( $checkout ) {
 // detecta el evento
 add_action( 'wp_footer', 'agrega_evento' );
 function agrega_evento() {
-  if (is_checkout()) {
+  // if (is_checkout()) {
+  if (is_cart()) {
     ?>
     <script type="text/javascript">
     jQuery(document).ready(function($) {
