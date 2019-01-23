@@ -139,12 +139,10 @@ function agrega_evento() {
 //aplica el valor
 add_action( 'woocommerce_cart_calculate_fees', 'agrega_datos' );
 function agrega_datos( $cart ){
-  // if ( ! $_POST || ( is_admin() && ! is_ajax() ) ) {
-  //   return;
-  // }
-
-  if ( is_admin() && ! defined( 'DOING_AJAX' ) ) return;
-
+  if ( ! $_POST || ( is_admin() && ! is_ajax() ) ) {
+    return;
+  }
+var_dump($_POST)
   if ( isset( $_POST['post_data'] ) ) {
     parse_str( $_POST['post_data'], $post_data );
   } else {
