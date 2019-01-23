@@ -11,42 +11,42 @@ add_action( 'wp_enqueue_scripts', 'armariojoyeria_scripts' );
 // Limite de numero de tags en widget
 add_filter( 'woocommerce_product_tag_cloud_widget_args', 'custom_woocommerce_tag_cloud_widget' );
 function custom_woocommerce_tag_cloud_widget() {
-    $args = array(
-        'number' => 13,
-        'taxonomy' => 'product_tag',
-        'orderby' => 'rand',
-    );
-    return $args;
+  $args = array(
+    'number' => 13,
+    'taxonomy' => 'product_tag',
+    'orderby' => 'rand',
+  );
+  return $args;
 }
 
 //remueve woocomerce breadcrumbs
 add_action( 'init', 'remove_wc_breadcrumbs' );
 function remove_wc_breadcrumbs() {
-remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
+  remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
 }
 // agrega loop agrega a carrito
 add_filter( 'woocommerce_product_add_to_cart_text' , 'custom_woocommerce_product_add_to_cart_text' );
 function custom_woocommerce_product_add_to_cart_text() {
-	global $product;
+  global $product;
 
-	$product_type = $product->product_type;
+  $product_type = $product->product_type;
 
-	switch ( $product_type ) {
-		case 'external':
-			return __( 'Comprar', 'woocommerce' );
-		break;
-		case 'grouped':
-			return __( 'Ver todos', 'woocommerce' );
-		break;
-		case 'simple':
-			return __( 'Agrega a carrito', 'woocommerce' );
-		break;
-		case 'variable':
-			return __( 'Ver opciones', 'woocommerce' );
-		break;
-		default:
-			return __( 'Conoce más', 'woocommerce' );
-	}
+  switch ( $product_type ) {
+    case 'external':
+    return __( 'Comprar', 'woocommerce' );
+    break;
+    case 'grouped':
+    return __( 'Ver todos', 'woocommerce' );
+    break;
+    case 'simple':
+    return __( 'Agrega a carrito', 'woocommerce' );
+    break;
+    case 'variable':
+    return __( 'Ver opciones', 'woocommerce' );
+    break;
+    default:
+    return __( 'Conoce más', 'woocommerce' );
+  }
 }
 
 // Empaque para regalo en el carrito
@@ -108,22 +108,30 @@ function agrega_evento() {
       jQuery('#checkbox_caja_chica').click(function(){
         // jQuery('#checkbox_caja_grande').attr('checked', false);
         // jQuery('body').trigger('update_checkout');
-        jQuery('body').trigger('update_cart');
+        // jQuery('body').trigger('update_cart');
+        jQuery("[name='update_cart']").prop("disabled", false);
+        jQuery("[name='update_cart']").trigger("click");
       });
       jQuery('#cantidad_caja_chica').on('change',function(){
         // jQuery('body').trigger('update_checkout');
-        jQuery('body').trigger('update_cart');
+        // jQuery('body').trigger('update_cart');
+        jQuery("[name='update_cart']").prop("disabled", false);
+        jQuery("[name='update_cart']").trigger("click");
       });
       // caja grande
       jQuery('#cantidad_caja_grande').attr('min',1).attr('max',15).attr('value',1);
       jQuery('#checkbox_caja_grande').click(function(){
         // $('#checkbox_caja_chica').attr('checked', false);
         // jQuery('body').trigger('update_checkout');
-        jQuery('body').trigger('update_cart');
+        // jQuery('body').trigger('update_cart');
+        jQuery("[name='update_cart']").prop("disabled", false);
+        jQuery("[name='update_cart']").trigger("click");
       });
       jQuery('#cantidad_caja_grande').on('change',function(){
         // jQuery('body').trigger('update_checkout');
-        jQuery('body').trigger('update_cart');
+        // jQuery('body').trigger('update_cart');
+        jQuery("[name='update_cart']").prop("disabled", false);
+        jQuery("[name='update_cart']").trigger("click");
       });
       //
       //
@@ -165,31 +173,31 @@ function agrega_datos( $cart ){
 add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
 
 /**
- * Add discount for "Buy 3 get cheapest free" coupon
- * @param WC_Cart $cart
- */
+* Add discount for "Buy 3 get cheapest free" coupon
+* @param WC_Cart $cart
+*/
 
 function cupon3x2( WC_Cart $cart ){
 
-    // los cupones en array
-    $promo_cupons = array('3x2NAVIDAD','3x2navidad');
+  // los cupones en array
+  $promo_cupons = array('3x2NAVIDAD','3x2navidad');
 
-    // cantidad de objetos a comprar
-    if( $cart->cart_contents_count < 3 ) {
-      return;
-    } $applied_coupons = $cart->get_applied_coupons();
-    $matches = array_intersect($promo_cupons, $applied_coupons);
+  // cantidad de objetos a comprar
+  if( $cart->cart_contents_count < 3 ) {
+    return;
+  } $applied_coupons = $cart->get_applied_coupons();
+  $matches = array_intersect($promo_cupons, $applied_coupons);
 
-    // pasa, si no existe el cupon
-    if (empty($matches)) return;
+  // pasa, si no existe el cupon
+  if (empty($matches)) return;
 
-    // itera el carrito y encuentra el mas barato
-    foreach ( $cart->get_cart() as $cart_item_key => $values ) {
-        $_product = $values['data'];
-        $product_price[] = $_product->get_price_including_tax();
-    }
+  // itera el carrito y encuentra el mas barato
+  foreach ( $cart->get_cart() as $cart_item_key => $values ) {
+    $_product = $values['data'];
+    $product_price[] = $_product->get_price_including_tax();
+  }
 
-    $cheapest = min($product_price);
+  $cheapest = min($product_price);
 
-    $cart->add_fee( 'Cupón: El tercer más barato es gratis', -$cheapest);
+  $cart->add_fee( 'Cupón: El tercer más barato es gratis', -$cheapest);
 }
