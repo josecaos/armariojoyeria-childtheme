@@ -325,16 +325,20 @@ body {
   }
 }
 .sold-out {
-  padding: 16px 8px;
+  min-height: 40px;
+  min-width: 165px;
+  padding: 0;
   background: #24d1cb;
-  color: #fff;
-  text-align: left;
+  line-height: 38px;
+  font-weight: 400;
   position: absolute;
-  transform: rotate(-45deg);
-  left: 20px;
-  top: 10px;
-  border-radius: 56px;
-  font-weight: bolder;
+  text-align: center;
+  top: 24px;
+  left: -38px;
+  margin: 0;
+  border-radius: 0;
+  color: #fff;
+  font-size: 20px;
 }
 .pag-sale {
   padding: 8px 16px;
