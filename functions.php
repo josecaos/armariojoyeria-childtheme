@@ -154,14 +154,14 @@ function agrega_datos( $cart ){
     $small_quant = $post_data['cantidad_caja_chica'];
     $smallcost = 20 * $small_quant; //
     // WC()->cart->add_fee($small_quant . ' Caja(s) de regalo chico', $smallcost );
-    WC_Cart::add_fee($small_quant . ' Caja(s) de regalo chico', $smallcost );
+    $cart->add_fee($small_quant . ' Caja(s) de regalo chico', $smallcost );
   }
 
   if (isset($post_data['checkbox_caja_grande'])) {
     $large_quant = $post_data['cantidad_caja_grande'];
     $largecost = 30 * $large_quant;
     // WC()->cart->add_fee($large_quant . ' Caja(s) de regalo grande', $largecost );
-    WC_Cart::add_fee($large_quant . ' Caja(s) de regalo grande', $largecost );
+    $cart->add_fee($large_quant . ' Caja(s) de regalo grande', $largecost );
   }
 
 }
