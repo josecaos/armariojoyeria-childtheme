@@ -24,7 +24,7 @@ add_action( 'init', 'remove_wc_breadcrumbs' );
 function remove_wc_breadcrumbs() {
   remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
 }
-// agrega loop agrega a carrito
+// texto agrega a carrito
 add_filter( 'woocommerce_product_add_to_cart_text' , 'custom_woocommerce_product_add_to_cart_text' );
 function custom_woocommerce_product_add_to_cart_text() {
   global $product;
@@ -49,14 +49,21 @@ function custom_woocommerce_product_add_to_cart_text() {
   }
 }
 
+// sticker fuera de stock
+//Add an out of stock overlay to product images when all variations are unavailable
+add_action( 'woocommerce_before_shop_loop_item_title', function() {
+global $product;
+if ( !$product->is_in_stock() ) {
+echo '<span class="sold-out">Sin existencias</span>';
+}
+});
+//
+
 // Empaque para regalo en el carrito
 // dos empaques chico y grande
 //
-// add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
-add_action( 'woocommerce_cart_totals_before_order_total', 'checkbox_regalo' );
-// add_action( 'woocommerce_before_checkout_form', 'checkbox_regalo' );
-// function checkbox_regalo( $checkout ) {
-function checkbox_regalo( $cart ) {
+add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
+function checkbox_regalo( $checkout ) {
   echo '<div class="modulo-caja container">
   <h3 class="titulo-empaque">
   <i class="fa fa-dropbox"></i>&nbsp;¿Lo quieres para Regalo?
@@ -98,8 +105,7 @@ function checkbox_regalo( $cart ) {
 // detecta el evento
 add_action( 'wp_footer', 'agrega_evento' );
 function agrega_evento() {
-  // if (is_checkout()) {
-  if (is_cart()) {
+  if (is_checkout()) {
     ?>
     <script type="text/javascript">
     jQuery(document).ready(function($) {
@@ -107,27 +113,19 @@ function agrega_evento() {
       jQuery('#cantidad_caja_chica').attr('min',1).attr('max',15).attr('value',1);
       jQuery('#checkbox_caja_chica').on('click',function() {
         // jQuery('#checkbox_caja_grande').attr('checked', false);
-        // jQuery('body').trigger('update_checkout');
-        jQuery("[name='update_cart']").prop("disabled", false);
-        jQuery("[name='update_cart']").trigger("click");
+        jQuery('body').trigger('update_checkout');
       });
       jQuery('#cantidad_caja_chica').on('change',function() {
-        // jQuery('body').trigger('update_checkout');
-        jQuery("[name='update_cart']").prop("disabled", false);
-        jQuery("[name='update_cart']").trigger("click");
+        jQuery('body').trigger('update_checkout');
       });
       // caja grande
       jQuery('#cantidad_caja_grande').attr('min',1).attr('max',15).attr('value',1);
       jQuery('#checkbox_caja_grande').on('click',function() {
         // $('#checkbox_caja_chica').attr('checked', false);
-        // jQuery('body').trigger('update_checkout');
-        jQuery("[name='update_cart']").prop("disabled", false);
-        jQuery("[name='update_cart']").trigger("click");
+        jQuery('body').trigger('update_checkout');
       });
       jQuery('#cantidad_caja_grande').on('change',function() {
-        // jQuery('body').trigger('update_checkout');
-        jQuery("[name='update_cart']").prop("disabled", false);
-        jQuery("[name='update_cart']").trigger("click");
+        jQuery('body').trigger('update_checkout');
       });
       //
       //
@@ -138,11 +136,11 @@ function agrega_evento() {
 }
 //aplica el valor
 add_action( 'woocommerce_cart_calculate_fees', 'agrega_datos' );
-function agrega_datos( $cart ){
+function agrega_datos(){
   if ( ! $_POST || ( is_admin() && ! is_ajax() ) ) {
     return;
   }
-var_dump($_POST)
+
   if ( isset( $_POST['post_data'] ) ) {
     parse_str( $_POST['post_data'], $post_data );
   } else {
@@ -153,17 +151,14 @@ var_dump($_POST)
 
     $small_quant = $post_data['cantidad_caja_chica'];
     $smallcost = 20 * $small_quant; //
-    // WC()->cart->add_fee($small_quant . ' Caja(s) de regalo chico', $smallcost );
-    $cart->add_fee($small_quant . ' Caja(s) de regalo chico', $smallcost );
+    WC()->cart->add_fee($small_quant . ' Caja(s) de regalo chico', $smallcost );
   }
 
   if (isset($post_data['checkbox_caja_grande'])) {
     $large_quant = $post_data['cantidad_caja_grande'];
     $largecost = 30 * $large_quant;
-    // WC()->cart->add_fee($large_quant . ' Caja(s) de regalo grande', $largecost );
-    $cart->add_fee($large_quant . ' Caja(s) de regalo grande', $largecost );
+    WC()->cart->add_fee($large_quant . ' Caja(s) de regalo grande', $largecost );
   }
-
 }
 
 // 3X2

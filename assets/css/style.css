@@ -8289,6 +8289,19 @@ body .site-content {
   font-size: 1.5em !important;
 }
 
+.sold-out {
+  padding: 16px 8px;
+  background: #24d1cb;
+  color: #fff;
+  text-align: left;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 20px;
+  top: 10px;
+  border-radius: 56px;
+  font-weight: bolder;
+}
+
 .pag-sale {
   padding: 8px 16px;
 }
