@@ -324,6 +324,9 @@ body {
     }
   }
 }
+.product.outofstock {
+  overflow: hidden;
+}
 .sold-out {
   min-height: 40px;
   min-width: 165px;

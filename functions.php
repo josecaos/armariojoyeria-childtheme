@@ -54,7 +54,7 @@ function custom_woocommerce_product_add_to_cart_text() {
 add_action( 'woocommerce_before_shop_loop_item_title', function() {
 global $product;
 if ( !$product->is_in_stock() ) {
-echo '<span class="sold-out">Sin Existencias</span>';
+echo '<span class="sold-out"> Agotado </span>';
 }
 });
 //
