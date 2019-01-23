@@ -105,26 +105,26 @@ function agrega_evento() {
     jQuery(document).ready(function($) {
       // caja chica
       jQuery('#cantidad_caja_chica').attr('min',1).attr('max',15).attr('value',1);
-      jQuery('#checkbox_caja_chica').on('click',function(){
+      jQuery('#checkbox_caja_chica').on('click',function() {
         // jQuery('#checkbox_caja_grande').attr('checked', false);
         // jQuery('body').trigger('update_checkout');
         jQuery("[name='update_cart']").prop("disabled", false);
         jQuery("[name='update_cart']").trigger("click");
       });
-      jQuery('#cantidad_caja_chica').on('change',function(){
+      jQuery('#cantidad_caja_chica').on('change',function() {
         // jQuery('body').trigger('update_checkout');
         jQuery("[name='update_cart']").prop("disabled", false);
         jQuery("[name='update_cart']").trigger("click");
       });
       // caja grande
       jQuery('#cantidad_caja_grande').attr('min',1).attr('max',15).attr('value',1);
-      jQuery('#checkbox_caja_grande').on('click',function(){
+      jQuery('#checkbox_caja_grande').on('click',function() {
         // $('#checkbox_caja_chica').attr('checked', false);
         // jQuery('body').trigger('update_checkout');
         jQuery("[name='update_cart']").prop("disabled", false);
         jQuery("[name='update_cart']").trigger("click");
       });
-      jQuery('#cantidad_caja_grande').on('change',function(){
+      jQuery('#cantidad_caja_grande').on('change',function() {
         // jQuery('body').trigger('update_checkout');
         jQuery("[name='update_cart']").prop("disabled", false);
         jQuery("[name='update_cart']").trigger("click");
@@ -139,9 +139,11 @@ function agrega_evento() {
 //aplica el valor
 add_action( 'woocommerce_cart_calculate_fees', 'agrega_datos' );
 function agrega_datos( $cart ){
-  if ( ! $_POST || ( is_admin() && ! is_ajax() ) ) {
-    return;
-  }
+  // if ( ! $_POST || ( is_admin() && ! is_ajax() ) ) {
+  //   return;
+  // }
+
+  if ( is_admin() && ! defined( 'DOING_AJAX' ) ) return;
 
   if ( isset( $_POST['post_data'] ) ) {
     parse_str( $_POST['post_data'], $post_data );
