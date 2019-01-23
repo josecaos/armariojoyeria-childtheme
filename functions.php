@@ -55,7 +55,8 @@ function custom_woocommerce_product_add_to_cart_text() {
 // add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
 add_action( 'woocommerce_cart_totals_before_order_total', 'checkbox_regalo' );
 // add_action( 'woocommerce_before_checkout_form', 'checkbox_regalo' );
-function checkbox_regalo( $checkout ) {
+// function checkbox_regalo( $checkout ) {
+function checkbox_regalo( $cart ) {
   echo '<div class="modulo-caja container">
   <h3 class="titulo-empaque">
   <i class="fa fa-dropbox"></i>&nbsp;¿Lo quieres para Regalo?
@@ -106,19 +107,23 @@ function agrega_evento() {
       jQuery('#cantidad_caja_chica').attr('min',1).attr('max',15).attr('value',1);
       jQuery('#checkbox_caja_chica').click(function(){
         // jQuery('#checkbox_caja_grande').attr('checked', false);
-        jQuery('body').trigger('update_checkout');
+        // jQuery('body').trigger('update_checkout');
+        jQuery('body').trigger('update_cart');
       });
       jQuery('#cantidad_caja_chica').on('change',function(){
-        jQuery('body').trigger('update_checkout');
+        // jQuery('body').trigger('update_checkout');
+        jQuery('body').trigger('update_cart');
       });
       // caja grande
       jQuery('#cantidad_caja_grande').attr('min',1).attr('max',15).attr('value',1);
       jQuery('#checkbox_caja_grande').click(function(){
         // $('#checkbox_caja_chica').attr('checked', false);
-        jQuery('body').trigger('update_checkout');
+        // jQuery('body').trigger('update_checkout');
+        jQuery('body').trigger('update_cart');
       });
       jQuery('#cantidad_caja_grande').on('change',function(){
-        jQuery('body').trigger('update_checkout');
+        // jQuery('body').trigger('update_checkout');
+        jQuery('body').trigger('update_cart');
       });
       //
       //
