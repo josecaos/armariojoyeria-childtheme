@@ -216,8 +216,8 @@ body {
   }
 }
 .woocommerce-page div.product div.images img {
-  width: auto;
-  height: 100%;
+  width: auto !important;
+  height: 100% !important;
 }
 .woocommerce-loop-product__title {
   height: 100px;
