@@ -8138,6 +8138,11 @@ body .site-content {
   color: #FFF !important;
 }
 
+.woocommerce-page div.product div.images img {
+  width: auto;
+  height: 100%;
+}
+
 .woocommerce-loop-product__title {
   height: 100px;
 }
@@ -8331,6 +8336,10 @@ body .site-content {
 
 #mobile-menu-trigger i {
   font-size: 3rem;
+}
+
+.woocommerce-products-header__title {
+  width: 100%;
 }
 
 #sale_floating {
