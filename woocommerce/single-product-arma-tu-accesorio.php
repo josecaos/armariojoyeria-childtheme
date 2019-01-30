@@ -33,8 +33,12 @@ get_header( 'shop' ); ?>
 				 */
 				do_action( 'woocommerce_before_main_content' );
 				// debug
-				echo("En mantenimiento ...");
+
 				?>
+<!-- debug -->
+
+<h1><?php echo("En mantenimiento ..."); ?></h1>
+
 
 				<?php
 				while ( have_posts() ) :

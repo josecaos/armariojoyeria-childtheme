@@ -194,3 +194,12 @@ function cupon3x2( WC_Cart $cart ){
 
   $cart->add_fee( 'Cupón: El tercer más barato es gratis', -$cheapest);
 }
+
+// custom template for single product
+add_filter( 'template_include', 'custom_single_product_template_include', 50, 1 );
+function custom_single_product_template_include( $template ) {
+    if ( is_singular('product') && (has_term( 'custom', 'product_cat')) ) {
+        $template = get_stylesheet_directory() . '/woocommerce/single-product-arma-tu-accesorio.php';
+    } 
+    return $template;
+}
