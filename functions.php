@@ -196,9 +196,9 @@ function cupon3x2( WC_Cart $cart ){
 }
 
 // custom template for single product
-add_filter( 'template_include', 'arma_tu_accesorio__single_product', 50, 1 );
-function arma_tu_accesorio__single_product( $template ) {
-    if ( is_singular('product') && (has_term( 'custom', 'arma-tu-accesorio')) ) {
+add_filter( 'template_include', 'arma_tu_accesorio_single_product', 50, 1 );
+function arma_tu_accesorio_single_product( $template ) {
+    if ( is_singular('product') && (has_term('arma-tu-accesorio', 'oriduct_cat')) ) {
         $template = get_stylesheet_directory() . '/woocommerce/single-product-arma-tu-accesorio.php';
     }
     return $template;
