@@ -45,7 +45,8 @@ get_header( 'shop' ); ?>
 					the_post();
 ?>
 
-					<?php wc_get_template_part( 'accesorios', 'single-product' ); ?>
+					<?php //wc_get_template_part( 'accesorios', 'single-product' ); ?>
+					<?php wc_get_template_part( 'custom', 'single-product' ); ?>
 
 				<?php endwhile; ?>
 
