@@ -32,6 +32,7 @@ get_header( 'shop' ); ?>
 				 * @hooked woocommerce_breadcrumb - 20
 				 */
 				do_action( 'woocommerce_before_main_content' );
+				echo "SINGLE_PRODUCT-debug";
 				?>
 
 				<?php

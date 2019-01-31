@@ -1,0 +1,1 @@
+<?php echo "CONTENT_SINGLE_PRODUCTS"; ?>
