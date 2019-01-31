@@ -37,7 +37,7 @@ get_header( 'shop' ); ?>
 				?>
 <!-- debug -->
 
-<h1><?php echo("En mantenimiento ..."); ?></h1>
+<h1><?php echo "En mantenimiento ..."; ?></h1>
 
 
 				<?php
@@ -45,8 +45,8 @@ get_header( 'shop' ); ?>
 					the_post();
 ?>
 
-					<?php //wc_get_template_part( 'accesorios', 'single-product' ); ?>
-					<?php wc_get_template_part( 'custom', 'single-product' ); ?>
+					<?php wc_get_template_part( 'accesorios', 'single-product' ); ?>
+					<?php //wc_get_template_part( 'custom', 'single-product' ); ?>
 
 				<?php endwhile; ?>
 
