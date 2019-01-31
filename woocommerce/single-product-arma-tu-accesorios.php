@@ -43,10 +43,12 @@ get_header( 'shop' ); ?>
 				<?php
 				while ( have_posts() ) :
 					the_post();
+
+					echo "Mantenimiento ...";
 ?>
 
 					<?php //wc_get_template_part( 'accesorios', 'single-product' ); ?>
-					<?php wc_get_template_part( 'custom', 'single-product' ); ?>
+					<?php //wc_get_template_part( 'custom', 'single-product' ); ?>
 
 				<?php endwhile; ?>
 
