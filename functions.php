@@ -62,7 +62,7 @@ echo '<span class="sold-out"> Agotado </span>';
 // Empaque para regalo en el carrito
 // dos empaques chico y grande
 //
-add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
+// add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
 function checkbox_regalo( $checkout ) {
   echo '<div class="modulo-caja container">
   <h3 class="titulo-empaque">
