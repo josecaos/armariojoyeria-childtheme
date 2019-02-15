@@ -172,6 +172,9 @@ add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
 
 function cupon3x2( WC_Cart $cart ){
 
+// if (get_price_including_tax() =>) {
+  echo get_price_including_tax();
+  
   // los cupones en array
   $promo_cupons = array('3x2NAVIDAD','3x2navidad');
 
