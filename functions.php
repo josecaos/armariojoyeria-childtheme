@@ -172,13 +172,22 @@ add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
 
 function cupon3x2( WC_Cart $cart ){
 
+  $total = $cart->get_cart_total();
+  $cart_text = 'Cupón: El tercer más barato es gratis';
   // los cupones en array
-  $promo_cupons = array('3x2NAVIDAD','3x2navidad');
+  $promo_cupons = array('testpromocion','3x2navidad');
 
+if ($total => "$1000") {
+  echo "Mayor";
+} else {
+  echo "Menor";
+}
+//
   // cantidad de objetos a comprar
   if( $cart->cart_contents_count < 3 ) {
     return;
-  } $applied_coupons = $cart->get_applied_coupons();
+  }
+  $applied_coupons = $cart->get_applied_coupons();
   $matches = array_intersect($promo_cupons, $applied_coupons);
 
   // pasa, si no existe el cupon
@@ -190,16 +199,12 @@ function cupon3x2( WC_Cart $cart ){
     $product_price[] = $_product->get_price_including_tax();
   }
 
-  $total = $cart->get_total();
   $cheapest = min($product_price);
 
+  $cart->add_fee( $cart_text, -$cheapest);
+//
 
-  $cart->add_fee( 'Cupón: El tercer más barato es gratis' . $cart->get_total(), -$cheapest);
 
-  for ($i=0; $i < 8; $i++) {
-    echo $cart->get_total();
-    echo "Debugging";
-  }
 }
 
 // custom template for single product
