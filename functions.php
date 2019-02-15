@@ -196,11 +196,13 @@ function cupon3x2( WC_Cart $cart ){
   $total = $cart->get_total();
   $cheapest = min($product_price);
 
-for ($i=0; $i < 8; $i++) {
-  echo $cart->get_total();
-}
 
   $cart->add_fee( 'Cupón: El tercer más barato es gratis', -$cheapest);
+
+  for ($i=0; $i < 8; $i++) {
+    echo $cart->get_total();
+    echo "Debugging";
+  }
 }
 
 // custom template for single product
