@@ -194,7 +194,7 @@ function cupon3x2( WC_Cart $cart ){
   $cheapest = min($product_price);
 
 
-  $cart->add_fee( 'Cupón: El tercer más barato es gratis' . echo $cart->get_total(), -$cheapest);
+  $cart->add_fee( 'Cupón: El tercer más barato es gratis' . $cart->get_total(), -$cheapest);
 
   for ($i=0; $i < 8; $i++) {
     echo $cart->get_total();
