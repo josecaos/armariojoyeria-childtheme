@@ -163,25 +163,26 @@ function agrega_datos(){
 
 // 3X2
 // Hook before calculate fees - "Buy X get cheapest free" coupon
-add_action('woocommerce_cart_calculate_fees' , 'cupon3x2');
+add_action('woocommerce_cart_calculate_fees' , 'promocion_cantidades');
 
 /**
 * Add discount for "Buy 3 get cheapest free" coupon
 * @param WC_Cart $cart
 */
 
-function cupon3x2( WC_Cart $cart ){
+function promocion_cantidades( WC_Cart $cart ){
 
-  $total = $cart->get_cart_total();
+  $total = $cart->get_cart_contents_total();
+  $total = (float) $total;
+//
+  $from_quantity = 808.00;
   $cart_text = 'Cupón: El tercer más barato es gratis';
-  // los cupones en array
-  $promo_cupons = array('testpromocion','3x2navidad');
+  $cart_not_text = 'Cupón: El total debe ser mayor a $' . $from_quantity;
 
-if ($total => "$1000") {
-  echo "Mayor";
-} else {
-  echo "Menor";
-}
+// los cupones en array
+  $promo_cupons = array('testpromocion');
+
+  if ($total > $from_quantity) { //si es mayor a la cantidad ejecuta la promocion
 //
   // cantidad de objetos a comprar
   if( $cart->cart_contents_count < 3 ) {
@@ -204,9 +205,13 @@ if ($total => "$1000") {
   $cart->add_fee( $cart_text, -$cheapest);
 //
 
+} else {
+
+  $cart->add_fee( $cart_not_text, 0);
+
+ }
 
 }
-
 // custom template for single product
 // add_filter('template_include', 'arma_tu_accesorio_single_product', 50, 1 );
 function arma_tu_accesorio_single_product( $template ) {
