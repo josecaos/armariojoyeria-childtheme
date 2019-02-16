@@ -79,20 +79,18 @@ get_header( 'shop' ); ?>
 				 * @hooked woocommerce_catalog_ordering - 30
 				 */
 				do_action( 'woocommerce_before_shop_loop' );
+				//
+				// banner archivo / categoria
+				if(is_product_category('birth-stones')):
 				?>
+				<div class="col-12 archive_header_img imgLiquid imgLiquidNoFill">
+					<img src="https://armariojoyeria.com/wp-content/uploads/2019/02/slider-coleccion-birthstones.png" alt="">
+				</div>
+
+				<?php endif; ?>
+
 
 				<?php woocommerce_product_loop_start(); ?>
-
-
-<?php
-// banner archivo / categoria
-if(is_product_category('birth-stones')):
-?>
-<div class="col-12 archive_header_img imgLiquid imgLiquidNoFill">
-	<img src="https://armariojoyeria.com/wp-content/uploads/2019/02/slider-coleccion-birthstones.png" alt="">
-</div>
-
-<?php endif; ?>
 
 				<?php
 				if ( tyche_get_loop_prop( 'total' ) ) {
