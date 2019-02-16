@@ -86,7 +86,7 @@ get_header( 'shop' ); ?>
 
 <?php
 // banner archivo / categoria
-if(is_product_category('birth-stones'))
+if(is_product_category('birth-stones')):
 ?>
 
 si es birth stone
