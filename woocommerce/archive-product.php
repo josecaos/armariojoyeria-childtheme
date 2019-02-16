@@ -89,21 +89,12 @@ get_header( 'shop' ); ?>
 if(is_product_category('birth-stones')):
 ?>
 
-si es birth stone
+<div class="archive_header_img imgLiquid imgLiquidNoFill">
+	<img src="https://armariojoyeria.com/wp-content/uploads/2019/02/slider-coleccion-birthstones.png" alt="">
+</div>
 
-
-<?php else: ?>
-
-
-no es birth stones
-
-
+<?php ///else: ?>
 <?php endif; ?>
-
-?>
-
-
-//
 
 				<?php
 				if ( tyche_get_loop_prop( 'total' ) ) {
