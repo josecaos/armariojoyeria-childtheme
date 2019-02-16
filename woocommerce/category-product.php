@@ -66,7 +66,7 @@ get_header( 'shop' ); ?>
 				<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
 
 <?php //debug
-echo "Hard Debuggggging!!";
+echo "Hard Debuggggging category template!!";
 ?>
 
 			<?php endif; ?>

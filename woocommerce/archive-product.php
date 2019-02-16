@@ -65,9 +65,6 @@ get_header( 'shop' ); ?>
 
 				<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
 
-<?php //debug
-echo "Hard Debuggggging!!";
-?>
 
 			<?php endif; ?>
 
@@ -85,6 +82,28 @@ echo "Hard Debuggggging!!";
 				?>
 
 				<?php woocommerce_product_loop_start(); ?>
+
+
+<?php
+// banner archivo / categoria
+if(is_product_category('birth-stones'))
+?>
+
+si es birth stone
+
+
+<?php else: ?>
+
+
+no es birth stones
+
+
+<?php endif; ?>
+
+?>
+
+
+//
 
 				<?php
 				if ( tyche_get_loop_prop( 'total' ) ) {
