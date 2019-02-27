@@ -83,30 +83,30 @@ get_header( 'shop' ); ?>
 
 
 
-				 woocommerce_product_loop_start();
+				woocommerce_product_loop_start();
 
 
-				 // banner archivo / categoria
- 				if(is_product_category('birth-stones')):
- 					?>
- 					<div class="container archive_header_img">
- 						<div class="col-12 col-md-8">
+				// banner archivo / categoria
+				if(is_product_category('birth-stones')):
+					?>
+					<div class="container archive_header">
+						<div class="col-12 col-md-8">
 							<a href="<?php echo get_category_link(93); ?>">
- 							<img src="https://armariojoyeria.com/wp-content/uploads/2019/02/slider-coleccion-birthstones.png" alt="">
-						</a>
- 						</div>
+								<img src="https://armariojoyeria.com/wp-content/uploads/2019/02/slider-coleccion-birthstones.png" alt="">
+							</a>
+						</div>
 
- 						<div class="col-12 col-md-4">
- 							<div class="row">
-									<h4 class="col-12 text-center">Combinalos con nuestra </br> colección de collares</h4>
- 								<a href="<?php echo get_category_link(93); ?>" class="button">Collares</a>
- 							</div>
- 						</div>
+						<div class="col-12 col-md-4">
+							<!-- <div class="row"> -->
+							<h4 class="col-12">Combinalos con nuestra </br> colección de collares</h4>
+							<a href="<?php echo get_category_link(93); ?>" class="button">Collares</a>
+							<!-- </div> -->
+						</div>
 						<hr>
- 					</div>
+					</div>
 
 
- 				<?php endif; ?>
+				<?php endif; ?>
 
 
 				<?php
