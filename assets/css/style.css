@@ -10117,7 +10117,7 @@ body .site-content {
   display: inline-block;
 }
 .archive_header h1, .archive_header h2, .archive_header h3, .archive_header h4, .archive_header h5, .archive_header h6 {
-  text-align: center;
+  text-align: center !important;
 }
 
 #sale_floating {
