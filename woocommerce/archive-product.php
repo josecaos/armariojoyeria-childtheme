@@ -97,10 +97,9 @@ get_header( 'shop' ); ?>
 						</div>
 
 						<div class="col-12 col-md-4">
-							
 							<h4 class="col-12 text-md-center">Combinalos con nuestra </br> colección de collares</h4>
-                                                        <div class="align-center">							
-                                                           <a href="<?php echo get_category_link(93); ?>" class="button">Collares</a>
+							<div class="align-center">
+							<a href="<?php echo get_category_link(93); ?>" class="button">Collares</a>
 							</div>
 						</div>
 						<hr>

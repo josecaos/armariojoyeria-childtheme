@@ -10114,7 +10114,7 @@ body .site-content {
 }
 
 .archive_header {
-  display: flex;
+  display: inline-block;
 }
 
 #sale_floating {
