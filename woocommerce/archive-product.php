@@ -96,9 +96,8 @@ get_header( 'shop' ); ?>
 
  						<div class="col-12 col-md-4">
  							<div class="row justify-content-center align-items-center">
-								<div class="col-auto ha my-auto">
+									<h4>Conoce nuestra colección de collares</h4>
  								<a href="<?php echo get_page_link(93) ?>" class="button">Collares</a>
- 							</div>
  							</div>
  						</div>
  					</div>
