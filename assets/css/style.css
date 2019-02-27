@@ -10116,6 +10116,9 @@ body .site-content {
 .archive_header {
   display: inline-block;
 }
+.archive_header h1, .archive_header h2, .archive_header h3, .archive_header h4, .archive_header h5, .archive_header h6 {
+  text-align: center;
+}
 
 #sale_floating {
   transition: 1s;

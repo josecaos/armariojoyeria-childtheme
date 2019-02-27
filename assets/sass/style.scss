@@ -373,6 +373,9 @@ body {
 // archives
 .archive_header {
   display: inline-block;
+  h1,h2,h3,h4,h5,h6 {
+   text-align: center;  
+  }
 }
 // floating sale button
 #sale_floating {
