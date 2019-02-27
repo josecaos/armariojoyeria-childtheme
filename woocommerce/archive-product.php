@@ -83,8 +83,13 @@ get_header( 'shop' ); ?>
 				// banner archivo / categoria
 				if(is_product_category('birth-stones')):
 				?>
-				<div class="col-12 archive_header_img imgLiquid imgLiquidNoFill">
+				<div class="col-12 col-sm-8 archive_header_img imgLiquid imgLiquidNoFill">
 					<img src="https://armariojoyeria.com/wp-content/uploads/2019/02/slider-coleccion-birthstones.png" alt="">
+				</div>
+				<div class="col-12 col-sm-8">
+				<div class="row text-center">
+					<a href="<?php echo get_page_link(93) ?>" class="col-auto my-auto">Collares</a>
+				</div>
 				</div>
 
 				<?php endif; ?>
