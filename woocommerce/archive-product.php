@@ -96,7 +96,9 @@ get_header( 'shop' ); ?>
 
  						<div class="col-12 col-md-4">
  							<div class="row text-center">
- 								<a href="<?php echo get_page_link(93) ?>" class="col-auto my-auto">Collares</a>
+								<div class="col-12 col-md-4 ha my-auto">
+ 								<a href="<?php echo get_page_link(93) ?>" class="button">Collares</a>
+ 							</div>
  							</div>
  						</div>
  					</div>
