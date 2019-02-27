@@ -80,26 +80,30 @@ get_header( 'shop' ); ?>
 				*/
 				do_action( 'woocommerce_before_shop_loop' );
 				//
-				// banner archivo / categoria
-				if(is_product_category('birth-stones')):
-					?>
-					<div class="col-12 archive_header_img imgLiquid imgLiquidNoFill">
-						<div class="col-12 col-md-8">
-							<img src="https://armariojoyeria.com/wp-content/uploads/2019/02/slider-coleccion-birthstones.png" alt="">
-						</div>
-
-						<div class="col-12 col-md-4">
-							<div class="row text-center">
-								<a href="<?php echo get_page_link(93) ?>" class="col-auto my-auto">Collares</a>
-							</div>
-						</div>
-					</div>
 
 
-				<?php endif; ?>
+
+				 woocommerce_product_loop_start();
 
 
-				<?php woocommerce_product_loop_start(); ?>
+				 // banner archivo / categoria
+ 				if(is_product_category('birth-stones')):
+ 					?>
+ 					<div class="col-12 archive_header_img imgLiquid imgLiquidNoFill">
+ 						<div class="col-12 col-md-8">
+ 							<img src="https://armariojoyeria.com/wp-content/uploads/2019/02/slider-coleccion-birthstones.png" alt="">
+ 						</div>
+
+ 						<div class="col-12 col-md-4">
+ 							<div class="row text-center">
+ 								<a href="<?php echo get_page_link(93) ?>" class="col-auto my-auto">Collares</a>
+ 							</div>
+ 						</div>
+ 					</div>
+
+
+ 				<?php endif; ?>
+
 
 				<?php
 				if ( tyche_get_loop_prop( 'total' ) ) {
