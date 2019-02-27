@@ -91,14 +91,14 @@ get_header( 'shop' ); ?>
  					?>
  					<div class="container archive_header_img">
  						<div class="col-12 col-md-8">
-							<a href="<?php echo get_category_link(93); ?>">	
+							<a href="<?php echo get_category_link(93); ?>">
  							<img src="https://armariojoyeria.com/wp-content/uploads/2019/02/slider-coleccion-birthstones.png" alt="">
 						</a>
  						</div>
 
  						<div class="col-12 col-md-4">
  							<div class="row">
-									<h4 class="text-center">Combinalos con nuestra </br> colección de collares</h4>
+									<h4 class="col-12 text-center">Combinalos con nuestra </br> colección de collares</h4>
  								<a href="<?php echo get_category_link(93); ?>" class="button">Collares</a>
  							</div>
  						</div>
