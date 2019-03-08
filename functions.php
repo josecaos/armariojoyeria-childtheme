@@ -62,7 +62,7 @@ echo '<span class="sold-out"> Agotado </span>';
 // Empaque para regalo en el carrito
 // dos empaques chico y grande
 //
-// add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
+add_action( 'woocommerce_checkout_before_order_review', 'checkbox_regalo' );
 function checkbox_regalo( $checkout ) {
   echo '<div class="modulo-caja container">
   <h3 class="titulo-empaque">
@@ -80,7 +80,7 @@ function checkbox_regalo( $checkout ) {
   woocommerce_form_field( 'cantidad_caja_grande', array(
     'type'          => 'number',
     'class'         => array('cantidad_caja_grande'),
-    'label'         => __('$35.00 c/u cantidad:'),
+    'label'         => __('$40.00 c/u cantidad:'),
   ));
 
   echo '</div>
@@ -97,7 +97,7 @@ function checkbox_regalo( $checkout ) {
   woocommerce_form_field( 'cantidad_caja_chica', array(
     'type'          => 'number',
     'class'         => array('cantidad_caja_chica'),
-    'label'         => __('$25.00 c/u cantidad:'),
+    'label'         => __('$40.00 c/u cantidad:'),
   ));
   echo '</div>
   </div>';
