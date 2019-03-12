@@ -50,7 +50,7 @@ if ( $breadcrumbs_enabled ) { ?>
 							 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 							 */
 							get_template_part( 'template-parts/content', get_post_format() );
-
+                                                          // echo get_post_format();
 						endwhile;
 
 						the_posts_pagination(
