@@ -175,12 +175,12 @@ function promocion_cantidades( WC_Cart $cart ){
   $total = $cart->get_cart_contents_total();
   $total = (float) $total;
 //
-  $from_quantity = 808.00;
+  $from_quantity = 1200.00;
   $cart_text = 'Cupón: El tercer más barato es gratis';
   $cart_not_text = 'Cupón: El total debe ser mayor a $' . $from_quantity;
 
 // los cupones en array
-  $promo_cupons = array('testpromocion');
+  $promo_cupons = array('3X2ARMARIO');
 
   if ($total > $from_quantity) { //si es mayor a la cantidad ejecuta la promocion
 //
