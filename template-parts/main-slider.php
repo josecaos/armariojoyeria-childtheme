@@ -35,7 +35,7 @@ if ( ! class_exists( 'Kirki' ) ) {
 			<?php foreach ( $images as $image ) : ?>
 				<div class="item">
 					<?php echo wp_get_attachment_image( $image['image_bg'], 'tyche-slider-image' ); ?>
-					<div class="hero-caption <?php echo esc_attr( get_theme_mod( 'tyche_slider_layout', 'left' ) ); ?> hidden-xs hidden-sm">
+					<div class="hero-caption <?php echo esc_attr( get_theme_mod( 'tyche_slider_layout', 'left' ) ); ?> ">
 						<?php if ( ! empty( $image['cta_text'] ) ) : ?>
 							<span class="year"><?php echo esc_html( $image['cta_text'] ); ?></span>
 						<?php endif; ?>
