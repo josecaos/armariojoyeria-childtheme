@@ -201,6 +201,13 @@ body {
   color: $color__brand-primary;
   font-size: 90px;
 }
+.hero-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
 .main-slider .main-slider-previous {
   left: 3%;
 }
@@ -374,7 +381,7 @@ body {
 .archive_header {
   display: inline-block;
   h1,h2,h3,h4,h5,h6 {
-   text-align: center;  
+   text-align: center;
   }
 }
 // floating sale button

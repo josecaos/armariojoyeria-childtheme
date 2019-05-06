@@ -34,6 +34,9 @@ if ( ! class_exists( 'Kirki' ) ) {
 		<div class="owl-carousel owl-theme" id="main-slider">
 			<?php foreach ( $images as $image ) : ?>
 				<div class="item">
+					<!--  -->
+					<a class="hero-link" href="<?php echo esc_url( $image['button_one_url'] ); ?>">
+<!--  -->
 					<?php echo wp_get_attachment_image( $image['image_bg'], 'tyche-slider-image' ); ?>
 					<div class="hero-caption <?php echo esc_attr( get_theme_mod( 'tyche_slider_layout', 'left' ) ); ?> ">
 						<?php if ( ! empty( $image['cta_text'] ) ) : ?>
@@ -51,6 +54,9 @@ if ( ! class_exists( 'Kirki' ) ) {
 							<?php endif; ?>
 						</div>
 					</div>
+					<!--  -->
+</a>
+					<!--  -->
 				</div>
 			<?php endforeach; ?>
 		</div>

@@ -9892,6 +9892,14 @@ body .site-content {
   font-size: 90px;
 }
 
+.hero-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .main-slider .main-slider-previous {
   left: 3%;
 }
