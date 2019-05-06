@@ -208,11 +208,12 @@ body {
   width: 100%;
 }
 .attachment-tyche-slider-image:hover {
-  -o-filter:blur(20px);
-  -moz-filter:blur(20px);
-  -webkit-filter:blur(20px);
-  -ms-filter:blur(20px);
-  filter:blur(20px);
+  transition: 0.5s;
+  -o-filter:blur(5px);
+  -moz-filter:blur(5px);
+  -webkit-filter:blur(5px);
+  -ms-filter:blur(5px);
+  filter:blur(5px);
 }
 .main-slider .main-slider-previous {
   left: 3%;
