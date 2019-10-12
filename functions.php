@@ -180,7 +180,11 @@ function promocion_cantidades( WC_Cart $cart ){
   $cart_not_text = 'Aniversario: El total debe ser mayor a $' . $from_quantity;
 
 // los cupones en array
+<<<<<<< HEAD
   $promo_cupons = array('3x2aniversario','3x2armario');
+=======
+  $promo_cupons = array('hotsale');
+>>>>>>> b15653236f90fa1010e8dc652adbeca8cab0175a
 
   if ($total > $from_quantity) { //si es mayor a la cantidad ejecuta la promocion
 

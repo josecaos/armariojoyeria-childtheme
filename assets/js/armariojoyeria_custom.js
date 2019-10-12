@@ -5,6 +5,7 @@ jQuery(document).ready(function() {
 	wide_tweak()
 	sticker_descuentos()
 	rebajas_floating_button()
+	wc_pagination_translate()
 	//retarda la traduccion de composite product para evitar overrides por plugin
 	setTimeout(()=>{
 		translate_accesories()
@@ -87,4 +88,19 @@ function rebajas_floating_button() {
 			jQuery("#sale_floating").addClass('hidden')
 		}
 	})
+}
+
+function wc_pagination_translate() {
+
+	let prev = jQuery('.prev')
+        let next = jQuery('.right')
+
+
+	if (prev) {
+ 		jQuery(prev).html('ANTERIOR')
+	}	
+	if (next) {
+		jQuery(next).html('SIGUIENTE')
+	}
+
 }
