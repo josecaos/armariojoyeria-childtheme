@@ -163,10 +163,10 @@ function agrega_datos(){
 
 // 3X2
 // Hook before calculate fees - "Buy X get cheapest free" coupon
-add_action('woocommerce_cart_calculate_fees' , 'promocion_cantidades');
+///////add_action('woocommerce_cart_calculate_fees' , 'promocion_cantidades');
 
 /**
-* Add discount for "Buy 3 get cheapest free" coupon
+* Add discount for "Buy X get cheapest free" coupon
 * @param WC_Cart $cart
 */
 
