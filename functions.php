@@ -176,8 +176,8 @@ function promocion_cantidades( WC_Cart $cart ){
   $total = (float) $total;
 //
   $from_quantity = 1;
-  $cart_text = 'Cupón: El tercer más barato es gratis';
-  $cart_not_text = 'Cupón: El total debe ser mayor a $' . $from_quantity;
+  $cart_text = 'Aniversario: El tercer más barato es gratis';
+  $cart_not_text = 'Aniversario: El total debe ser mayor a $' . $from_quantity;
 
 // los cupones en array
   $promo_cupons = array('3x2aniversario','3x2armario');
