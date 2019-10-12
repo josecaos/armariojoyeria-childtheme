@@ -1,0 +1,107 @@
+// Agregados: ready tema armariojoyeria
+// ready
+jQuery(document).ready(function() {
+
+	wide_tweak()
+	sticker_descuentos()
+	rebajas_floating_button()
+	wc_pagination_translate()
+	//retarda la traduccion de composite product para evitar overrides por plugin
+	setTimeout(()=>{
+		translate_accesories()
+	},1500)
+	//
+
+})// fin ready
+
+function sticker_descuentos() {
+
+	jQuery('.product').each(function(index) {
+		var precioFinal,precioInicial,precioFinalClean,precioInicialClean
+		var oper,tdescuento,tprecio,descuento
+		var cleanOldNumber,cleanNewNumber
+
+		// si el elemento contiene descuento
+		if (jQuery(this).has('span.onsale')) {
+
+			// limpia los precios para la operacion
+			precioFinal = jQuery(this).find('ins span.woocommerce-Price-amount.amount')
+			precioFinal.children().remove()//quita elemento antes del texto
+			precioFinalClean = precioFinal.text()//regresa el precio sin simbolo
+			cleanNewNumber=precioFinalClean.replace(/\,/g,'') // 1125, but a string, so convert it to number
+			cleanNewNumber=parseInt(cleanNewNumber,10)
+			// console.log("Precio con descuento: " + cleanNewNumber)
+
+			// precioInicial = jQuery(this).find('span.old-price span.amount')
+			precioInicial = jQuery(this).find('del span.woocommerce-Price-amount.amount')
+			precioInicial.children().remove()
+			precioInicialClean = precioInicial.text()
+			cleanOldNumber=precioInicialClean.replace(/\,/g,'') // 1125, but a string, so convert it to number
+			cleanOldNumber=parseInt(cleanOldNumber,10)
+			// console.log("Precio sin descuento: " + cleanOldNumber)
+
+			tDescuento = cleanNewNumber
+			tPrecio = cleanOldNumber
+
+			oper = (1 - (tDescuento/tPrecio) ) * 100
+
+			descuento = Math.round(oper)
+
+			if ( oper >= 1) {
+
+				jQuery(this).find('span.onsale').html('- ' + descuento + '%')//imprime resultado
+
+			} else {
+
+				jQuery(this).find('span.onsale').html('Oferta')//resultado fijo
+
+			}
+		}
+	})
+}
+
+// forzar contenedor sin sidebar
+function wide_tweak() {
+	jQuery("#primary").removeClass("col-md-8 tyche-has-sidebar")
+	jQuery("#primary").addClass("col-12")
+
+}
+
+//traduccion 'Crea tu accesorio'
+function translate_accesories() {
+
+	jQuery('li.pagination_element_review .element_title a.element_link').html('Revisa tus accesesorios')
+	jQuery('p.selected_option_label_wrapper label.selected_option_label').html('Tu selección: ')
+	jQuery('p.component_section_title label.select_label').html('Opciones disponibles: ')
+	jQuery('p.component_section_title label.select_label').html('Opciones disponibles: ')
+
+}
+
+function rebajas_floating_button() {
+
+	jQuery(document).on('scroll', () => {
+		var top = jQuery(document).scrollTop();
+		// console.log(top);
+		if (top >= 250) {
+			jQuery("#sale_floating").removeClass('hidden')
+		} else {
+			jQuery("#sale_floating").addClass('hidden')
+		}
+	})
+}
+
+function wc_pagination_translate() {
+
+	let prev = jQuery(.prev')
+        let next = jQuery('.next')
+
+console.log(prev)
+console.log(next)
+	if (prev) {
+ 		jQuery(prev).html('ANTERIOR')
+	}	
+	else if (next) {
+		jQuery(next).html('SIGUIENTE')
+	}
+
+}
