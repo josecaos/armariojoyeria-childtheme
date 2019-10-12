@@ -163,10 +163,10 @@ function agrega_datos(){
 
 // 3X2
 // Hook before calculate fees - "Buy X get cheapest free" coupon
-///////add_action('woocommerce_cart_calculate_fees' , 'promocion_cantidades');
+add_action('woocommerce_cart_calculate_fees' , 'promocion_cantidades');
 
 /**
-* Add discount for "Buy X get cheapest free" coupon
+* Add discount for "Buy 3 get cheapest free" coupon
 * @param WC_Cart $cart
 */
 
@@ -180,11 +180,7 @@ function promocion_cantidades( WC_Cart $cart ){
   $cart_not_text = 'Aniversario: El total debe ser mayor a $' . $from_quantity;
 
 // los cupones en array
-<<<<<<< HEAD
   $promo_cupons = array('3x2aniversario','3x2armario');
-=======
-  $promo_cupons = array('hotsale');
->>>>>>> b15653236f90fa1010e8dc652adbeca8cab0175a
 
   if ($total > $from_quantity) { //si es mayor a la cantidad ejecuta la promocion
 
